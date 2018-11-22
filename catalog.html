@@ -63,8 +63,9 @@
         <li><a href="#">Перфораторы</a></li>
       </ul>
       <div class="name-group">
-        <h2>Перфораторы</h2><!--Здесь же вроде так оставить ?
-          это же заголовок<h2> для всего блока товаров или все-таки <p> ?-->
+        <h2>Перфораторы</h2>
+      </div>
+      <div class="container-filter-catalog">
         <section class="filters">
           <h2 class="visually-hidden">Производители:</h2>
           <!--visually-hidden подсмотрел в барбершопе-->
@@ -73,37 +74,30 @@
           <button type="button" name="filter-show-result"></button>
           <!--отправка формы-->
         </section>
-      </div>
-      <section class="catalog">
-        <ul class="catalog-list">
-          <li class="catalog-item">
-            <a class="catalog-item-img" href="#">
-              <!--
-                  можно ли сюда вложить и блок <p> из 83 строки
-                  с названием инструмента ?
-                  что бы обернуть сразу, и картинку, и параграф в ссылку.
-                  Я посмотрел на https://www.w3.org/TR/html/
-                  вроде как можно.
-              -->
-              <img src="#" alt="Перфоратор">
-            </a>
-            <p class="catalog-item-name">
-              <a href="#">
-                Перфоратор BOSCH BFG 3000
+        <section class="catalog">
+          <ul class="catalog-list">
+            <li class="catalog-item">
+              <a class="catalog-item-img" href="#">
+                <img src="#" alt="Перфоратор">
               </a>
-            </p>
-            <div class="catalog-item-price">
-              <p class="price-old">22500 P.</p>
-              <p class="price-new">15500 P.</p>
-            </div>
-            <div class="catalog-item-buttons">
-              <a href="#">Купить</a>
-              <a href="#">В закладки</a>
-            </div>
-          </li>
-          <!--Здесь будут другие карточки товаров -->
-        </ul>
-      </section>
+              <p class="catalog-item-name">
+                <a href="#">
+                  Перфоратор BOSCH BFG 3000
+                </a>
+              </p>
+              <div class="catalog-item-price">
+                <p class="price-old">22500 P.</p>
+                <p class="price-new">15500 P.</p>
+              </div>
+              <div class="catalog-item-buttons">
+                <a href="#">Купить</a>
+                <a href="#">В закладки</a>
+              </div>
+            </li>
+            <!--Здесь будут другие карточки товаров -->
+          </ul>
+        </section>
+      </div>
     </main>
     <footer class="main-footer">
       <div class="footer-top">
