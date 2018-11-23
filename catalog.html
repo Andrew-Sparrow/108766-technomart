@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link rel="stylesheet" style="text/css" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
@@ -12,11 +13,14 @@
 		        <img src="#" alt=""><!--logo -->
 		      </a>
           <div class="searching">
+            <img src="img/icon-search.svg" alt="Поиск">
             Поиск
           </div>
 	      </div>
 	      <div class="header-right">
+          <img src="img/icon-bookmark.svg" alt="закладки">
 	        <a class="bookmark" href="#">Закладки</a>
+          <img src="img/icon-cart.svg" alt="Корзина">
 		      <a class="cart" href="#">Корзина</a>
 		      <a class="button-order" href="#">Оформить заказ</a>
 	      </div>
@@ -27,13 +31,17 @@
           и инструментов для ремонта
         </h1>
         <div class="phone">
+          <img src="img/icon-phone.svg" alt="Телефон">
           <p class="phone-wrapper">+7 (812) 555-05-55</p>
           <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
         <div class="header-user">
           <div class="header-user-name">
+            <img src="img/icon-user.svg" alt="Аккаунт" title="Аккаунт">
             <p>Равшан Джамшутович</p>
-            <button type="button" name="button"></button>
+            <button type="button" name="logout">
+              <img src="img/icon-logout.svg" alt="Выход" title="Выход" width="20" height="17">
+            </button>
           </div>
           <div class="account-links">
             <a href="#">Мои заказы</a>
@@ -57,10 +65,29 @@
     </header>
     <main>
       <ul class="breadcrumbs">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Инструмент</a></li>
-        <li><a href="#">Перфораторы</a></li>
+        <li>
+          <a href="#">
+            <img src="img/icon-home.svg" alt="Главная" title="Главная">
+          </a>
+        </li>
+        <li>
+          <img src="img/icon-right-small.svg" alt="Стрелка" title="Стрелка">
+          <a href="#">
+            Каталог
+          </a>
+        </li>
+        <li>
+          <img src="img/icon-right-small.svg" alt="Стрелка" title="Стрелка">
+          <a href="#">
+            Инструмент
+          </a>
+        </li>
+        <li>
+          <img src="img/icon-right-small.svg" alt="Стрелка" title="Стрелка">
+          <a href="#">
+            Перфораторы
+          </a>
+        </li>
       </ul>
       <div class="name-group">
         <h2>Перфораторы</h2>
@@ -134,9 +161,21 @@
           Все права защищены
         </p>
         <ul class="footer-social">
-          <li><a class="social-button" href="#">Вконтакте</a></li>
-          <li><a class="social-button" href="#">Фейсбук</a></li>
-          <li><a class="social-button" href="#">Инстаграм</a></li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/icon-vk.svg" alt="Вконтакте" title="Вконтакте">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/icon-fb.svg" alt="Фейсбук" title="Фейсбук">
+            </a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/icon-insta.svg" alt="Инстаграм" title="Инстаграм">
+            </a>
+          </li>
         </ul>
         <div class="developer-info">
           <p class="developer-info-top-line">
