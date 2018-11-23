@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title>Техномарт-Каталог</title>
     <link rel="stylesheet" style="text/css" href="css/style.css">
   </head>
   <body>
@@ -13,8 +13,10 @@
 		        <img src="#" alt=""><!--logo -->
 		      </a>
           <div class="searching">
+            <input type="hidden" name="field-searching" id="id-field-searching">
+            <label for="id-field-searching">Поиск</label>
+            <!--вопрос , как связать слово- "Поиск" и иконку поиска, и надо ли) ?-->
             <img src="img/icon-search.svg" alt="Поиск">
-            Поиск
           </div>
 	      </div>
 	      <div class="header-right">
@@ -64,6 +66,15 @@
       </div>
     </header>
     <main>
+      <div class="popup-item-added">
+        <img src="img/icon-close.svg" width="21" height="21" alt="Крестик" title="Закрыть">
+        <img src="img/icon-mark.svg" width="66" height="66"alt="Галочка">
+        <p>Товар добавлен в корзину</p>
+        <div class="buttons-wrapper">
+          <a href="#">Оформить заказ</a>
+          <button  name="button" value="Продолжить покупки">Продолжить покупки</button>
+        </div>
+      </div>
       <ul class="breadcrumbs">
         <li>
           <a href="#">
@@ -94,12 +105,60 @@
       </div>
       <div class="container-filter-catalog">
         <section class="filters">
-          <h2 class="visually-hidden">Производители:</h2>
-          <!--visually-hidden подсмотрел в барбершопе-->
-          <h2 class="visually-hidden">Питание:</h2>
-          <!-- Здесь будет форма -->
-          <button type="button" name="filter-show-result"></button>
-          <!--отправка формы-->
+          <p class="name-filter">Фильтр:</p>
+          <p class="filter-price"></p>
+          <form action="https://echo.htmlacademy.ru" method="post"
+                oninput="output.value=price.value">
+            <p>Цена</p>
+            <div class="full-width price-range">
+              <input type="range" min="1" max="100000" step="100"
+                     name="price" id="id-price">
+            </div>
+            <div class="half-width output-area">
+              <output name="output" id="id-output">999</output>
+            </div>
+            <div class="produceres-power">
+              <h2 class="visually-hidden">Производители:</h2>
+              <p class="font-filter-headline">Производители:</p>
+              <ul class="produceres">
+                <li>
+                  <label for="id-bosh">Bosh</label>
+                  <input type="checkbox" name="bosh" id="id-bosh" checked>
+                </li>
+                <li>
+                  <label for="id-interskol">Интерскол</label>
+                  <input type="checkbox" name="Интерскол" id="id-interskol">
+                </li>
+                <li>
+                  <label for="id-makita">Makita</label>
+                  <input type="checkbox" name="makita" id="id-makita" checked>
+                </li>
+                <li>
+                  <label for="id-dewalt">Dewalt</label>
+                  <input type="checkbox" name="dewalt" id="id-dewalt">
+                </li>
+                <li>
+                  <label for="id-hitachi">Hitachi</label>
+                  <input type="checkbox" name="hitachi" id="id-hitachi">
+                </li>
+              </ul>
+              <h2 class="visually-hidden">Питание:</h2>
+              <p class="font-filter-headline">Питание:</p>
+              <ul class="power">
+                <li>
+                  <label for="id-id-battery-power">Bosh</label>
+                  <input type="radio" name="power" id="id-battery-power" checked>
+                </li>
+                <li>
+                  <label for="id-mains-power">Интерскол</label>
+                  <input type="radio" name="power" id="id-mains-power">
+                </li>
+              </ul>
+            </div>
+            <!--отправка формы-->
+            <input type="submit" name="filter-show-result" value="Показать">
+          </form>
+
         </section>
         <section class="catalog">
           <ul class="catalog-list">
@@ -117,8 +176,15 @@
                 <p class="price-new">15500 P.</p>
               </div>
               <div class="catalog-item-buttons">
-                <a href="#">Купить</a>
-                <a href="#">В закладки</a>
+                <!-- <a href="#">Купить</a>
+                <a href="#">В закладки</a> -->
+                <button type="submit" name="item-button">
+                  <img src="img/icon-cart.svg" alt="Купить">
+                  Купить
+                </button>
+                <button type="submit" name="item-button">
+                  В закладки
+                </button>
               </div>
             </li>
             <!--Здесь будут другие карточки товаров -->
@@ -183,9 +249,9 @@
             <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
           <p class="developer-info-top-line">
-            Разработано
+            Разработано-
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
           </p>
-          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
         </div>
       </div>
     </footer>

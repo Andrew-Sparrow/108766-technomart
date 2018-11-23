@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+    <title>Техномарт</title>
     <link rel="stylesheet" style="text/css" href="css/style.css">
   </head>
   <body>
@@ -13,8 +13,11 @@
 		        <img src="#" alt=""><!--logo -->
 		      </a>
           <div class="searching">
-            <img src="img/icon-search.svg" alt="Поиск">
-            Поиск
+            <img src="img/icon-search.svg" alt="Поиск" id="id-icon-search">
+            <label for="icon-search">
+              Поиск
+              <!--вопрос, нужно ли оборачивать "поиск" в <p> ?-->
+            </label>
           </div>
 	      </div>
 	      <div class="header-right">
@@ -147,6 +150,33 @@
             Разработано
           </p>
           <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+        </div>
+      </div>
+      <div class="feedback">
+        <div class="fields-container">
+          <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть" title="Закрыть">
+          <form class="" action="https://echo.htmlacademy.ru" method="post">
+            <label for="id-your-name">
+              Ваше имя:
+            </label>
+            <input type="text" name="your-name" value="" id="id-your-name"
+                   placeholder="Имя Фамилия">
+            <label for="id-e-mail">
+              Ваш e-mail:
+            </label>
+            <input type="email" name="email" value="" id="id-email"
+                   placeholder="email@example.com">
+            <label for="id-textarea">
+              Текст письма:
+            </label>
+            <textarea name="textarea" id="id-textarea" rows="5" cols="20"
+                      placeholder="В свободной форме">
+              В свободной форме
+            </textarea>
+            <div class="button-feedback">
+              <input type="submit" value="Отправить">
+            </div>
+          </form>
         </div>
       </div>
     </footer>
