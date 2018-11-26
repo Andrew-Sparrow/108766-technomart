@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Техномарт-Каталог</title>
+    <title="">Техномарт-Каталог</title="">
     <link rel="stylesheet" style="text/css" href="css/style.css">
   </head>
   <body>
@@ -10,7 +10,8 @@
       <div class="header-top">
 	      <div class="header-left">
 	        <a href="#">
-		        <img src="#" alt=""><!--logo -->
+		        <img src="img/logo.jpg" width="220" height="47"
+                 alt="logo" title="Логотип-Техномарт"><!--logo -->
 		      </a>
           <div class="searching">
             <input type="hidden" name="field-searching" id="id-field-searching">
@@ -39,10 +40,10 @@
         </div>
         <div class="header-user">
           <div class="header-user-name">
-            <img src="img/icon-user.svg" alt="Аккаунт" title="Аккаунт">
+            <img src="img/icon-user.svg" alt="Аккаунт" aria-label="Аккаунт" title="Аккаунт">
             <p>Равшан Джамшутович</p>
             <button type="button" name="logout">
-              <img src="img/icon-logout.svg" alt="Выход" title="Выход" width="20" height="17">
+              <img src="img/icon-logout.svg" alt="Выход" aria-label="Выход" title="Выход" width="20" height="17">
             </button>
           </div>
           <div class="account-links">
@@ -67,7 +68,7 @@
     </header>
     <main>
       <div class="popup-item-added">
-        <img src="img/icon-close.svg" width="21" height="21" alt="Крестик" title="Закрыть">
+        <img src="img/icon-close.svg" width="21" height="21" alt="Крестик" aria-label="Закрыть" title="Закрыть">
         <img src="img/icon-mark.svg" width="66" height="66"alt="Галочка">
         <p>Товар добавлен в корзину</p>
         <div class="buttons-wrapper">
@@ -78,23 +79,23 @@
       <ul class="breadcrumbs">
         <li>
           <a href="#">
-            <img src="img/icon-home.svg" alt="Главная" title="Главная">
+            <img src="img/icon-home.svg" alt="Главная" aria-label="Главная" title="Главная">
           </a>
         </li>
         <li>
-          <img src="img/icon-right-small.svg" alt="Стрелка" title="Стрелка">
+          <img src="img/icon-right-small.svg" alt="Стрелка" aria-label="Стрелка" title="Стрелка">
           <a href="#">
             Каталог
           </a>
         </li>
         <li>
-          <img src="img/icon-right-small.svg" alt="Стрелка" title="Стрелка">
+          <img src="img/icon-right-small.svg" alt="Стрелка" aria-label="Стрелка" title="Стрелка">
           <a href="#">
             Инструмент
           </a>
         </li>
         <li>
-          <img src="img/icon-right-small.svg" alt="Стрелка" title="Стрелка">
+          <img src="img/icon-right-small.svg" alt="Стрелка" aria-label="Стрелка" title="Стрелка">
           <a href="#">
             Перфораторы
           </a>
@@ -173,12 +174,11 @@
               </p>
               <div class="catalog-item-price">
                 <p class="price-old">22500 P.</p>
-                <p class="price-new">15500 P.</p>
-                <img src="img/red-button.svg" width="141" height="38">
+                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
+                  <p class="price-new">15500 P.</p>
+                </div>
               </div>
               <div class="catalog-item-buttons">
-                <!-- <a href="#">Купить</a>
-                <a href="#">В закладки</a> -->
                 <button type="submit" name="item-button">
                   <img src="img/icon-cart.svg" alt="Купить">
                   Купить
@@ -189,6 +189,31 @@
               </div>
             </li>
             <!--Здесь будут другие карточки товаров -->
+            <li class="catalog-item">
+              <a class="catalog-item-img" href="#">
+                <img src="img/tool-2.png" width="144" height="128" alt="Перфоратор">
+              </a>
+              <p class="catalog-item-name">
+                <a href="#">
+                  Перфоратор BOSCH BFG 6000
+                </a>
+              </p>
+              <div class="catalog-item-price">
+                <p class="price-old">30500 P.</p>
+                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
+                  <p class="price-new">25500 P.</p>
+                </div>
+              </div>
+              <div class="catalog-item-buttons">
+                <button type="submit" name="item-button">
+                  <img src="img/icon-cart.svg" alt="Купить">
+                  Купить
+                </button>
+                <button type="submit" name="item-button">
+                  В закладки
+                </button>
+              </div>
+            </li>
           </ul>
         </section>
       </div>
@@ -197,7 +222,8 @@
       <div class="footer-top">
 	      <div class="footer-top-left">
 		      <a class="footer-name-company">
-		        <img src="#" alt=""><!--logo-->
+		        <img src="img/logo-footer.jpg"  width="220" height="68"
+                 alt="Логотип" title="Логотип-Техномарт"><!--logo-->
 		      </a>
           <p class="footer-adress">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
@@ -230,17 +256,17 @@
         <ul class="footer-social">
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-vk.svg" alt="Вконтакте" title="Вконтакте">
+              <img src="img/icon-vk.svg" alt="Вконтакте" aria-label="Вконтакте" title="Вконтакте">
             </a>
           </li>
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-fb.svg" alt="Фейсбук" title="Фейсбук">
+              <img src="img/icon-fb.svg" alt="Фейсбук" aria-label="Фейсбук" title="Фейсбук">
             </a>
           </li>
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-insta.svg" alt="Инстаграм" title="Инстаграм">
+              <img src="img/icon-insta.svg" alt="Инстаграм" aria-label="Инстаграм" title="Инстаграм">
             </a>
           </li>
         </ul>
