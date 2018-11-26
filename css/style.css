@@ -6,7 +6,11 @@ output{
 }
 
 .button:focus {
-	outline: none;
+	/*outline: none;*/
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+
 	box-shadow:
 		0 0 0 3px #fff,
 		0 0 0 6px #2f7cc0;
@@ -16,4 +20,10 @@ output{
 	border-color: #4777a6;
 	background: #4e87c0;
 	color: #fff;
+}
+a:focus,
+input:focus{
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
 }
