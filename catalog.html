@@ -14,12 +14,12 @@
 		        <img src="img/logo.jpg" width="220" height="47"
                  alt="logo" title="Логотип-Техномарт"><!--logo -->
 		      </a>
-          <div class="searching">
-            <input type="hidden" name="field-searching" id="id-field-searching">
-            <label for="id-field-searching">Поиск</label>
-            <!--вопрос , как связать слово- "Поиск" и иконку поиска, и надо ли) ?-->
-            <img src="img/icon-search.svg" alt="Поиск">
-          </div>
+          <form class="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" id="id-icon-search">
+              <path fill="red" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
+            </svg>
+            <label for="id-icon-search">Поиск</label>
+          </form>
 	      </div>
 	      <div class="header-right">
           <img src="img/icon-bookmark.svg" alt="закладки">
@@ -69,40 +69,26 @@
       </div>
     </header>
     <main>
-      <div class="popup-item-added">
-        <img src="img/icon-close.svg" width="21" height="21" alt="Крестик"
-             aria-label="Закрыть" title="Закрыть">
-        <img src="img/icon-mark.svg" width="66" height="66"alt="Галочка">
-        <p>Товар добавлен в корзину</p>
-        <div class="buttons-wrapper">
-          <a href="#">Оформить заказ</a>
-          <button  name="button" value="Продолжить покупки">Продолжить покупки</button>
-        </div>
-      </div>
       <ul class="breadcrumbs">
         <li>
           <a href="#">
-            <img src="img/icon-home.svg" alt="Главная" aria-label="Главная"
-                 title="Главная">
+            <img src="img/icon-home.svg" alt="Главная">
           </a>
         </li>
         <li>
-          <img src="img/icon-right-small.svg" alt="Стрелка" aria-label="Стрелка"
-               title="Стрелка">
+          <!--Здесь должна быть стрелка-->
           <a href="#">
             Каталог
           </a>
         </li>
         <li>
-          <img src="img/icon-right-small.svg" alt="Стрелка" aria-label="Стрелка"
-               title="Стрелка">
+          <!--Здесь должна быть стрелка-->
           <a href="#">
             Инструмент
           </a>
         </li>
         <li>
-          <img src="img/icon-right-small.svg" alt="Стрелка" aria-label="Стрелка"
-               title="Стрелка">
+          <!--Здесь должна быть стрелка-->
           <a href="#">
             Перфораторы
           </a>
@@ -112,63 +98,61 @@
         <h2>Перфораторы</h2>
       </div>
       <div class="container-filter-catalog">
-        <section class="filters">
-          <p class="name-filter">Фильтр:</p>
-          <p class="filter-price"></p>
+        <h2 class="name-filter">Фильтр:</h2>
+        <section class="filter">
           <form action="https://echo.htmlacademy.ru" method="post"
                 oninput="output.value=price.value">
-            <p>Цена</p>
-            <div class="full-width price-range">
-              <input type="range" min="1" max="100000" step="100"
-                     name="price" id="id-price">
-            </div>
-            <div class="half-width output-area">
-              <output name="output" id="id-output"></output>
-            </div>
-            <div class="produceres-power">
-              <h2 class="visually-hidden">Производители:</h2>
-              <p class="font-filter-headline">Производители:</p>
+            <fieldset class="full-width price-range"><!--Блок с полосой для цены-->
+              <legend>Цена:</legend>
+            </fieldset>
+            <fieldset class="produceres-power">
+              <legend>Производители:</legend>
               <ul class="produceres">
                 <li>
-                  <label for="id-bosh">Bosh</label>
                   <input type="checkbox" name="bosh" id="id-bosh" checked>
+                  <label for="id-bosh">Bosh</label>
                 </li>
                 <li>
-                  <label for="id-interskol">Интерскол</label>
                   <input type="checkbox" name="Интерскол" id="id-interskol">
+                  <label for="id-interskol">Интерскол</label>
                 </li>
                 <li>
-                  <label for="id-makita">Makita</label>
                   <input type="checkbox" name="makita" id="id-makita" checked>
+                  <label for="id-makita">Makita</label>
                 </li>
                 <li>
-                  <label for="id-dewalt">Dewalt</label>
                   <input type="checkbox" name="dewalt" id="id-dewalt">
+                  <label for="id-dewalt">Dewalt</label>
                 </li>
                 <li>
-                  <label for="id-hitachi">Hitachi</label>
                   <input type="checkbox" name="hitachi" id="id-hitachi">
+                  <label for="id-hitachi">Hitachi</label>
                 </li>
               </ul>
-              <h2 class="visually-hidden">Питание:</h2>
-              <p class="font-filter-headline">Питание:</p>
+            </fieldset>
+            <fieldset>
+              <legend>Питание:</legend>
               <ul class="power">
                 <li>
-                  <label for="id-id-battery-power">Bosh</label>
                   <input type="radio" name="power" id="id-battery-power" checked>
+                  <label for="id-id-battery-power">Аккумуляторные</label>
                 </li>
                 <li>
-                  <label for="id-mains-power">Интерскол</label>
                   <input type="radio" name="power" id="id-mains-power">
+                  <label for="id-mains-power">Сетевые</label>
                 </li>
               </ul>
-            </div>
+            </fieldset>
             <!--отправка формы-->
-            <input type="submit" name="filter-show-result" value="Показать">
+            <button type="button" name="filter-show-result">
+              Показать
+            </button>
           </form>
-
         </section>
         <section class="catalog">
+          <div class="sort"><!--Шапка над карточками с видами сортировки-->
+            <h2>Сортировка:</h2>
+          </div>
           <ul class="catalog-list">
             <li class="catalog-item">
               <a class="catalog-item-img" href="#">
@@ -181,16 +165,14 @@
               </p>
               <div class="catalog-item-price">
                 <p class="price-old">22500 P.</p>
-                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
-                  <p class="price-new">15500 P.</p>
-                </div>
+                <p class="price-new">15500 P.</p><!--Price in red arrow Цена в красной стрелке-->
               </div>
               <div class="catalog-item-buttons">
-                <button type="submit" name="item-button">
+                <button type="button" name="item-button">
                   <img src="img/icon-cart.svg" alt="Купить">
                   Купить
                 </button>
-                <button type="submit" name="item-button">
+                <button type="button" name="item-button">
                   В закладки
                 </button>
               </div>
@@ -207,16 +189,14 @@
               </p>
               <div class="catalog-item-price">
                 <p class="price-old">30500 P.</p>
-                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
-                  <p class="price-new">25500 P.</p>
-                </div>
+                <p class="price-new">25500 P.</p>
               </div>
               <div class="catalog-item-buttons">
-                <button type="submit" name="item-button">
+                <button type="button" name="item-button">
                   <img src="img/icon-cart.svg" alt="Купить">
                   Купить
                 </button>
-                <button type="submit" name="item-button">
+                <button type="button" name="item-button">
                   В закладки
                 </button>
               </div>
@@ -232,21 +212,18 @@
               </p>
               <div class="catalog-item-price">
                 <p class="price-old"></p>
-                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
-                  <p class="price-new">12500 P.</p>
-                </div>
+                <p class="price-new">12500 P.</p>
               </div>
               <div class="catalog-item-buttons">
-                <button type="submit" name="item-button">
+                <button type="button" name="item-button">
                   <img src="img/icon-cart.svg" alt="Купить">
                   Купить
                 </button>
-                <button type="submit" name="item-button">
+                <button type="button" name="item-button">
                   В закладки
                 </button>
               </div>
             </li>
-
           </ul>
         </section>
       </div>
@@ -283,23 +260,23 @@
       </div>
       <div class="footer-bottom">
         <p>
-		      © 2010–2017 Компания «Техномарт»<br>
+		      © 2010–2017 Компания «Техномарт»
           Все права защищены
         </p>
         <ul class="footer-social">
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-vk.svg" alt="Вконтакте" aria-label="Вконтакте" title="Вконтакте">
+              <img src="img/icon-vk.svg" alt="Вконтакте">
             </a>
           </li>
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-fb.svg" alt="Фейсбук" aria-label="Фейсбук" title="Фейсбук">
+              <img src="img/icon-fb.svg" alt="Фейсбук">
             </a>
           </li>
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-insta.svg" alt="Инстаграм" aria-label="Инстаграм" title="Инстаграм">
+              <img src="img/icon-insta.svg" alt="Инстаграм">
             </a>
           </li>
         </ul>
@@ -315,5 +292,18 @@
         </div>
       </div>
     </footer>
+    <div class="popup-item-added"> <!--Popup-->
+      <button type="button" name="cross">
+        <img src="img/icon-close.svg" width="21" height="21" alt="Крестик">
+      </button>
+      <div class="popup-content">
+        <img src="img/icon-mark.svg" width="66" height="66"alt="Галочка">
+        <p>Товар добавлен в корзину</p>
+      </div>
+      <div class="popup-buttons-wrapper">
+        <a href="#">Оформить заказ</a>
+        <button type="button" name="button">Продолжить покупки</button>
+      </div>
+    </div>
   </body>
 </html>
