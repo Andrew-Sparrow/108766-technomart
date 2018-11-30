@@ -1,6 +1,20 @@
 body{
-  background: lightgray;
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial , sans-serif;
+  /* font-family: "Cuprum", sans-serif; */
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  font-weight: bold;
+
+  background: #ffffff ;
 }
+a {
+  text-decoration: none;
+}
+
 output{
   border: 1px solid black;
 }
