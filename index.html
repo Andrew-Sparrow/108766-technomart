@@ -11,143 +11,150 @@
   <body>
     <header class="main-header">
       <div class="header-top">
-	      <div class="header-left">
-          <a href="#"> <!--TO DO добавить ссылку на главную страницу -->
-		        <img src="img/logo.jpg" width="220" height="47"
-                 alt="logo" title="Логотип-Техномарт"><!--logo -->
-		      </a>
-          <form class="search">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" id="id-icon-search">
-              <path fill="red" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
-            </svg>
-            <label for="id-icon-search">
-              Поиск
-            </label>
-          </form>
-	      </div>
-	      <div class="header-right">
-          <img src="img/icon-bookmark.svg" alt="закладки">
-	        <a class="bookmark" href="#">Закладки</a>
-          <img src="img/icon-cart.svg" alt="Корзина">
-		      <a class="cart" href="#">Корзина</a>
-		      <a class="button-order" href="#">Оформить заказ</a>
-	      </div>
+        <div class="header-top-left-right-wrapper">
+          <!--Добавил этот div который выше для задания отсутов
+           от body, но не знаю надо ли-->
+  	      <div class="header-top-left font-cuprum">
+            <a href="#"> <!--TO DO добавить ссылку на главную страницу -->
+  		        <img src="img/logo.jpg" width="220" height="47"
+                   alt="logo" title="Логотип-Техномарт"><!--logo -->
+  		      </a>
+            <form class="search">
+              <!--Как сюда через "tab" попасть ?-->
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" id="id-icon-search">
+                <path fill="#6a7180" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
+              </svg>
+              <label for="id-icon-search">
+                Поиск
+              </label>
+            </form>
+  	      </div>
+  	      <div class="header-top-right font-cuprum">
+            <img src="img/icon-bookmark.svg" alt="закладки">
+  	        <a class="bookmark" href="#">Закладки</a>
+            <img src="img/icon-cart.svg" alt="Корзина">
+  		      <a class="cart" href="#">Корзина</a>
+  		      <a class="button-order" href="#">Оформить заказ</a>
+  	      </div>
+        </div>
       </div>
       <div class="header-middle">
-        <h1 class="short-description">
-          Интернет-магазин строительных материалов
-          и инструментов для ремонта
-        </h1>
-        <div class="phone">
-          <img src="img/icon-phone.svg" alt="Телефон">
-          <p class="phone-wrapper">+7 (812) 555-05-55</p>
-          <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <div class="header-middle-wrapper">
+          <h1 class="header-short-description">
+            Интернет-магазин строительных материалов
+            и инструментов для ремонта
+          </h1>
+          <div class="header-phone-adress">
+            <div class="header-phone-wrapper">
+              <img src="img/icon-phone.svg" alt="Телефон +7 (812) 555-05-55">
+              <p class="">+7 (812) 555-05-55</p>
+            </div>
+            <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          </div>
+          <div class="header-buttons">
+            <button type="button" name="enter">
+              <img src="img/icon-login.svg" alt="Войти">
+              Войти
+            </button>
+            <button type="button" name="registration" alt="Регистрация">
+              Регистрация
+            </button>
+          </div>
+          <nav class="main-navigation">
+            <ul class="site-navigation">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Компания</a></li>
+              <li><a href="#">Каталог</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Спецпредложения</a></li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
         </div>
-        <div class="header-buttons">
-          <img src="img/icon-login.svg" alt="Войти">
-          <a class="button enter" href="#">Войти</a>
-          <a class="button registration" href="#">Регистрация</a>
-        </div>
-      </div>
-	    <div class="header-bottom">
-        <nav class="main-navigation">
-          <ul class="site-navigation">
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Компания</a></li>
-            <li><a href="#">Каталог</a></li>
-            <li><a href="#">Новости</a></li>
-            <li><a href="#">Спецпредложения</a></li>
-            <li><a href="#">Доставка</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
     <main class="container">
       <div class="product-and-services">
 
       </div>
-      <div class="popular-goods">
-        <header>
+      <section class="popular-goods">
+        <header class="header-popular-items">
           <h2>Популярные товары:</h2>
-          <a class="button" href="#">Все популярные товары</a>
+          <a class="button red-button" href="#">Все популярные товары</a>
         </header>
-          <ul class="list-popular-goods">
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-9000.png" width="184" height="164" alt="Перфоратор">
+        <ul class="list-popular-goods">
+          <li class="catalog-item">
+            <a class="catalog-item-img" href="#">
+              <img src="img/bfg-9000.png" width="184" height="164" alt="Перфоратор">
+            </a>
+            <p class="catalog-item-name">
+              <a href="#">
+                Перфоратор BOSCH BFG 9000
               </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 9000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old">32500 P.</p>
-                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
-                  <p class="price-new">25500 P.</p>
-                </div>
-              </div>
-            </li>
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-3000.png" width="127" height="112" alt="Перфоратор">
+            </p>
+            <div class="catalog-item-price">
+              <p class="price-old">32500 P.</p>
+              <p class="price-new">25500 P.</p>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-item-img" href="#">
+              <img src="img/bfg-3000.png" width="127" height="112" alt="Перфоратор">
+            </a>
+            <p class="catalog-item-name">
+              <a href="#">
+                Перфоратор BOSCH BFG 3000
               </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 3000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old">22500 P.</p>
-                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
-                  <p class="price-new">15500 P.</p>
-                </div>
-              </div>
-            </li>
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-6000.png" width="144" height="128" alt="Перфоратор">
+            </p>
+            <div class="catalog-item-price">
+              <p class="price-old">22500 P.</p>
+              <p class="price-new">15500 P.</p>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-item-img" href="#">
+              <img src="img/bfg-6000.png" width="144" height="128" alt="Перфоратор">
+            </a>
+            <p class="catalog-item-name">
+              <a href="#">
+                Перфоратор BOSCH BFG 6000
               </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 6000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old">30500 P.</p>
-                <div class=""> <!--Price in red arrow Цена в красной стрелке-->
-                  <p class="price-new">25500 P.</p>
-                </div>
-              </div>
-            </li>
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-2000.png" width="184" height="164" alt="Перфоратор">
+            </p>
+            <div class="catalog-item-price">
+              <p class="price-old">30500 P.</p>
+              <p class="price-new">25500 P.</p>
+            </div>
+          </li>
+          <li class="catalog-item">
+            <a class="catalog-item-img" href="#">
+              <img src="img/bfg-2000.png" width="184" height="164" alt="Перфоратор">
+            </a>
+            <p class="catalog-item-name">
+              <a href="#">
+                Перфоратор BOSCH BFG 2000
               </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 2000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old"></p>
-          </ul>
-      </div>
-      <div class="popular-produceres">
-        <header>
+            </p>
+            <div class="catalog-item-price">
+              <p class="price-old">9999</p>
+              <p class="price-new">12500 P.</p>
+            </div>
+        </ul>
+      </section>
+      <section class="popular-produceres">
+        <header class="header-popular-items">
           <h2>Популярные производители:</h2>
-          <a class="button" href="#">Все производители</a>
+          <a class="button red-button" href="#">Все производители</a>
         </header>
-        <ul>
+        <ul class="list-popular-produceres">
           <li>
             <a href="#">
               <img src="img/bosch.png" alt="Bosch" title="Bosch">
             </a>
           </li>
         </ul>
-      </div>
-      <div class="services">
+      </section>
+      <section class="services">
         <h2>Сервисы</h2>
         <p>
           Хороший интернет-магазин отличается от плохого не только ценами!
@@ -172,8 +179,8 @@
             <img src="img/truck.png" alt="Грузовик" title="Грузовик">
           </div>
         </div>
-      </div>
-      <div class="about">
+      </section>
+      <section class="about">
         <div class="about-left">
           <h2 class="about-title">Компания «Техномарт»</h2>
           <p class="about-text">
@@ -190,7 +197,7 @@
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <a class="button" href="#">Подробнее о компании</a>
+          <a class="button red-button" href="#">Подробнее о компании</a>
         </div>
         <div class="about-right">
           <h2 class="about-title">Контакты</h2>
@@ -200,9 +207,9 @@
           <a href="#">
 		        <img src="img/map.jpg" width="300" height="158" alt="Карта">
 		      </a>
-          <a class="button" href="#">Заблудились? Напишите нам!</a>
+          <a class="button red-button" href="#">Заблудились? Напишите нам!</a>
         </div>
-      </div>
+      </section>
     </main>
     <footer class="main-footer">
       <div class="footer-top">
@@ -242,30 +249,33 @@
         <ul class="footer-social">
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-vk.svg" alt="Вконтакте" aria-label="Вконтакте"
-                   title="Вконтакте">
+              <img src="img/icon-vk.svg" alt="Вконтакте">
             </a>
           </li>
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-fb.svg" alt="Фейсбук" aria-label="Фейсбук"
-                   title="Фейсбук">
+              <img src="img/icon-fb.svg" alt="Фейсбук">
             </a>
           </li>
           <li>
             <a class="social-button" href="#">
-              <img src="img/icon-insta.svg" alt="Инстаграм" aria-label="Инстаграм"
-                   title="Инстаграм">
+              <img src="img/icon-insta.svg" alt="Инстаграм">
             </a>
           </li>
         </ul>
         <div class="developer-info">
           <p class="developer-info-top-line">
             Обратная связь:
-            <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            <a href="mail@htmlacademy.ru">
+              mail@htmlacademy.ru
+            </a>
           </p>
-          <p class="developer-info-top-line">Разработано</p>
-          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          <p class="developer-info-top-line">
+            Разработано
+            <a href="https://htmlacademy.ru/intensive/htmlcss">
+              htmlacademy.ru
+            </a>
+          </p>
         </div>
       </div>
     </footer>
@@ -295,15 +305,15 @@
             </textarea>
           </div>
           <div class="feedback-send">
-            <button type="submit">Отправить</button>
+            <button class="red-button" type="submit">Отправить</button>
           </div>
         </form>
     </div>
     <div class="popup-map">
       <button type="button" name="cross">
-        <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть">
+        <img src="img/icon-close.svg" width="21px" height="21px" alt="Закрыть">
       </button>
-      <h2 class="visually hidden">Карта</h2>
+      <img src="img/big-map.jpg" width="940px" height="446px" alt="Карта">
     </div>
   </body>
 </html>
