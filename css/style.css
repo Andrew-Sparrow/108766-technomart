@@ -106,7 +106,6 @@ output {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
 }
 .main-navigation {
   background-color: #32425c;
@@ -336,6 +335,10 @@ footer-social li a {
   background-color: #5fbb2d;
 }
 
+button:hover {
+  /* TO DO Вставить измениеие курсора */
+}
+
 .button-order:active {
   background-color: #518534;
 }
@@ -353,4 +356,51 @@ footer-social li a {
 
   background-color: #f2f6f8 ;
   padding: 10px;
+}
+.filter-wrapper {
+  font-size: 13px;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+
+  background-color: #f7f3ec ;
+  padding: 10px;
+}
+
+.filter legend {
+  font-size: 17px;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: left;
+}
+
+.filter label {
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: left;
+}
+
+.filter ul {
+  list-style: none ;
+}
+
+.filter button[type="button"] {
+  font-size: 13px;
+  font-family: "PT Sans", sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 18px;
+  text-align: left;
+
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  padding: 5px 30px;
+  text-align: center;
 }
