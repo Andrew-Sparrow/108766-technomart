@@ -147,6 +147,7 @@ a {
 .catalog-item-price .price-old {
   font-size: 17px;
   font-family: "PT Sans";
+  font-weight: 700;
   color: #aaaaaa;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -218,32 +219,41 @@ a {
 }
 
 .about {
+  background-color: #ffffff;
+}
+
+.about p {
   font-size: 13px;
   font-family: "PT Sans", Arial, sans-serif;
-  ;
-  color: #000000;
   line-height: 24px;
   text-align: left;
-  background-color: #ffffff;
 }
 
 .about h2 {
   font-size: 30px;
-  color: #000000;
   line-height: 30px;
   text-align: left;
   text-transform: uppercase;
 }
 
+.delivery-company li{
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-top {
+  background-color: #32425c;
+}
 .footer-top,
-.footer-top li {
+.footer-top a {
   font-size: 18px;
   color: #f3f7f8;
   line-height: 24px;
-  background-color: #32425c;
 }
 
-.footer-site-navigation-lower li {
+.low-row a {
   color: #ffd180;
 }
 
