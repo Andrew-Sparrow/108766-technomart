@@ -1,11 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "PT Sans", Arial, sans-serif;
-  /* font-family: "Cuprum", sans-serif; */
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
+  font-family: "Cuprum", Arial, sans-serif;
   color: #000000;
   background: #ffffff;
 }
@@ -33,6 +29,14 @@ a {
   font-weight: normal;
   line-height: 18px;
   color: #ffffff;
+}
+
+.search label {
+  cursor: pointer;
+}
+
+.search span {
+  display: none;
 }
 
 .header-user-name p {
@@ -120,11 +124,11 @@ a {
   list-style: none;
 }
 
-.popular-goods {
-  background-color: lightgray; /*этот цвет для меня, временный*/
-}
-
 .header-popular-items {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+
   background-color: #f9f5f0;
 }
 
@@ -134,7 +138,10 @@ a {
 
 .list-popular-goods li {
   display: inline-block;
-  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+}
+
+.catalog-item {
   border: 1px solid #eaeaea;
 }
 
@@ -169,10 +176,6 @@ a {
   background-color: #ee3643;
   padding: 5px;
   width: 100px;
-}
-
-.popular-produceres {
-  background-color: lightgray; /*цвет временный*/
 }
 
 .list-popular-produceres {
@@ -229,11 +232,6 @@ a {
   background-color: #ffffff;
 }
 
-/* .header-top-left-right-wrapper,
-.header-middle-wrapper {
-  margin-right: 130px;
-  margin-left: 130px;
-} */
 .about {
   font-size: 13px;
   font-family: "PT Sans", Arial, sans-serif;
@@ -254,7 +252,7 @@ a {
 }
 
 .footer-top,
-.footer-top li a {
+.footer-top li {
   font-size: 18px;
   font-family: "Cuprum", Arial, sans-serif;
   color: #f3f7f8;
@@ -262,7 +260,7 @@ a {
   background-color: #32425c;
 }
 
-.footer-site-navigation-lower li a {
+.footer-site-navigation-lower li {
   color: #ffd180;
 }
 
@@ -282,7 +280,7 @@ a {
   list-style: none;
 }
 
-footer-social li a {
+footer-social li {
   background-color: #212a3a;
 }
 
