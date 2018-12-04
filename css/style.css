@@ -8,6 +8,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #000000;
 }
 
 .header-top {
@@ -24,7 +25,6 @@ a {
 
 .font-cuprum,
 .font-cuprum a {
-  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   font-weight: normal;
   line-height: 18px;
@@ -40,7 +40,6 @@ a {
 }
 
 .header-user-name p {
-  font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
   font-weight: normal;
   line-height: 21px;
@@ -48,7 +47,6 @@ a {
 }
 
 .account-links a {
-  font-family: "Cuprum", Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 18px;
@@ -62,7 +60,6 @@ a {
 
 .header-middle h1.header-short-description {
   font-size: 16px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #ee3643;
   font-style: italic;
   line-height: 23px;
@@ -71,7 +68,6 @@ a {
 
 .header-phone-wrapper {
   font-size: 21px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #ee3643;
   line-height: 21px;
   text-align: left;
@@ -84,19 +80,16 @@ a {
 
 .header-adress {
   font-size: 14px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #32425c;
   line-height: 24px;
   text-align: center;
 }
 
-.header-buttons button {
-  font-family: "Cuprum", Arial, sans-serif;
+.header-buttons button {  f
   font-size: 21px;
   line-height: 21px;
   background-color: #ffffff;
   border: none;
-  color: #000000;
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
@@ -113,7 +106,6 @@ a {
 }
 
 .main-navigation a {
-  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   color: #ffffff;
   line-height: 17px;
@@ -148,7 +140,6 @@ a {
 .catalog-item-name a {
   font-size: 18px;
   font-family: "PT Sans";
-  color: #000000;
   font-weight: bold;
   line-height: 20px;
   text-align: center;
@@ -158,7 +149,6 @@ a {
   font-size: 17px;
   font-family: "PT Sans";
   color: #aaaaaa;
-  font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
   line-height: 18px;
@@ -174,8 +164,7 @@ a {
   line-height: 18px;
   text-align: center;
   background-color: #ee3643;
-  padding: 5px;
-  width: 100px;
+  padding: 10px;
 }
 
 .list-popular-produceres {
@@ -183,18 +172,18 @@ a {
 }
 
 .services {
-  font-size: 13px;
-  font-family: "PT Sans", Arial, sans-serif;
-  color: #000000;
-  line-height: 24px;
-  text-align: left;
   background-color: #f5f8fa;
+}
+
+.services p {
+    font-size: 13px;
+    font-family: "PT Sans", Arial, sans-serif;
+    line-height: 24px;
+    text-align: left;
 }
 
  .services h2 {
   font-size: 30px;
-  font-family: "Cuprum", Arial, sans-serif;
-  color: #000000;
   text-transform: uppercase;
   line-height: 30px;
   text-align: left;
@@ -202,7 +191,6 @@ a {
 
 .services h3 {
   font-size: 36px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #32425c;
   text-transform: uppercase;
   line-height: 36px;
@@ -215,7 +203,6 @@ a {
 
 .list-services li {
   font-size: 21px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #ffffff;
   font-weight: bold;
   line-height: 30px;
@@ -227,7 +214,6 @@ a {
 }
 
 .list-services li:first-child {
-  font-family: "Cuprum", Arial, sans-serif;
   color: #32425c;
   background-color: #ffffff;
 }
@@ -244,7 +230,6 @@ a {
 
 .about h2 {
   font-size: 30px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #000000;
   line-height: 30px;
   text-align: left;
@@ -254,7 +239,6 @@ a {
 .footer-top,
 .footer-top li {
   font-size: 18px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #f3f7f8;
   line-height: 24px;
   background-color: #32425c;
@@ -270,7 +254,6 @@ a {
 
 .footer-bottom {
   font-size: 16px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #f5f5f6;
   line-height: 18px;
   background-color: #293449;
@@ -290,8 +273,6 @@ footer-social li {
 
 .popup-feedback {
   font-size: 18px;
-  font-family: "Cuprum";
-  color: #000000;
   line-height: 18px;
   background-color: #ffffff;
 }
@@ -299,9 +280,7 @@ footer-social li {
 .red-button {
   padding: 10px;
   font-size: 14px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #ffffff;
-  text-transform: uppercase;
   line-height: 18px;
   text-align: center;
   background-color: #ee3643;
@@ -335,7 +314,6 @@ button:hover {
 
 .name-group {
   font-size: 30px;
-  font-family: "Cuprum", Arial, sans-serif;
   color: #32425c;
   text-transform: uppercase;
   line-height: 30px;
