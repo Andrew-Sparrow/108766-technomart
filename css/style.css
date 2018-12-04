@@ -1,378 +1,379 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Cuprum", Arial, sans-serif;
-  color: #000000;
-  background: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: "Cuprum", Arial, sans-serif;
+    color: #000000;
+    background: #ffffff;
 }
 
 a {
-  text-decoration: none;
-  color: #000000;
+    text-decoration: none;
+    color: #000000;
 }
 
 .header-top {
-  background-color: #293449;
+    background-color: #293449;
 }
 
 .header-left {
-  display: flex;
+    display: flex;
 }
 
 .header-right {
-  display: flex;
+    display: flex;
 }
 
 .font-cuprum,
 .font-cuprum a {
-  font-size: 17px;
-  font-weight: normal;
-  line-height: 18px;
-  color: #ffffff;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #ffffff;
 }
 
 .search label {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .search span {
-  display: none;
+    display: none;
 }
 
 .header-user-name p {
-  font-size: 21px;
-  font-weight: normal;
-  line-height: 21px;
-  color: #000000;
+    font-size: 21px;
+    font-weight: normal;
+    line-height: 21px;
+    color: #000000;
 }
 
 .account-links a {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 18px;
-  color: #32425c;
-  text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #32425c;
+    text-decoration: underline;
 }
 
 .header-middle {
-  background: #f4f7f9;
+    background: #f4f7f9;
 }
 
 .header-middle h1.header-short-description {
-  font-size: 16px;
-  color: #ee3643;
-  font-style: italic;
-  line-height: 23px;
-  text-align: left;
+    font-size: 16px;
+    color: #ee3643;
+    font-style: italic;
+    line-height: 23px;
+    text-align: left;
 }
 
 .header-phone-wrapper {
-  font-size: 21px;
-  color: #ee3643;
-  line-height: 21px;
-  text-align: left;
-  border: 3px solid #ffffff;
+    font-size: 21px;
+    color: #ee3643;
+    line-height: 21px;
+    text-align: left;
+    border: 3px solid #ffffff;
 }
 
 .button-order {
-  background-color: #63a63e;
+    background-color: #63a63e;
 }
 
 .header-adress {
-  font-size: 14px;
-  color: #32425c;
-  line-height: 24px;
-  text-align: center;
+    font-size: 14px;
+    color: #32425c;
+    line-height: 24px;
+    text-align: center;
 }
 
 .header-buttons button {
-  f font-size: 21px;
-  line-height: 21px;
-  background-color: #ffffff;
-  border: none;
-  padding: 10px 30px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .main-navigation {
-  background-color: #32425c;
+    background-color: #32425c;
 }
 
 .main-navigation li {
-  display: inline-block;
-  padding: 10px 20px;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 .main-navigation a {
-  font-size: 17px;
-  color: #ffffff;
-  line-height: 17px;
-  text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 17px;
+    text-align: center;
 }
 
 .main-navigation ul {
-  list-style: none;
+    list-style: none;
 }
 
 .header-popular-items {
-  font-size: 30px;
-  line-height: 30px;
-  text-transform: uppercase;
-  background-color: #f9f5f0;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-color: #f9f5f0;
 }
 
 .list-popular-goods {
-  list-style: none;
+    list-style: none;
 }
 
 .list-popular-goods li {
-  display: inline-block;
-  border: 1px solid #eaeaea;
+    display: inline-block;
+    border: 1px solid #eaeaea;
 }
 
 .catalog-item {
-  border: 1px solid #eaeaea;
+    border: 1px solid #eaeaea;
 }
 
 .catalog-item-name a {
-  font-size: 18px;
-  font-family: "PT Sans";
-  font-weight: bold;
-  line-height: 20px;
-  text-align: center;
+    font-size: 18px;
+    font-family: "PT Sans";
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
 }
 
 .catalog-item-price .price-old {
-  font-size: 17px;
-  font-family: "PT Sans";
-  font-weight: 700;
-  color: #aaaaaa;
-  text-decoration: line-through;
-  text-transform: uppercase;
-  line-height: 18px;
-  text-align: center;
+    font-size: 17px;
+    font-family: "PT Sans";
+    font-weight: 700;
+    color: #aaaaaa;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: center;
 }
 
 .catalog-item-price .price-new {
-  font-size: 17px;
-  font-family: "PT Sans", sans-serif;
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 18px;
-  text-align: center;
-  background-color: #ee3643;
-  padding: 10px;
+    font-size: 17px;
+    font-family: "PT Sans", sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: center;
+    background-color: #ee3643;
+    padding: 10px;
 }
 
 .list-popular-produceres {
-  list-style: none;
+    list-style: none;
 }
 
 .services {
-  background-color: #f5f8fa;
+    background-color: #f5f8fa;
 }
 
 .services p {
-  font-size: 13px;
-  font-family: "PT Sans", Arial, sans-serif;
-  line-height: 24px;
-  text-align: left;
+    font-size: 13px;
+    font-family: "PT Sans", Arial, sans-serif;
+    line-height: 24px;
+    text-align: left;
 }
 
 .services h2 {
-  font-size: 30px;
-  text-transform: uppercase;
-  line-height: 30px;
-  text-align: left;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
 }
 
 .services h3 {
-  font-size: 36px;
-  color: #32425c;
-  text-transform: uppercase;
-  line-height: 36px;
-  text-align: left;
+    font-size: 36px;
+    color: #32425c;
+    text-transform: uppercase;
+    line-height: 36px;
+    text-align: left;
 }
 
 .list-services {
-  list-style: none;
+    list-style: none;
 }
 
 .list-services li {
-  font-size: 21px;
-  color: #ffffff;
-  font-weight: bold;
-  line-height: 30px;
-  text-align: left;
-  background-color: #32425c;
-  padding: 10px;
-  border-bottom: 1px solid #4d627b;
-  width: 200px;
+    font-size: 21px;
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: left;
+    background-color: #32425c;
+    padding: 10px;
+    border-bottom: 1px solid #4d627b;
+    width: 200px;
 }
 
 .list-services li:first-child {
-  color: #32425c;
-  background-color: #ffffff;
+    color: #32425c;
+    background-color: #ffffff;
 }
 
 .about {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .about p {
-  font-size: 13px;
-  font-family: "PT Sans", Arial, sans-serif;
-  line-height: 24px;
-  text-align: left;
+    font-size: 13px;
+    font-family: "PT Sans", Arial, sans-serif;
+    line-height: 24px;
+    text-align: left;
 }
 
 .about h2 {
-  font-size: 30px;
-  line-height: 30px;
-  text-align: left;
-  text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
-.delivery-company li{
-  font-size: 18px;
-  line-height: 20px;
-  padding: 0;
-  margin: 0;
+.delivery-company li {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-top {
-  background-color: #32425c;
+    background-color: #32425c;
 }
+
 .footer-top,
 .footer-top a {
-  font-size: 18px;
-  color: #f3f7f8;
-  line-height: 24px;
+    font-size: 18px;
+    color: #f3f7f8;
+    line-height: 24px;
 }
 
 .low-row a {
-  color: #ffd180;
+    color: #ffd180;
 }
 
 .footer-top li {
-  list-style: none;
+    list-style: none;
 }
 
 .footer-bottom {
-  font-size: 16px;
-  color: #f5f5f6;
-  line-height: 18px;
-  background-color: #293449;
+    font-size: 16px;
+    color: #f5f5f6;
+    line-height: 18px;
+    background-color: #293449;
 }
 
 .footer-social {
-  list-style: none;
+    list-style: none;
 }
 
 footer-social li {
-  background-color: #212a3a;
+    background-color: #212a3a;
 }
 
 .developer-info-top-line a {
-  color: #ffd180;
+    color: #ffd180;
 }
 
 .popup-feedback {
-  font-size: 18px;
-  line-height: 18px;
-  background-color: #ffffff;
+    font-size: 18px;
+    line-height: 18px;
+    background-color: #ffffff;
 }
 
 .red-button {
-  padding: 10px;
-  font-size: 14px;
-  color: #ffffff;
-  line-height: 18px;
-  text-align: center;
-  background-color: #ee3643;
-  border: none;
-  border-radius: 2px;
+    padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 18px;
+    text-align: center;
+    background-color: #ee3643;
+    border: none;
+    border-radius: 2px;
 }
 
 .feedback-send .red-button {
-  width: 500px;
+    width: 500px;
 }
 
 .feedback-send {
-  background-color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 .button-order:hover {
-  background-color: #5fbb2d;
+    background-color: #5fbb2d;
 }
 
 button:hover {
-  /* TO DO Вставить изменение курсора */
+    /* TO DO Вставить изменение курсора */
 }
 
 .button-order:active {
-  background-color: #518534;
+    background-color: #518534;
 }
 
 .breadcrumbs {
-  list-style: none;
+    list-style: none;
 }
 
 .name-group {
-  font-size: 30px;
-  color: #32425c;
-  text-transform: uppercase;
-  line-height: 30px;
-  text-align: left;
-  background-color: #f2f6f8;
-  padding: 10px;
+    font-size: 30px;
+    color: #32425c;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
+    background-color: #f2f6f8;
+    padding: 10px;
 }
 
 .filter-wrapper {
-  font-size: 13px;
-  font-family: "PT Sans", sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: 18px;
-  text-align: left;
-  background-color: #f7f3ec;
-  padding: 10px;
+    font-size: 13px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: left;
+    background-color: #f7f3ec;
+    padding: 10px;
 }
 
 .filter legend {
-  font-size: 17px;
-  font-family: "PT Sans", sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: 30px;
-  text-align: left;
+    font-size: 17px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-align: left;
 }
 
 .filter label {
-  font-size: 15px;
-  font-family: "PT Sans", sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: 20px;
-  text-align: left;
+    font-size: 15px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: left;
 }
 
 .filter ul {
-  list-style: none;
+    list-style: none;
 }
 
 .filter button[type="button"] {
-  font-size: 13px;
-  font-family: "PT Sans", sans-serif;
-  color: #000000;
-  text-transform: uppercase;
-  line-height: 18px;
-  text-align: left;
-  background-color: #ffffff;
-  border: 1px solid #e5e5e5;
-  padding: 5px 30px;
-  text-align: center;
+    font-size: 13px;
+    font-family: "PT Sans", sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 18px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    padding: 5px 30px;
+    text-align: center;
 }
