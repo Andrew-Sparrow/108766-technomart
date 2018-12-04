@@ -1,24 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-
-  font-family: "PT Sans", Arial , sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   /* font-family: "Cuprum", sans-serif; */
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
-  font-weight: bold;
   color: #000000;
-
-  background: #ffffff ;
+  background: #ffffff;
 }
 
 a {
   text-decoration: none;
-}
-
-output {
-  border: 1px solid black;
 }
 
 .header-top {
@@ -42,7 +35,7 @@ output {
   color: #ffffff;
 }
 
-.header-user-name p{
+.header-user-name p {
   font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
   font-weight: normal;
@@ -59,14 +52,14 @@ output {
   text-decoration: underline;
 }
 
-.header-middle{
+.header-middle {
   background: #f4f7f9;
 }
 
 .header-middle h1.header-short-description {
   font-size: 16px;
   font-family: "Cuprum", Arial, sans-serif;
-  color: rgb(238, 54, 67);
+  color: #ee3643;
   font-style: italic;
   line-height: 23px;
   text-align: left;
@@ -75,11 +68,10 @@ output {
 .header-phone-wrapper {
   font-size: 21px;
   font-family: "Cuprum", Arial, sans-serif;
-  color: rgb(238, 54, 67);
+  color: #ee3643;
   line-height: 21px;
   text-align: left;
-
-  border: 3px solid #ffffff ;
+  border: 3px solid #ffffff;
 }
 
 .button-order {
@@ -88,17 +80,16 @@ output {
 
 .header-adress {
   font-size: 14px;
-  font-family: "Cuprum" , Arial, sans-serif;
-  color: rgb(50, 66, 92);
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #32425c;
   line-height: 24px;
   text-align: center;
 }
 
 .header-buttons button {
-  font-family: "Cuprum" , Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
-
   background-color: #ffffff;
   border: none;
   color: #000000;
@@ -107,18 +98,20 @@ output {
   text-decoration: none;
   display: inline-block;
 }
+
 .main-navigation {
   background-color: #32425c;
 }
 
-.main-navigation li{
+.main-navigation li {
   display: inline-block;
   padding: 10px 20px;
 }
+
 .main-navigation a {
-  font-family: "Cuprum" , Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   line-height: 17px;
   text-align: center;
 }
@@ -126,9 +119,11 @@ output {
 .main-navigation ul {
   list-style: none;
 }
+
 .popular-goods {
-  background-color: lightgray;
+  background-color: lightgray; /*этот цвет для меня, временный*/
 }
+
 .header-popular-items {
   background-color: #f9f5f0;
 }
@@ -136,6 +131,7 @@ output {
 .list-popular-goods {
   list-style: none;
 }
+
 .list-popular-goods li {
   display: inline-block;
   background-color: #ffffff;
@@ -145,7 +141,7 @@ output {
 .catalog-item-name a {
   font-size: 18px;
   font-family: "PT Sans";
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-weight: bold;
   line-height: 20px;
   text-align: center;
@@ -154,7 +150,7 @@ output {
 .catalog-item-price .price-old {
   font-size: 17px;
   font-family: "PT Sans";
-  color: rgb(169, 169, 169);
+  color: #aaaaaa;
   font-weight: bold;
   text-decoration: line-through;
   text-transform: uppercase;
@@ -162,41 +158,40 @@ output {
   text-align: center;
 }
 
-.catalog-item-price .price-new{
+.catalog-item-price .price-new {
   font-size: 17px;
   font-family: "PT Sans", sans-serif;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 18px;
   text-align: center;
-
   background-color: #ee3643;
   padding: 5px;
   width: 100px;
 }
 
 .popular-produceres {
-  background-color: lightgray ;
+  background-color: lightgray; /*цвет временный*/
 }
 
 .list-popular-produceres {
   list-style: none;
 }
+
 .services {
   font-size: 13px;
   font-family: "PT Sans", Arial, sans-serif;
-  color: rgb(0, 0, 0);
+  color: #000000;
   line-height: 24px;
   text-align: left;
-
   background-color: #f5f8fa;
 }
 
-,services h2 {
+ .services h2 {
   font-size: 30px;
-  font-family: "Cuprum" , Arial, sans-serif;
-  color: rgb(0, 0, 0);
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #000000;
   text-transform: uppercase;
   line-height: 30px;
   text-align: left;
@@ -204,8 +199,8 @@ output {
 
 .services h3 {
   font-size: 36px;
-  font-family: "Cuprum" , Arial, sans-serif;
-  color: rgb(50, 66, 92);
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #32425c;
   text-transform: uppercase;
   line-height: 36px;
   text-align: left;
@@ -215,24 +210,22 @@ output {
   list-style: none;
 }
 
-.list-services li{
+.list-services li {
   font-size: 21px;
-  font-family:  "Cuprum" , Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   color: #ffffff;
   font-weight: bold;
   line-height: 30px;
   text-align: left;
-
   background-color: #32425c;
   padding: 10px;
   border-bottom: 1px solid #4d627b;
   width: 200px;
 }
 
-.list-services li:first-child{
-  font-family:  "Cuprum" , Arial, sans-serif;
-  color: #32425c ;
-
+.list-services li:first-child {
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #32425c;
   background-color: #ffffff;
 }
 
@@ -241,21 +234,20 @@ output {
   margin-right: 130px;
   margin-left: 130px;
 } */
-
 .about {
   font-size: 13px;
-  font-family: "PT Sans", Arial, sans-serif;;
-  color: rgb(0, 0, 0);
+  font-family: "PT Sans", Arial, sans-serif;
+  ;
+  color: #000000;
   line-height: 24px;
   text-align: left;
-
   background-color: #ffffff;
 }
 
 .about h2 {
   font-size: 30px;
-  font-family: "Cuprum" , Arial, sans-serif;
-  color: rgb(0, 0, 0);
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #000000;
   line-height: 30px;
   text-align: left;
   text-transform: uppercase;
@@ -264,10 +256,9 @@ output {
 .footer-top,
 .footer-top li a {
   font-size: 18px;
-  font-family: "Cuprum" , Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   color: #f3f7f8;
   line-height: 24px;
-
   background-color: #32425c;
 }
 
@@ -281,10 +272,9 @@ output {
 
 .footer-bottom {
   font-size: 16px;
-  font-family: "Cuprum" , Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   color: #f5f5f6;
   line-height: 18px;
-
   background-color: #293449;
 }
 
@@ -299,24 +289,23 @@ footer-social li a {
 .developer-info-top-line a {
   color: #ffd180;
 }
+
 .popup-feedback {
   font-size: 18px;
   font-family: "Cuprum";
-  color: rgb(0, 0, 0);
+  color: #000000;
   line-height: 18px;
   background-color: #ffffff;
 }
 
 .red-button {
   padding: 10px;
-
   font-size: 14px;
-  font-family: "Cuprum" , Arial, sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #ffffff;
   text-transform: uppercase;
   line-height: 18px;
   text-align: center;
-
   background-color: #ee3643;
   border: none;
   border-radius: 2px;
@@ -325,7 +314,6 @@ footer-social li a {
 .feedback-send .red-button {
   width: 500px;
 }
-
 
 .feedback-send {
   background-color: #f4f4f4;
@@ -336,7 +324,7 @@ footer-social li a {
 }
 
 button:hover {
-  /* TO DO Вставить измениеие курсора */
+  /* TO DO Вставить изменение курсора */
 }
 
 .button-order:active {
@@ -346,17 +334,18 @@ button:hover {
 .breadcrumbs {
   list-style: none;
 }
+
 .name-group {
   font-size: 30px;
-  font-family: "Cuprum" , Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   color: #32425c;
   text-transform: uppercase;
   line-height: 30px;
   text-align: left;
-
-  background-color: #f2f6f8 ;
+  background-color: #f2f6f8;
   padding: 10px;
 }
+
 .filter-wrapper {
   font-size: 13px;
   font-family: "PT Sans", sans-serif;
@@ -364,8 +353,7 @@ button:hover {
   text-transform: uppercase;
   line-height: 18px;
   text-align: left;
-
-  background-color: #f7f3ec ;
+  background-color: #f7f3ec;
   padding: 10px;
 }
 
@@ -388,7 +376,7 @@ button:hover {
 }
 
 .filter ul {
-  list-style: none ;
+  list-style: none;
 }
 
 .filter button[type="button"] {
@@ -398,7 +386,6 @@ button:hover {
   text-transform: uppercase;
   line-height: 18px;
   text-align: left;
-
   background-color: #ffffff;
   border: 1px solid #e5e5e5;
   padding: 5px 30px;

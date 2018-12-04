@@ -11,31 +11,25 @@
   <body>
     <header class="main-header">
       <div class="header-top">
-        <div class="header-top-left-right-wrapper">
-          <!--Добавил этот div который выше для задания отсутов
-           от body, но не знаю надо ли-->
-  	      <div class="header-top-left font-cuprum">
-            <a href="#"> <!--TO DO добавить ссылку на главную страницу -->
-  		        <img src="img/logo.jpg" width="220" height="47"
-                   alt="logo" title="Логотип-Техномарт"><!--logo -->
-  		      </a>
-            <form class="search">
-              <!--Как сюда через "tab" попасть ?-->
-              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" id="id-icon-search">
+        <div class="header-top-left font-cuprum">
+          <a href="#">
+            <img src="img/logo.jpg" width="220" height="47"
+                 alt="logo" title="Логотип-Техномарт"><!--logo -->
+          </a>
+          <form class="search">
+            <label for="id-icon-search">
+              <span>Поиск</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
                 <path fill="#6a7180" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
               </svg>
-              <label for="id-icon-search">
-                Поиск
-              </label>
-            </form>
-  	      </div>
-  	      <div class="header-top-right font-cuprum">
-            <img src="img/icon-bookmark.svg" alt="закладки">
-  	        <a class="bookmark" href="#">Закладки</a>
-            <img src="img/icon-cart.svg" alt="Корзина">
-  		      <a class="cart" href="#">Корзина</a>
-  		      <a class="button-order" href="#">Оформить заказ</a>
-  	      </div>
+            </label>
+            <input type="search" name="search" id="id-icon-search" >
+          </form>
+        </div>
+        <div class="header-top-right font-cuprum">
+          <a class="bookmark" href="#">Закладки</a>
+          <a class="cart" href="#">Корзина</a>
+          <a class="button-order" href="#">Оформить заказ</a>
         </div>
       </div>
       <div class="header-middle">
@@ -161,13 +155,11 @@
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
         <div class="services-description">
-          <menu class="menu-services">
-            <ul class="list-services">
-              <li>Доставка</li>
-              <li>Гарантия</li>
-              <li>Кредит</li>
-            </ul>
-          </menu>
+          <ul class="list-services">
+            <li>Доставка</li>
+            <li>Гарантия</li>
+            <li>Кредит</li>
+          </ul>
           <div class="services-item">
             <h3>Доставка</h3>
             <p>
@@ -184,12 +176,12 @@
         <div class="about-left">
           <h2 class="about-title">Компания «Техномарт»</h2>
           <p class="about-text">
-		        Настоящий мужской шоппинг начинается здесь!
-			      Огромный выбор товаров для ремонта и строительства
-			      не оставит равнодушными любителей сэкономить на гастарбайтерах.
-		      </p>
+            Настоящий мужской шоппинг начинается здесь!
+            Огромный выбор товаров для ремонта и строительства
+            не оставит равнодушными любителей сэкономить на гастарбайтерах.
+          </p>
           <p class="about-text">
-		        Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+            Мы можем доставить ваш товар в самые отдаленные точки России!<br>
             Техномарт работает со многими транспортными компаниями:
           </p>
           <ul class="delivery-company">
@@ -205,24 +197,24 @@
             Вы можете забрать товар сами, заехав в наш офис:
           </p>
           <a href="#">
-		        <img src="img/map.jpg" width="300" height="158" alt="Карта">
-		      </a>
+            <img src="img/map.jpg" width="300" height="158" alt="Карта">
+          </a>
           <a class="button red-button" href="#">Заблудились? Напишите нам!</a>
         </div>
       </section>
     </main>
     <footer class="main-footer">
       <div class="footer-top">
-	      <div class="footer-top-left">
-		      <a class="footer-name-company">
-		        <img src="img/logo-footer.jpg"  width="220" height="68"
+        <div class="footer-top-left">
+          <a class="footer-name-company">
+            <img src="img/logo-footer.jpg"  width="220" height="68"
                  alt="Логотип" title="Логотип-Техномарт"><!--logo-->
-		      </a>
+          </a>
           <p class="footer-adress">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
           </p>
-		    </div>
+        </div>
         <div class="footer-top-right">
           <nav class="footer-navigation">
             <ul class="footer-site-navigation-upper">
@@ -231,7 +223,7 @@
               <li><a href="#">Каталог</a></li>
               <li><a href="#">Доставка</a></li>
               <li><a href="#">Контакты</a></li>
-  		      </ul>
+            </ul>
             <ul class="footer-site-navigation-lower">
               <li><a href="#">Материалы</a></li>
               <li><a href="#">Техника</a></li>
@@ -243,7 +235,7 @@
       </div>
       <div class="footer-bottom">
         <p>
-		      © 2010–2017 Компания «Техномарт»<br>
+          © 2010–2017 Компания «Техномарт»<br>
           Все права защищены
         </p>
         <ul class="footer-social">
@@ -290,7 +282,7 @@
             </label>
             <input type="text" name="your-name" value="" id="id-your-name"
                    placeholder="Имя Фамилия">
-            <label for="id-e-mail">
+            <label for="id-email">
               Ваш e-mail:
             </label>
             <input type="email" name="email" value="" id="id-email"
@@ -300,9 +292,7 @@
             <label for="id-textarea">
               Текст письма:
             </label>
-            <textarea name="textarea" id="id-textarea" rows="5" cols="20"
-                      placeholder="В свободной форме">
-            </textarea>
+            <textarea name="textarea" id="id-textarea" rows="5" cols="20" placeholder="В свободной форме"></textarea>
           </div>
           <div class="feedback-send">
             <button class="red-button" type="submit">Отправить</button>

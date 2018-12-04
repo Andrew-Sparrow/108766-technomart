@@ -3,31 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>Техномарт-Каталог</title>
-    <link rel="stylesheet" style="text/css" href="css/normalize.css">
-    <link rel="stylesheet" style="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
       <div class="header-top">
-	      <div class="header-left font-cuprum">
-	        <a href="#"> <!--TO DO добавить ссылку на главную страницу -->
-		        <img src="img/logo.jpg" width="220" height="47"
+        <div class="header-left font-cuprum">
+          <a href="#"> <!--TO DO добавить ссылку на главную страницу -->
+            <img src="img/logo.jpg" width="220" height="47"
                  alt="logo" title="Логотип-Техномарт"><!--logo -->
-		      </a>
+          </a>
           <form class="search">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" id="id-icon-search">
               <path fill="#6a7180" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/>
             </svg>
             <label for="id-icon-search">Поиск</label>
           </form>
-	      </div>
-	      <div class="header-right font-cuprum">
+        </div>
+        <div class="header-right font-cuprum">
           <img src="img/icon-bookmark.svg" alt="закладки">
-	        <a class="bookmark" href="#">Закладки</a>
+          <a class="bookmark" href="#">Закладки</a>
           <img src="img/icon-cart.svg" alt="Корзина">
-		      <a class="cart" href="#">Корзина</a>
-		      <a class="button-order" href="#">Оформить заказ</a>
-	      </div>
+          <a class="cart" href="#">Корзина</a>
+          <a class="button-order" href="#">Оформить заказ</a>
+        </div>
       </div>
       <div class="header-middle">
         <h1 class="short-description">
@@ -98,10 +98,10 @@
         <h2>Перфораторы</h2>
       </div>
       <div class="container-filter-catalog">
-        <div class="name-filter filter-wrapper">
-          <h2 class="name-filter">Фильтр:</h2>
-        </div>
         <section class="filter">
+          <div class="name-filter filter-wrapper">
+            <h2 class="name-filter">Фильтр:</h2>
+          </div>
           <form action="https://echo.htmlacademy.ru" method="post"
                 oninput="output.value=price.value">
             <fieldset class="full-width price-range"><!--Блок с полосой для цены-->
@@ -137,7 +137,7 @@
               <ul class="power">
                 <li>
                   <input type="radio" name="power" id="id-battery-power" checked>
-                  <label for="id-id-battery-power">Аккумуляторные</label>
+                  <label for="id-battery-power">Аккумуляторные</label>
                 </li>
                 <li>
                   <input type="radio" name="power" id="id-mains-power">
@@ -146,7 +146,7 @@
               </ul>
             </fieldset>
             <!--отправка формы-->
-            <button type="button" name="filter-show-result">
+            <button type="submit" name="filter-show-result">
               Показать
             </button>
           </form>
@@ -154,6 +154,9 @@
         <section class="catalog">
           <div class="sort filter-wrapper"><!--Шапка над карточками с видами сортировки-->
             <h2>Сортировка:</h2>
+            <ul>
+              <li></li>
+            </ul>
           </div>
           <ul class="catalog-list">
             <li class="catalog-item">
@@ -227,21 +230,26 @@
               </div>
             </li>
           </ul>
+          <ul class="pagination">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
         </section>
       </div>
     </main>
     <footer class="main-footer">
       <div class="footer-top">
-	      <div class="footer-top-left">
-		      <a class="footer-name-company">
-		        <img src="img/logo-footer.jpg"  width="220" height="68"
+        <div class="footer-top-left">
+          <a class="footer-name-company">
+            <img src="img/logo-footer.jpg"  width="220" height="68"
                  alt="Логотип" title="Логотип-Техномарт"><!--logo-->
-		      </a>
+          </a>
           <p class="footer-adress">
             г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
             +7 (812) 555-05-55
           </p>
-		    </div>
+        </div>
         <div class="footer-top-right">
           <nav class="footer-navigation">
             <ul class="footer-site-navigation-upper">
@@ -250,7 +258,7 @@
               <li><a href="#">Каталог</a></li>
               <li><a href="#">Доставка</a></li>
               <li><a href="#">Контакты</a></li>
-  		      </ul>
+            </ul>
             <ul class="footer-site-navigation-lower">
               <li><a href="#">Материалы</a></li>
               <li><a href="#">Техника</a></li>
@@ -262,7 +270,7 @@
       </div>
       <div class="footer-bottom">
         <p>
-		      © 2010–2017 Компания «Техномарт»
+          © 2010–2017 Компания «Техномарт»
           Все права защищены
         </p>
         <ul class="footer-social">
