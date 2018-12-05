@@ -183,7 +183,7 @@ a {
 }
 
 .catalog-item:hover {
-  box-shadow: 0 0 10px rgba( 0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .catalog-item-name a {
@@ -234,8 +234,9 @@ a {
 }
 
 .list-popular-produceres:hover {
-  box-shadow: 0 0 10px rgba( 0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
 .header-services-item {
   font-size: 36px;
   line-height: 36px;
