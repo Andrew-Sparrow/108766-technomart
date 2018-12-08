@@ -34,31 +34,25 @@ a {
 }
 
 .header-top {
+  width: 100%;
   background-color: #293449;
-}
 
-.header-top a {
   font-size: 17px;
   font-weight: normal;
   line-height: 18px;
   color: #fff;
-  padding: 10px;
-  display: inline-block;
+  margin: 0px;
 }
 
-.header-left {
-  display: flex;
-}
-
-.header-right {
-  display: flex;
+.header-top a {
+  color: #fff;
 }
 
 .search label {
   cursor: pointer;
 }
 
-.search span {
+.search input {
   display: none;
 }
 
@@ -145,16 +139,9 @@ a {
   background-color: #32425c;
 }
 
-.main-navigation li {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 10px 20px;
-}
-
 .main-navigation a {
   font-size: 17px;
   line-height: 17px;
-  text-align: center;
   color: #fff;
 }
 
@@ -315,8 +302,6 @@ a {
 
 .low-row a:active {
   color: rgba(255, 209, 128, 0.5);
-  /* почему-то этот цвет не срабатывает
-   при клике  */
 }
 
 .developer-info-contact a {
@@ -429,4 +414,103 @@ a {
 
 fieldset {
   border: none;
+}
+
+/* Стили для сетки */
+
+html,
+body {
+  /* min-width: 1200px;
+  min-height: 3151px; */
+}
+
+.positioner {
+  min-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-top .positioner {
+  display: flex;
+  align-items: stretch;
+}
+
+.search  {
+  margin-right: auto;
+}
+
+.bookmark,
+.cart,
+.button-order,
+.search {
+  padding: 10px;
+}
+
+.logo {
+  width: 220px;
+  height: 42px;
+}
+
+.header-middle-wrapper {
+  display: flex;
+  padding-top: 46px;
+  padding-bottom: 44px;
+}
+
+.header-phone-adress {
+  margin-left: 20px;
+}
+
+.header-adress {
+  margin: 0;
+  padding: 0;
+}
+
+.header-short-description {
+  width: 197px;
+  margin: 0;
+  padding-left: 53px;
+  padding-right: 50px;
+
+}
+
+.header-phone-wrapper {
+  display: flex;
+  padding: 8px;
+}
+
+.header-phone-wrapper p {
+  margin: 0px;
+}
+
+.header-buttons {
+  margin-left: auto;
+}
+
+.list-site-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 5px solid #293449;
+  margin-bottom: 60px;
+}
+
+.list-site-navigation li {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+.header-popular-items h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.product-and-services {
+  width: 100%;
+  min-height: 468px;
+  background-color: #ffcc33;
+  /* чтобы обозначить блок с "Материалы-Инструмент" */
 }
