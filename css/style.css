@@ -25,9 +25,11 @@ a {
 .list-filter-produceres,
 .list-filter-power,
 .list-name-sort,
+.services-list,
 .list-catalog,
 .list-pagination,
-.footer-social {
+.footer-social,
+.list-delivery-company {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -230,6 +232,7 @@ a {
   text-align: left;
   text-transform: uppercase;
   color: #32425c;
+  margin: 0;
 }
 
 .list-services li {
@@ -319,12 +322,14 @@ a {
 }
 
 .red-button {
+  display: block;
   width: 253px;
   font-size: 14px;
   line-height: 18px;
   padding-top: 12px;
   padding-bottom: 11px;
   text-align: center;
+  text-transform: uppercase;
   color: #fff;
   border: none;
   border-radius: 2px;
@@ -418,13 +423,8 @@ fieldset {
   border: none;
 }
 
-/* Стили для сетки, сеточные */
-html,
-body {
-  /* min-width: 1200px;
-  min-height: 3151px; */
-}
-
+/* Стили для сетки, сеточные,
+ оставлю пока отдельным блоком*/
 .positioner {
   width: 960px;
   margin: 0 auto;
@@ -501,6 +501,10 @@ body {
   flex-grow: 1;
   padding-top: 19px;
   padding-bottom: 18px;
+}
+
+.list-site-navigation li:first-child {
+  padding-left: 26px;
 }
 
 .header-popular-items h2 {
@@ -594,4 +598,68 @@ body {
   flex-shrink: 0;
   width: 275px;
   padding-right: 25px;
+}
+
+.about .positioner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 76px;
+  padding-bottom: 86px;
+}
+
+.about-left,
+.about-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-left {
+  width: 555px
+}
+
+.about-right {
+  width: 300px;
+}
+
+.about-right .red-button {
+  width: 100%;
+}
+
+.about .red-button {
+  margin-top: 40px;
+}
+
+.about-left .red-button {
+  margin-top: auto;
+}
+
+.header-about,
+.about p {
+  margin: 0;
+}
+
+.header-about {
+  margin-bottom: 30px;
+}
+
+.about-left p:nth-of-type(1),
+.about-right p {
+  margin-bottom: 37px;
+}
+
+.about-left p:nth-of-type(2) {
+  margin-bottom: 25px;
+}
+
+.list-delivery-company {
+margin-top: 26px;
+}
+
+.about-right p {
+  width: 178px;
+}
+
+.about-right a {
+  margin: 0;
 }
