@@ -154,6 +154,8 @@ a {
 
 .breadcrumbs {
   display: flex;
+  padding-top: 22px;
+  padding-bottom: 22px;
 
 }
 .catalog-item {
@@ -172,6 +174,10 @@ a {
 
 .catalog-item:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.catalog {
+  margin-bottom: 60px;
 }
 
 .catalog-item-name a {
@@ -725,9 +731,55 @@ fieldset {
 .name-sort {
   padding-top: 12px;
   padding-bottom: 12px;
-  box-sizing: border-box;
+  padding-left: 19px;
+  margin-bottom: 20px;
+
 }
 
 .container-filter-catalog {
   display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  width: 220px;
+  flex-shrink: 0;
+  margin-right:20px;
+}
+
+.name-sort,
+.list-name-sort,
+.list-pagination {
+  display: flex;
+}
+
+.name-sort {
+  justify-content: space-between;
+}
+
+.filter form,
+.filter fieldset {
+  margin: 0;
+  padding: 0;
+  border:  none;
+}
+
+.filter-button {
+  border:  1px solid #cccccc;
+  margin-top: 71px;
+}
+
+.list-pagination {
+  margin-top: 52px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.list-pagination li {
+  width: 36px;
+  align-items: flex-start;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border: 1px solid #cccccc;
+  margin-right: 10px;
 }
