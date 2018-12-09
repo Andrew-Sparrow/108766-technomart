@@ -653,13 +653,61 @@ fieldset {
 }
 
 .list-delivery-company {
-margin-top: 26px;
+  margin-top: 26px;
 }
 
 .about-right p {
   width: 178px;
 }
 
-.about-right a {
+.about a {
   margin: 0;
+}
+
+.footer a,
+.footer img,
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-top-high,
+.footer-top-low,
+.high-row,
+.low-row,
+.footer-bottom .positioner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  padding-top: 30px;
+}
+
+.footer-top-high {
+  margin-bottom: 30px;
+}
+
+.footer-top-low {
+  padding-bottom: 49px;
+}
+
+.low-row {
+  width: 524px;
+  padding-top: 0;
+  align-items: flex-start;
+}
+
+.footer-bottom .positioner {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
 }
