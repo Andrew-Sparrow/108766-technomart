@@ -156,8 +156,8 @@ a {
   display: flex;
   padding-top: 22px;
   padding-bottom: 22px;
-
 }
+
 .catalog-item {
   flex-direction: column;
   flex-grow: 0;
@@ -733,7 +733,6 @@ fieldset {
   padding-bottom: 12px;
   padding-left: 19px;
   margin-bottom: 20px;
-
 }
 
 .container-filter-catalog {
@@ -744,7 +743,7 @@ fieldset {
 .filter {
   width: 220px;
   flex-shrink: 0;
-  margin-right:20px;
+  margin-right: 20px;
 }
 
 .name-sort,
@@ -761,11 +760,11 @@ fieldset {
 .filter fieldset {
   margin: 0;
   padding: 0;
-  border:  none;
+  border: none;
 }
 
 .filter-button {
-  border:  1px solid #cccccc;
+  border: 1px solid #cccccc;
   margin-top: 71px;
 }
 
