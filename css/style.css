@@ -36,7 +36,6 @@ a {
 .header-top {
   width: 100%;
   background-color: #293449;
-
   font-size: 17px;
   font-weight: normal;
   line-height: 18px;
@@ -160,13 +159,14 @@ a {
 .list-popular-goods li,
 .list-catalog li {
   display: inline-block;
-  vertical-align: bottom;
-  border: 1px solid #eaeaea;
 }
 
 .catalog-item {
+  width: 220px;
   border: 1px solid #eaeaea;
   font-family: 'PT Sans', 'Arial', sans-serif;
+  /* временно */
+  height: 318px;
 }
 
 .catalog-item:hover {
@@ -220,7 +220,7 @@ a {
   text-transform: uppercase;
 }
 
-.list-popular-produceres:hover {
+.list-popular-produceres li:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -319,9 +319,11 @@ a {
 }
 
 .red-button {
+  width: 253px;
   font-size: 14px;
   line-height: 18px;
-  padding: 10px;
+  padding-top: 12px;
+  padding-bottom: 11px;
   text-align: center;
   color: #fff;
   border: none;
@@ -416,8 +418,7 @@ fieldset {
   border: none;
 }
 
-/* Стили для сетки */
-
+/* Стили для сетки, сеточные */
 html,
 body {
   /* min-width: 1200px;
@@ -425,7 +426,7 @@ body {
 }
 
 .positioner {
-  min-width: 960px;
+  width: 960px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -435,7 +436,7 @@ body {
   align-items: stretch;
 }
 
-.search  {
+.search {
   margin-right: auto;
 }
 
@@ -471,7 +472,6 @@ body {
   margin: 0;
   padding-left: 53px;
   padding-right: 50px;
-
 }
 
 .header-phone-wrapper {
@@ -505,12 +505,93 @@ body {
 
 .header-popular-items h2 {
   margin: 0;
-  padding: 0;
 }
 
 .product-and-services {
+  /* добавил свойства, чтобы обозначить блок с "Материалы-Инструмент" */
   width: 100%;
   min-height: 468px;
   background-color: #ffcc33;
-  /* чтобы обозначить блок с "Материалы-Инструмент" */
+  margin-bottom: 46px;
+}
+
+.container-goods-produceres {
+  flex-direction: column;
+  display: flex;
+}
+
+.header-popular-items {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-right: 24px;
+  padding-bottom: 26px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-popular-goods {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 21px;
+}
+
+.list-popular-goods li {
+  margin-left: 20px;
+}
+
+.list-popular-goods li:first-child {
+  margin: 0px;
+}
+
+.list-popular-produceres {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin-bottom: 85px;
+  /* временно */
+  min-height: 310px;
+  background-color: #ffcc33;
+}
+
+.list-popular-produceres li {
+  width: 220px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  /* временно */
+  height: 145px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.list-popular-produceres li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.services {
+  padding-top: 62px;
+  padding-bottom: 54px;
+}
+
+.services-description {
+  display: flex;
+}
+
+.services-declaration {
+  width: 400px;
+}
+
+.services-list {
+  margin-right: 80px;
+}
+
+.services-item-definition {
+  flex-shrink: 0;
+  width: 275px;
+  padding-right: 25px;
 }
