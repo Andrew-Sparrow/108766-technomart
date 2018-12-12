@@ -13,7 +13,7 @@
 <body>
   <header class="main-header">
     <div class="header-top">
-      <div class="positioner">
+      <div class="container">
         <a class="logo" href="#">
           <img src="img/logo.jpg" width="220" height="42" alt="logo" title="Логотип-Техномарт">
         </a>
@@ -26,13 +26,13 @@
           </label>
           <input type="search" name="search" id="id-icon-search">
         </form>
-        <a class="bookmark" href="#">Закладки</a>
+        <a class="bookmarks" href="#">Закладки</a>
         <a class="cart" href="#">Корзина</a>
         <a class="button-order" href="#">Оформить заказ</a>
       </div>
     </div>
     <div class="header-middle">
-      <div class="positioner">
+      <div class="container">
         <div class="header-middle-wrapper">
           <h1 class="header-short-description">
             Интернет-магазин строительных материалов и инструментов для ремонта
@@ -69,81 +69,43 @@
     </div>
   </header>
   <main>
-    <div class="positioner">
+    <div class="container">
       <div class="product-and-services">
 
       </div>
     </div>
     <div class="container-goods-produceres">
-      <div class="positioner">
+      <div class="container">
         <section class="popular-goods">
-          <header class="header-popular-items">
+          <div class="header-popular-items">
             <h2>Популярные товары:</h2>
             <a class="red-button" href="#">Все популярные товары</a>
-          </header>
+          </div>
           <ul class="list-popular-goods">
             <li class="catalog-item">
+              <div class="flag flag-new">
+                новинка
+              </div>
+              <div class="actions">
+                <a class="buy" href="#">Купить</a>
+                <a class="bookmark-item" href="#">В закладки</a>
+              </div>
               <a class="catalog-item-img" href="#">
-                <img src="img/bfg-9000.png" width="184" height="164" alt="Перфоратор">
+                <img src="img/bfg-3000.png" width="218" height="168" alt="Перфоратор">
               </a>
               <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 9000
-                </a>
+                Перфоратор BOSCH BFG 9000
               </p>
-              <div class="catalog-item-price">
-                <p class="price-old">32500 P.</p>
-                <p class="price-new">25500 P.</p>
-              </div>
+              <p class="price-old">32500 P.</p>
+              <p class="price-new">25500 P.</p>
             </li>
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-3000.png" width="127" height="112" alt="Перфоратор">
-              </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 3000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old">22500 P.</p>
-                <p class="price-new">15500 P.</p>
-              </div>
-            </li>
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-6000.png" width="144" height="128" alt="Перфоратор">
-              </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 6000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old">30500 P.</p>
-                <p class="price-new">25500 P.</p>
-              </div>
-            </li>
-            <li class="catalog-item">
-              <a class="catalog-item-img" href="#">
-                <img src="img/bfg-2000.png" width="184" height="164" alt="Перфоратор">
-              </a>
-              <p class="catalog-item-name">
-                <a href="#">
-                  Перфоратор BOSCH BFG 2000
-                </a>
-              </p>
-              <div class="catalog-item-price">
-                <p class="price-old">9999</p>
-                <p class="price-new">12500 P.</p>
-              </div>
           </ul>
         </section>
         <section class="popular-produceres">
-          <header class="header-popular-items">
+          <div class="header-popular-items">
             <h2>Популярные производители:</h2>
             <a class="red-button" href="#">Все производители</a>
-          </header>
+          </div>
           <ul class="list-popular-produceres">
             <li>
               <a href="#">
@@ -190,7 +152,7 @@
       </div>
     </div>
     <section class="services">
-      <div class="positioner">
+      <div class="container">
         <h2 class="header-services">Сервисы</h2>
         <p class="services-declaration">
           Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
@@ -207,12 +169,11 @@
               Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!
             </p>
           </div>
-          <img src="img/truck.png" alt="Грузовик" title="Грузовик">
         </div>
       </div>
     </section>
     <section class="about">
-      <div class="positioner">
+      <div class="container">
         <div class="about-left">
           <h2 class="header-about">Компания «Техномарт»</h2>
           <p class="about-text">
@@ -226,6 +187,11 @@
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
+          <div class="spacer">
+            <!--Spacer, нужен в качестве распорки,
+                чтобы кнопки были на одном уровне,
+                при добавл./удален. трансп. комп. -->
+          </div>
           <a class="red-button" href="#">Заблудились? Напишите нам!</a>
         </div>
         <div class="about-right">
@@ -236,6 +202,8 @@
           <a href="#">
             <img src="img/map.jpg" width="300" height="158" alt="Карта">
           </a>
+          <div class="spacer">
+          </div>
           <a class="red-button" href="#">Подробнее о компании</a>
         </div>
       </div>
@@ -243,7 +211,7 @@
   </main>
   <footer class="footer">
     <div class="footer-top">
-      <div class="positioner">
+      <div class="container">
         <div class="footer-top-high">
           <a class="footer-name-company">
             <img src="img/logo-footer.jpg" width="220" height="68" alt="Логотип" title="Логотип-Техномарт">
@@ -275,7 +243,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="positioner">
+      <div class="container">
         <p>
           © 2010–2017 Компания «Техномарт»<br> Все права защищены
         </p>
