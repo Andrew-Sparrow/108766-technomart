@@ -159,23 +159,28 @@ a {
   margin-bottom: 60px;
 }
 
-.list-catalog {
+.list-catalog,
+.list-popular-goods {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .catalog-item {
   position: relative;
-  width: 220px;
+  width: 218px;
   min-height: 318px;
   border: 1px solid #eaeaea;
   font-family: 'PT Sans', 'Arial', sans-serif;
   font-weight: 700;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 15px 10px 21px;
+  padding: 0 0 21px;
   margin-bottom: 21px;
-  margin-right: 20px;
+  margin-left: 20px;
   text-align: center;
+  cursor: pointer;
+}
+
+.catalog-wrapper {
+  margin-left: -20px;
 }
 
 /* сбрасываем маргины у <p> */
@@ -216,27 +221,27 @@ a {
 }
 
 .price-old {
-  min-height:20px;
+  min-height: 18px;
   text-decoration: line-through;
   color: #aaa;
 }
 
 .price-new {
   position: relative;
-  min-height:20px;
+  min-height: 18px;
   width: 100px;
   margin: 10px auto 0;
-  padding: 10px 12px ;
+  padding: 10px 12px;
   color: white;
   background: #ee3643;
-  border-radius: 3px 5px 5px 3px;
+  border-radius: 3px 3px 6px 3px;
 }
 
 .price-new:after {
   content: "";
   position: absolute;
   top: 0px;
-  right: -37px;
+  right: -36px;
   width: 0;
   height: 0;
   border: 20px solid white;
@@ -260,6 +265,69 @@ a {
 
 .catalog-item .actions {
   display: none;
+}
+
+.catalog-item:hover .actions {
+  display: block;
+}
+
+.catalog-item .actions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 218px;
+  height: 100px;
+  padding: 40px 0;
+  background-color: #ffffff;
+  z-index: 10;
+}
+
+.buy,
+.bookmark-item {
+  display: block;
+  width: 130px;
+  margin: 0 auto;
+  margin-bottom: 7px;
+  padding: 8px 0;
+  border: 3px solid #63a63e;
+  border-bottom-color: #367315;
+  background-color: #63a63e;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: "Cuprum", sans-serif;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.bookmark-item {
+  color: #32425c;
+  background: #fff;
+  border-bottom-color: #63a63e;
+}
+
+.buy:hover {
+  background-color: #66cc33;
+  border: 3px solid #66cc33;
+  border-bottom-color: #367315;
+}
+
+.buy:active {
+  background-color: #669933;
+  border: 3px solid #669933;
+  border-bottom-color: #669933;
+}
+
+.bookmark-item:hover {
+  border: 3px solid #333366;
+  color: #333366;
+}
+
+.bookmark-item:active {
+  border: 3px solid #cccccc;
+  color: #cccccc;
 }
 
 .services {
@@ -604,23 +672,36 @@ fieldset {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  flex-shrink: 0;
   margin-bottom: 85px;
-  /* временно */
   min-height: 310px;
   background-color: #ffcc33;
 }
 
 .list-popular-produceres li {
+  margin-right: 20px;
+}
+
+.list-popular-produceres a,
+.list-popular-produceres img {
+  margin: 0;
+  padding: 0;
+}
+
+.list-popular-produceres a {
+  display: block;
+  position: relative;
   width: 220px;
-  align-items: flex-start;
-  box-sizing: border-box;
+  height: 145px;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  /* временно */
-  height: 145px;
-  margin: 0;
-  margin-right: 20px;
+}
+
+.list-popular-produceres img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .list-popular-produceres li:nth-child(4n) {
