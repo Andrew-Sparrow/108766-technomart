@@ -669,7 +669,7 @@ fieldset {
 }
 
 .list-popular-produceres {
-  display: flex;
+  /* display: flex; */
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-bottom: 85px;
@@ -678,7 +678,8 @@ fieldset {
 }
 
 .list-popular-produceres li {
-  margin-right: 20px;
+  display: inline-block;
+  /* margin-right: 20px; */
 }
 
 .list-popular-produceres a,
@@ -688,7 +689,7 @@ fieldset {
 }
 
 .list-popular-produceres a {
-  display: block;
+  display: inline-block;
   position: relative;
   width: 220px;
   height: 145px;
