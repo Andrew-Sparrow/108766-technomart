@@ -55,7 +55,9 @@ a {
 .name-filter h2,
 .name-sort h2,
 .filter form,
-.filter fieldset {
+.filter fieldset,
+.buy,
+.bookmark-item {
   margin: 0;
   padding: 0;
 }
@@ -277,13 +279,14 @@ a {
   font-family: 'PT Sans', 'Arial', sans-serif;
   font-weight: 700;
   margin-bottom: 21px;
-  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.catalog-wrapper {
-  margin-left: -20px;
+.catalog-item:nth-child(4n),
+.list-popular-produceres li:nth-child(4n) {
+  margin-right: 0;
 }
 
 .catalog-item:hover {
@@ -322,7 +325,7 @@ a {
 
 .price-new {
   position: relative;
-  min-height: 20px;
+  min-height: 18px;
   width: 100px;
   margin: 10px auto 0;
   padding: 10px 12px;
@@ -335,10 +338,10 @@ a {
   content: "";
   position: absolute;
   top: 0px;
-  right: -36px;
+  right: -35px;
   width: 0;
   height: 0;
-  border: 20px solid white;
+  border: 19px solid white;
   border-left-color: #ee3643;
 }
 
@@ -357,20 +360,17 @@ a {
   background: url("../img/new-flag.png") no-repeat 0 0;
 }
 
-.catalog-item .actions {
-  display: none;
-}
-
 .catalog-item:hover .actions {
   display: block;
 }
 
 .catalog-item .actions {
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
-  width: 218px;
-  height: 100px;
+  width: 100%;
+  min-height: 100px;
   padding: 40px 0;
   background-color: #ffffff;
   z-index: 10;
@@ -693,8 +693,7 @@ fieldset {
   border: none;
 }
 
-/* Стили для сетки, сеточные,
- оставлю пока отдельным блоком*/
+/* Стили для сетки, сеточные,*/
 .list-popular-produceres {
   display: flex;
   justify-content: flex-start;
@@ -704,7 +703,7 @@ fieldset {
 
 .list-popular-produceres li {
   display: block;
-  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 20px;
   border: 1px solid #eaeaea;
 }
@@ -858,4 +857,47 @@ fieldset {
 
 .spacer {
   flex-grow: 10;
+}
+
+.popup-map {
+  display: none;
+  position: fixed;
+  width: 940px;
+  height: 446px;
+  top: 120px;
+  left: 50%;
+  margin-left: -470px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+}
+
+.popup-close {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  font-size: 0;
+  position: absolute;
+  top: 19px;
+  right: 9px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.popup-close::before,
+.popup-close::after {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 3px;
+  top: 0px;
+  right: 0px;
+  background-color: #ff3333;
+}
+
+.popup-close::before {
+  transform: rotate(45deg);
+}
+
+.popup-close::after {
+  transform: rotate(-45deg);
 }
