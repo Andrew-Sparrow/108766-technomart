@@ -570,18 +570,19 @@ a {
   
   list-style: none;
 }
+
 .social-button {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 43px;
   height: 43px;
-
+  border-radious: 50%;
   background-color: #000000;
 }
 
-.footer-social li:hover,
-.footer-social li:active {
+.social-button:hover,
+.social-button:active {
   background-color: #ee3643;
 }
 
@@ -799,11 +800,6 @@ fieldset {
   padding-bottom: 36px;
 }
 
-.footer-social {
-  display: flex;
-  justify-content: space-between;
-  width: 110px;
-}
 
 .name-filter,
 .name-sort {
