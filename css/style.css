@@ -565,10 +565,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 141px;
-  margin: 0 auto;
-  padding: 0;
-  
-  list-style: none;
 }
 
 .social-button {
@@ -799,7 +795,6 @@ fieldset {
   padding-top: 36px;
   padding-bottom: 36px;
 }
-
 
 .name-filter,
 .name-sort {
