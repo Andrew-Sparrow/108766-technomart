@@ -560,8 +560,24 @@ a {
   background-color: #293449;
 }
 
-.footer-social li {
-  background-color: #212a3a;
+.footer-social  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
+  margin: 0 auto;
+  padding: 0;
+  
+  list-style: none;
+}
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+
+  background-color: #000000;
 }
 
 .footer-social li:hover,
