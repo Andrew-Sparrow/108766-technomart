@@ -111,7 +111,7 @@
               <legend>Производители:</legend>
               <ul class="list-filter-produceres">
                 <li class="filter-option">
-                  <input class="filter-input-checkbox"type="checkbox" name="bosh" id="id-bosh" checked>
+                  <input class="filter-input-checkbox" type="checkbox" name="bosh" id="id-bosh" checked>
                   <label for="id-bosh">Bosh</label>
                 </li>
                 <li class="filter-option">
@@ -302,17 +302,18 @@
     </div>
   </footer>
   <div class="popup-item-added">
-    <!--Popup-->
-    <button type="button" name="cross">
-      <img src="img/icon-close.svg" width="21" height="21" alt="Крестик">
+    <button class="popup-close" type="button" name="cross">
+      Закрыть
     </button>
     <div class="popup-content">
-      <img src="img/icon-mark.svg" width="66" height="66" alt="Галочка">
+      <!-- <img src="img/icon-mark.svg" width="66" height="66" alt="Галочка"> -->
       <p>Товар добавлен в корзину</p>
     </div>
     <div class="popup-buttons-wrapper">
-      <a href="#">Оформить заказ</a>
-      <button type="button" name="button">Продолжить покупки</button>
+      <a class="red-button" href="#">Оформить заказ</a>
+      <button class="white-button" type="button">
+        Продолжить покупки
+      </button>
     </div>
   </div>
 </body>
