@@ -56,6 +56,7 @@ a {
 .footer p,
 .header-button p,
 .name-filter h2,
+.name-group h2,
 .name-sort h2,
 .filter form,
 .filter fieldset,
@@ -262,8 +263,35 @@ a {
 
 .breadcrumbs {
   display: flex;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding: 22px 0;
+}
+
+.breadcrumbs a {
+  display: block;
+  position: relative;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: inherit;
+  text-transform: uppercase;
+  margin-right: 40px;
+}
+
+.breadcrumbs a::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  right: -22px;
+  background-color: transparent;
+  border-right: 2px solid #c1c6ce;
+  border-bottom: 2px solid #c1c6ce;
+  transform: rotate(-45deg);
+}
+
+.last-breadcrumbs::after {
+  display: none;
 }
 
 .product-and-services {
@@ -646,7 +674,11 @@ a {
 .name-group {
   font-size: 30px;
   line-height: 30px;
-  padding: 10px;
+  padding: 30px 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: left;
   text-transform: uppercase;
   color: #32425c;
