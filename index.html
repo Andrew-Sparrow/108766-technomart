@@ -333,22 +333,26 @@
     <button class="popup-close" type="button" name="cross">
       Закрыть
     </button>
-    <form class="" action="https://echo.htmlacademy.ru" method="post">
+    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
       <div class="name-email-wrapper">
-        <label for="id-your-name">
-          Ваше имя:
-        </label>
-        <input type="text" name="your-name" value="" id="id-your-name" placeholder="Имя Фамилия">
-        <label for="id-email">
-          Ваш e-mail:
-        </label>
-        <input type="email" name="email" value="" id="id-email" placeholder="email@example.com">
+        <div class="feedback-input">
+          <label for="id-your-name">
+            Ваше имя:
+          </label>
+          <input type="text" name="your-name" value="" id="id-your-name" placeholder="Имя Фамилия">
+        </div>
+        <div class="feedback-input">
+          <label for="id-email">
+            Ваш e-mail:
+          </label>
+          <input type="email" name="email" value="" id="id-email" placeholder="email@example.com">
+        </div>
       </div>
       <div class="feedback-textarea">
         <label for="id-textarea">
           Текст письма:
         </label>
-        <textarea name="textarea" id="id-textarea" rows="5" cols="20" placeholder="В свободной форме"></textarea>
+        <textarea name="textarea" id="id-textarea" rows="4" cols="20" placeholder="В свободной форме"></textarea>
       </div>
       <div class="feedback-send">
         <button class="red-button" type="submit">
@@ -357,7 +361,7 @@
       </div>
     </form>
   </div>
-  <div class="popup-map">t
+  <div class="popup-map">
     <button class="popup-close" type="button" name="cross">
       Закрыть
     </button>

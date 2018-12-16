@@ -4,63 +4,224 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-body	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^body {$/;"	function	line:1
-a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^a {$/;"	function	line:13
-.header-top	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-top {$/;"	function	line:17
-.header-left	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-left {$/;"	function	line:21
-.header-right	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-right {$/;"	function	line:25
-.font-cuprum	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.font-cuprum,$/;"	function	line:29
-.font-cuprum a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.font-cuprum a {$/;"	function	line:30
-.header-user-name p	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-user-name p {$/;"	function	line:38
-.account-links a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.account-links a {$/;"	function	line:46
-.header-middle	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-middle {$/;"	function	line:55
-.header-middle h1.header-short-description	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-middle h1.header-short-description {$/;"	function	line:59
-.header-phone-wrapper	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-phone-wrapper {$/;"	function	line:68
-.button-order	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.button-order {$/;"	function	line:77
-.header-adress	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-adress {$/;"	function	line:81
-.header-buttons button	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-buttons button {$/;"	function	line:89
-.main-navigation	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.main-navigation {$/;"	function	line:102
-.main-navigation li	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.main-navigation li {$/;"	function	line:106
-.main-navigation a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.main-navigation a {$/;"	function	line:111
-.main-navigation ul	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.main-navigation ul {$/;"	function	line:119
-.popular-goods	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.popular-goods {$/;"	function	line:123
-.header-popular-items	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-popular-items {$/;"	function	line:127
-.list-popular-goods	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.list-popular-goods {$/;"	function	line:131
-.list-popular-goods li	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.list-popular-goods li {$/;"	function	line:135
-.catalog-item-name a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.catalog-item-name a {$/;"	function	line:141
-.catalog-item-price .price-old	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.catalog-item-price .price-old {$/;"	function	line:150
-.catalog-item-price .price-new	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.catalog-item-price .price-new {$/;"	function	line:161
-.popular-produceres	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.popular-produceres {$/;"	function	line:174
-.list-popular-produceres	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.list-popular-produceres {$/;"	function	line:178
-.services	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.services {$/;"	function	line:182
-.services h2	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^ .services h2 {$/;"	function	line:191
-.services h3	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.services h3 {$/;"	function	line:200
-.list-services	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.list-services {$/;"	function	line:209
-.list-services li	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.list-services li {$/;"	function	line:213
-.list-services li:first-child	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.list-services li:first-child {$/;"	function	line:226
-/* .header-top-left-right-wrapper	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^\/* .header-top-left-right-wrapper,$/;"	function	line:232
-.header-middle-wrapper	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.header-middle-wrapper {$/;"	function	line:233
-.about	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.about {$/;"	function	line:237
-.about h2	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.about h2 {$/;"	function	line:247
-.footer-top	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.footer-top,$/;"	function	line:256
-.footer-top li a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.footer-top li a {$/;"	function	line:257
-.footer-site-navigation-lower li a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.footer-site-navigation-lower li a {$/;"	function	line:265
-.footer-top li	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.footer-top li {$/;"	function	line:269
-.footer-bottom	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.footer-bottom {$/;"	function	line:273
-.footer-social	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.footer-social {$/;"	function	line:281
-footer-social li a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^footer-social li a {$/;"	function	line:285
-.developer-info-top-line a	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.developer-info-top-line a {$/;"	function	line:289
-.popup-feedback	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.popup-feedback {$/;"	function	line:293
-.red-button	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.red-button {$/;"	function	line:301
-.feedback-send .red-button	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.feedback-send .red-button {$/;"	function	line:314
-.feedback-send	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.feedback-send {$/;"	function	line:318
-.button-order:hover	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.button-order:hover {$/;"	function	line:322
-button:hover	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^button:hover {$/;"	function	line:326
-.button-order:active	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.button-order:active {$/;"	function	line:330
-.breadcrumbs	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.breadcrumbs {$/;"	function	line:334
-.name-group	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.name-group {$/;"	function	line:338
-.filter-wrapper	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.filter-wrapper {$/;"	function	line:349
-.filter legend	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.filter legend {$/;"	function	line:360
-.filter label	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.filter label {$/;"	function	line:369
-.filter ul	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.filter ul {$/;"	function	line:378
-.filter button[type="button"]	F:\Dropbox\Developing Testing\HTMLAcademy\HTML_level_1\108766-technomart\css\style.css	/^.filter button[type="button"] {$/;"	function	line:382
+body	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^body {$/;"	function	line:1
+img	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^img {$/;"	function	line:9
+a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^a {$/;"	function	line:16
+.breadcrumbs	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.breadcrumbs,$/;"	function	line:20
+.list-site-navigation	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-site-navigation,$/;"	function	line:21
+.list-popular-produceres	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres,$/;"	function	line:22
+.list-services	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-services,$/;"	function	line:23
+.footer-nav	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-nav,$/;"	function	line:24
+.list-footer-social	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-footer-social,$/;"	function	line:25
+.list-filter-produceres	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-filter-produceres,$/;"	function	line:26
+.list-filter-power	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-filter-power,$/;"	function	line:27
+.list-name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-name-sort,$/;"	function	line:28
+.services-list	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services-list,$/;"	function	line:29
+.list-catalog	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-catalog,$/;"	function	line:30
+.list-catalog-popular	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-catalog-popular,$/;"	function	line:31
+.list-pagination	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-pagination,$/;"	function	line:32
+.footer-social	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-social,$/;"	function	line:33
+.list-delivery-company	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-delivery-company {$/;"	function	line:34
+.catalog-item-name	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item-name,$/;"	function	line:40
+.price-old	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-old,$/;"	function	line:41
+.price-new	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-new,$/;"	function	line:42
+.header-services-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-services-item,$/;"	function	line:43
+.header-adress	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-adress,$/;"	function	line:44
+.header-short-description	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-short-description,$/;"	function	line:45
+.header-popular-items h2	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-popular-items h2,$/;"	function	line:46
+.list-popular-produceres a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres a,$/;"	function	line:47
+.list-popular-produceres img	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres img,$/;"	function	line:48
+.header-about	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-about,$/;"	function	line:49
+.about p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about p,$/;"	function	line:50
+.about a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about a,$/;"	function	line:51
+.footer a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer a,$/;"	function	line:52
+.footer img	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer img,$/;"	function	line:53
+.footer p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer p,$/;"	function	line:54
+.header-button p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-button p,$/;"	function	line:55
+.name-filter h2	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-filter h2,$/;"	function	line:56
+.name-sort h2	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-sort h2,$/;"	function	line:57
+.filter form	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter form,$/;"	function	line:58
+.filter fieldset	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter fieldset,$/;"	function	line:59
+.buy	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.buy,$/;"	function	line:60
+.bookmark-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.bookmark-item,$/;"	function	line:61
+.popup-feedback label	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-feedback label {$/;"	function	line:62
+.header-top	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-top {$/;"	function	line:67
+.header-top a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-top a {$/;"	function	line:76
+.search input	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.search input {$/;"	function	line:80
+.container	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.container {$/;"	function	line:84
+.header-top .container	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-top .container {$/;"	function	line:90
+.search	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.search {$/;"	function	line:95
+.bookmarks	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.bookmarks,$/;"	function	line:99
+.cart	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.cart,$/;"	function	line:100
+.button-order	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.button-order,$/;"	function	line:101
+.search	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.search {$/;"	function	line:102
+.logo	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.logo {$/;"	function	line:106
+.header-middle-wrapper	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-middle-wrapper {$/;"	function	line:111
+.header-phone-adress	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-phone-adress {$/;"	function	line:117
+.header-phone-wrapper p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-phone-wrapper p {$/;"	function	line:121
+.header-buttons	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-buttons {$/;"	function	line:125
+.account-links a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.account-links a {$/;"	function	line:129
+.account-links a:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.account-links a:hover {$/;"	function	line:137
+.account-links a:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.account-links a:active {$/;"	function	line:141
+.header-middle	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-middle {$/;"	function	line:145
+.header-short-description	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-short-description {$/;"	function	line:149
+.header-phone-wrapper	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-phone-wrapper {$/;"	function	line:160
+.button-order	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.button-order {$/;"	function	line:170
+.header-adress	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-adress {$/;"	function	line:174
+.header-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-button {$/;"	function	line:181
+.header-button:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-button:hover {$/;"	function	line:194
+.header-button:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-button:active {$/;"	function	line:198
+.main-navigation	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.main-navigation {$/;"	function	line:202
+.main-navigation a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.main-navigation a {$/;"	function	line:206
+.main-navigation li:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.main-navigation li:hover {$/;"	function	line:212
+.main-navigation li:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.main-navigation li:active {$/;"	function	line:216
+.list-site-navigation	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-site-navigation {$/;"	function	line:220
+.list-site-navigation a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-site-navigation a {$/;"	function	line:228
+.list-site-navigation li:first-of-type	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-site-navigation li:first-of-type {$/;"	function	line:236
+.header-popular-items	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-popular-items {$/;"	function	line:240
+.breadcrumbs	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.breadcrumbs {$/;"	function	line:252
+.product-and-services	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.product-and-services {$/;"	function	line:258
+.catalog	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog {$/;"	function	line:264
+.list-catalog	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-catalog,$/;"	function	line:269
+.list-catalog-popular	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-catalog-popular {$/;"	function	line:270
+.catalog-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item {$/;"	function	line:275
+.list-catalog-popular li:nth-child(4n)	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-catalog-popular li:nth-child(4n),$/;"	function	line:291
+.list-catalog li:nth-child(3n)	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-catalog li:nth-child(3n),$/;"	function	line:292
+.list-popular-produceres li:nth-child(4n)	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres li:nth-child(4n) {$/;"	function	line:293
+.catalog-item:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item:hover {$/;"	function	line:297
+.catalog-img	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-img {$/;"	function	line:301
+.catalog-item-name	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item-name {$/;"	function	line:309
+.price-old	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-old,$/;"	function	line:318
+.price-new	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-new {$/;"	function	line:319
+.price-old	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-old {$/;"	function	line:326
+.price-new	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-new {$/;"	function	line:332
+.price-new:after	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.price-new:after {$/;"	function	line:343
+.catalog-item .flag	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item .flag {$/;"	function	line:354
+.catalog-item .flag-new	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item .flag-new {$/;"	function	line:365
+.catalog-item:hover .actions	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item:hover .actions {$/;"	function	line:369
+.catalog-item .actions	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-item .actions {$/;"	function	line:373
+.buy	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.buy,$/;"	function	line:382
+.bookmark-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.bookmark-item {$/;"	function	line:383
+.bookmark-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.bookmark-item {$/;"	function	line:402
+.buy:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.buy:hover {$/;"	function	line:408
+.buy:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.buy:active {$/;"	function	line:414
+.bookmark-item:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.bookmark-item:hover {$/;"	function	line:420
+.bookmark-item:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.bookmark-item:active {$/;"	function	line:425
+.services	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services {$/;"	function	line:430
+.services p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services p {$/;"	function	line:435
+.header-services	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-services,$/;"	function	line:442
+.header-about	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-about,$/;"	function	line:443
+.header-popular-items	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-popular-items {$/;"	function	line:444
+.list-popular-produceres li:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres li:hover {$/;"	function	line:452
+.header-services-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-services-item {$/;"	function	line:456
+.list-services li	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-services li {$/;"	function	line:464
+.list-services li:first-child	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-services li:first-child {$/;"	function	line:476
+.about	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about {$/;"	function	line:481
+.header-about	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.header-about {$/;"	function	line:485
+.about p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about p {$/;"	function	line:489
+.about-left	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-left {$/;"	function	line:496
+.about-right	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-right {$/;"	function	line:500
+.about-right .red-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-right .red-button {$/;"	function	line:504
+.about .red-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about .red-button {$/;"	function	line:508
+.about-left p:nth-of-type(1)	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-left p:nth-of-type(1),$/;"	function	line:513
+.about-right p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-right p {$/;"	function	line:514
+.about-left p:nth-of-type(2)	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-left p:nth-of-type(2) {$/;"	function	line:518
+.about-right p	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-right p {$/;"	function	line:522
+.about .container	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about .container {$/;"	function	line:526
+.about-left	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-left,$/;"	function	line:533
+.about-right	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.about-right {$/;"	function	line:534
+.delivery-company li	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.delivery-company li {$/;"	function	line:540
+.footer-top	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top {$/;"	function	line:545
+.footer-top	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top,$/;"	function	line:549
+.footer-top a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top a {$/;"	function	line:550
+.low-row a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.low-row a {$/;"	function	line:556
+.footer-bottom	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-bottom {$/;"	function	line:560
+.footer-social	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-social {$/;"	function	line:567
+.social-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.social-button {$/;"	function	line:574
+.social-button:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.social-button:hover,$/;"	function	line:584
+.social-button:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.social-button:active {$/;"	function	line:585
+.high-row a:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.high-row a:active {$/;"	function	line:589
+.low-row a:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.low-row a:active {$/;"	function	line:593
+.developer-info-contact a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.developer-info-contact a {$/;"	function	line:597
+.developer-info-contact a:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.developer-info-contact a:active {$/;"	function	line:601
+.red-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.red-button {$/;"	function	line:605
+.red-button:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.red-button:hover {$/;"	function	line:619
+.red-button:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.red-button:active {$/;"	function	line:623
+.button-order:hover	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.button-order:hover {$/;"	function	line:627
+.button-order:active	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.button-order:active {$/;"	function	line:631
+.name-group	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-group {$/;"	function	line:635
+.filter	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter,$/;"	function	line:646
+.name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-sort,$/;"	function	line:647
+.list-pagination	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-pagination {$/;"	function	line:648
+.name-filter	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-filter,$/;"	function	line:655
+.name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-sort,$/;"	function	line:656
+.list-pagination	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-pagination {$/;"	function	line:657
+.filter legend	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter legend {$/;"	function	line:663
+.filter label	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter label {$/;"	function	line:669
+.filter button[type="sumbmit"]	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter button[type="sumbmit"] {$/;"	function	line:674
+.feedback-item input	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-item input,$/;"	function	line:684
+.feedback-item textarea	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-item textarea {$/;"	function	line:685
+fieldset	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^fieldset {$/;"	function	line:689
+.list-popular-produceres	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres {$/;"	function	line:694
+.list-popular-produceres li	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres li {$/;"	function	line:701
+.list-popular-produceres a	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres a {$/;"	function	line:708
+.list-popular-produceres img	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-popular-produceres img,$/;"	function	line:716
+.catalog-img img	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.catalog-img img {$/;"	function	line:717
+.services-description	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services-description {$/;"	function	line:725
+.services-declaration	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services-declaration {$/;"	function	line:729
+.services-list	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services-list {$/;"	function	line:733
+.services-item-definition	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services-item-definition {$/;"	function	line:738
+.footer-top-high	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top-high,$/;"	function	line:744
+.footer-top-low	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top-low,$/;"	function	line:745
+.high-row	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.high-row,$/;"	function	line:746
+.low-row	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.low-row,$/;"	function	line:747
+.footer-bottom .container	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-bottom .container {$/;"	function	line:748
+.footer-nav	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-nav {$/;"	function	line:753
+.footer-top-high	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top-high {$/;"	function	line:760
+.footer-top-low	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-top-low {$/;"	function	line:764
+.low-row	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.low-row {$/;"	function	line:768
+.footer-bottom .container	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.footer-bottom .container {$/;"	function	line:774
+.name-filter	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-filter,$/;"	function	line:779
+.name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-sort {$/;"	function	line:780
+.container-filter-catalog	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.container-filter-catalog {$/;"	function	line:787
+.filter	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter {$/;"	function	line:792
+.name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-sort,$/;"	function	line:797
+.list-name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-name-sort,$/;"	function	line:798
+.list-pagination	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-pagination {$/;"	function	line:799
+.name-sort	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-sort {$/;"	function	line:803
+.filter form	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter form,$/;"	function	line:807
+.filter fieldset	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter fieldset {$/;"	function	line:808
+.filter-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.filter-button {$/;"	function	line:812
+.list-pagination	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-pagination {$/;"	function	line:817
+.list-pagination li	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-pagination li {$/;"	function	line:823
+.services-item	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.services-item {$/;"	function	line:832
+.list-delivery-company	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.list-delivery-company {$/;"	function	line:839
+.spacer	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.spacer {$/;"	function	line:844
+.popup-map	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-map {$/;"	function	line:848
+.popup-close	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-close {$/;"	function	line:859
+.popup-close:focus	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-close:focus {$/;"	function	line:872
+.popup-close::before	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-close::before,$/;"	function	line:876
+.popup-close::after	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-close::after {$/;"	function	line:877
+.popup-close::before	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-close::before {$/;"	function	line:887
+.popup-close::after	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-close::after {$/;"	function	line:891
+.popup-feedback	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-feedback {$/;"	function	line:895
+.popup-feedback input	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-feedback input,$/;"	function	line:909
+.popup-feedback label	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-feedback label {$/;"	function	line:910
+.popup-feedback label	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-feedback label {$/;"	function	line:914
+.feedback-input	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-input {$/;"	function	line:918
+.feedback-send	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-send {$/;"	function	line:922
+.feedback-send .red-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-send .red-button,$/;"	function	line:927
+.feedback-textarea	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-textarea,$/;"	function	line:928
+.name-email-wrapper	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-email-wrapper {$/;"	function	line:929
+.name-email-wrapper	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-email-wrapper,$/;"	function	line:933
+.feedback-textarea	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-textarea,$/;"	function	line:934
+.feedback-send .red-button	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-send .red-button {$/;"	function	line:935
+.name-email-wrapper	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.name-email-wrapper {$/;"	function	line:939
+.feedback-input input	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-input input,$/;"	function	line:946
+.feedback-textarea textarea	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-textarea textarea{$/;"	function	line:947
+.feedback-textarea	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.feedback-textarea {$/;"	function	line:958
+.popup-feedback label	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.popup-feedback label {$/;"	function	line:962
+button:focus	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^button:focus,$/;"	function	line:966
+input:focus	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^input:focus,$/;"	function	line:967
+textarea:focus	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^textarea:focus {$/;"	function	line:968
+.red-button:focus	F:\Dropbox\Developing-Testing\HTMLAcademy\HTML-level-1\108766-technomart\css\style.css	/^.red-button:focus {$/;"	function	line:972

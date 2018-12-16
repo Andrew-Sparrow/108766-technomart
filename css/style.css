@@ -58,7 +58,8 @@ a {
 .filter form,
 .filter fieldset,
 .buy,
-.bookmark-item {
+.bookmark-item,
+.popup-feedback label {
   margin: 0;
   padding: 0;
 }
@@ -563,7 +564,7 @@ a {
   background-color: #293449;
 }
 
-.footer-social  {
+.footer-social {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -861,11 +862,15 @@ fieldset {
   height: 27px;
   font-size: 0;
   position: absolute;
-  top: 19px;
+  top: 9px;
   right: 9px;
   background-color: transparent;
   border: 0;
   cursor: pointer;
+}
+
+.popup-close:focus {
+  outline: none;
 }
 
 .popup-close::before,
@@ -873,8 +878,8 @@ fieldset {
   content: "";
   position: absolute;
   width: 27px;
-  height: 3px;
-  top: 0px;
+  height: 4px;
+  top: 11px;
   right: 0px;
   background-color: #ff3333;
 }
@@ -888,10 +893,9 @@ fieldset {
 }
 
 .popup-feedback {
-  display: block;
+  display: none;
   position: fixed;
   width: 620px;
-  min-height: 423px;
   font-size: 18px;
   line-height: 18px;
   background-color: #fff;
@@ -905,17 +909,19 @@ fieldset {
 .popup-feedback input,
 .popup-feedback label {
   margin: 0;
-  padding: 0;
 }
 
+.popup-feedback label {
+  padding-bottom: 9px;
+}
+
+.feedback-input {
+  width: 220px;
+}
 
 .feedback-send {
   padding: 37px 80px;
   background-color: #f4f4f4;
-}
-
-.feedback-send .red-button {
-  width: 460px;
 }
 
 .feedback-send .red-button,
@@ -924,30 +930,45 @@ fieldset {
   margin: 0 auto;
 }
 
-.name-email-wrapper {
-  display: flex;
+.name-email-wrapper,
+.feedback-textarea,
+.feedback-send .red-button {
   width: 460px;
-  padding-top: 45px;
 }
 
-.popup-feedback input,
-.popup-feedback textarea {
-  font-style: "PT Sans", "Arial", sans-serif;
+.name-email-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-bottom: 19px;
+}
+
+.feedback-input input,
+.feedback-textarea textarea{
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 18px;
   box-sizing: border-box;
+  width: 100%;
   padding: 11px 16px;
   border: 1px solid #cccccc;
   border-radius: 2px;
 }
 
-.popup-feedback label {
-  display: block;
-  font-family: "Cuprum", "Arial", sans-serif;
-  margin: 0;
-  padding: 0;
+.feedback-textarea {
+  margin-bottom: 37px;
 }
 
-.name-email-wrapper input {
-  width: 218px;
+.popup-feedback label {
+  display: block;
+}
+
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #ff6666;
+}
+
+.red-button:focus {
+  outline: 4px solid #ff9933;
 }
