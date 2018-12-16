@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cuprum', 'Arial', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   margin: 0;
   padding: 0;
   color: #000;
@@ -28,6 +28,7 @@ a {
 .list-name-sort,
 .services-list,
 .list-catalog,
+.list-catalog-popular,
 .list-pagination,
 .footer-social,
 .list-delivery-company {
@@ -260,10 +261,12 @@ a {
 }
 
 .catalog {
+  margin-left: 20px;
   margin-bottom: 60px;
 }
 
-.list-catalog {
+.list-catalog,
+.list-catalog-popular {
   display: flex;
   flex-wrap: wrap;
 }
@@ -276,7 +279,7 @@ a {
   width: 216px;
   min-height: 293px;
   border: 1px solid #eaeaea;
-  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-weight: 700;
   margin-bottom: 21px;
   margin-right: 20px;
@@ -284,7 +287,8 @@ a {
   padding-bottom: 20px;
 }
 
-.catalog-item:nth-child(4n),
+.list-catalog-popular li:nth-child(4n),
+.list-catalog li:nth-child(3n),
 .list-popular-produceres li:nth-child(4n) {
   margin-right: 0;
 }
@@ -297,6 +301,7 @@ a {
   position: relative;
   width: 184px;
   height: 164px;
+  margin: 0 auto;
   margin-top: 5px;
 }
 
@@ -304,7 +309,7 @@ a {
   min-height: 40px;
   font-size: 18px;
   line-height: 20px;
-  padding: 0 22px;
+  padding: 0 32px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -367,9 +372,6 @@ a {
 .catalog-item .actions {
   display: none;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   min-height: 100px;
   padding: 40px 0;
   background-color: #ffffff;
@@ -430,7 +432,7 @@ a {
 }
 
 .services p {
-  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   text-align: left;
@@ -484,7 +486,7 @@ a {
 }
 
 .about p {
-  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
   text-align: left;
@@ -504,6 +506,7 @@ a {
 
 .about .red-button {
   margin-top: 40px;
+  padding: 12px 0;
 }
 
 .about-left p:nth-of-type(1),
@@ -585,13 +588,7 @@ a {
   color: #ee3643;
 }
 
-.popup-feedback {
-  font-size: 18px;
-  line-height: 18px;
-  background-color: #fff;
-}
-
-main .red-button {
+.red-button {
   display: block;
   width: 253px;
   font-size: 14px;
@@ -611,14 +608,6 @@ main .red-button {
 
 .red-button:active {
   background-color: #ba2732;
-}
-
-.feedback-send .red-button {
-  width: 500px;
-}
-
-.feedback-send {
-  background-color: #f4f4f4;
 }
 
 .button-order:hover {
@@ -643,7 +632,7 @@ main .red-button {
 .filter,
 .name-sort,
 .list-pagination {
-  font-family: 'PT Sans', 'Arial', sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   color: #000;
   text-align: left;
@@ -668,7 +657,7 @@ main .red-button {
   line-height: 20px;
 }
 
-.filter button[type='sumbmit'] {
+.filter button[type="sumbmit"] {
   font-size: 13px;
   line-height: 18px;
   padding: 5px 30px;
@@ -676,12 +665,6 @@ main .red-button {
   text-transform: uppercase;
   border: 1px solid #e5e5e5;
   background-color: #fff;
-}
-
-.popup-feedback {
-  font-family: 'PT Sans', 'Arial', sans-serif;
-  padding: 10px 30px;
-  background-color: #ffffff;
 }
 
 .feedback-item input,
@@ -723,10 +706,6 @@ fieldset {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-}
-
-.list-popular-produceres li:nth-child(4n) {
-  margin-right: 0;
 }
 
 .services-description {
@@ -805,7 +784,6 @@ fieldset {
 .filter {
   width: 220px;
   flex-shrink: 0;
-  margin-right: 20px;
 }
 
 .name-sort,
@@ -900,4 +878,69 @@ fieldset {
 
 .popup-close::after {
   transform: rotate(-45deg);
+}
+
+.popup-feedback {
+  display: block;
+  position: fixed;
+  width: 620px;
+  min-height: 423px;
+  font-size: 18px;
+  line-height: 18px;
+  background-color: #fff;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  top: 120px;
+  left: 50%;
+  margin-left: -310px;
+  border-top: 7px solid #ff6666;
+}
+
+.popup-feedback input,
+.popup-feedback label {
+  margin: 0;
+  padding: 0;
+}
+
+
+.feedback-send {
+  padding: 37px 80px;
+  background-color: #f4f4f4;
+}
+
+.feedback-send .red-button {
+  width: 460px;
+}
+
+.feedback-send .red-button,
+.feedback-textarea,
+.name-email-wrapper {
+  margin: 0 auto;
+}
+
+.name-email-wrapper {
+  display: flex;
+  width: 460px;
+  padding-top: 45px;
+}
+
+.popup-feedback input,
+.popup-feedback textarea {
+  font-style: "PT Sans", "Arial", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  box-sizing: border-box;
+  padding: 11px 16px;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+}
+
+.popup-feedback label {
+  display: block;
+  font-family: "Cuprum", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.name-email-wrapper input {
+  width: 218px;
 }

@@ -82,7 +82,7 @@
             <h2>Популярные товары:</h2>
             <a class="red-button" href="#">Все популярные товары</a>
           </div>
-          <ul class="list-catalog">
+          <ul class="list-catalog-popular">
             <li class="catalog-item">
               <div class="actions">
                 <a class="buy" href="#">Купить</a>
@@ -330,12 +330,11 @@
     </div>
   </footer>
   <div class="popup-feedback">
-    <!--Popup Обратная связь-->
-    <button type="button" name="cross">
-      <img src="img/icon-close.svg" width="21" height="21" alt="Закрыть">
+    <button class="popup-close" type="button" name="cross">
+      Закрыть
     </button>
     <form class="" action="https://echo.htmlacademy.ru" method="post">
-      <div class="feedback-item">
+      <div class="name-email-wrapper">
         <label for="id-your-name">
           Ваше имя:
         </label>
@@ -345,18 +344,20 @@
         </label>
         <input type="email" name="email" value="" id="id-email" placeholder="email@example.com">
       </div>
-      <div class="feedback-item">
+      <div class="feedback-textarea">
         <label for="id-textarea">
           Текст письма:
         </label>
         <textarea name="textarea" id="id-textarea" rows="5" cols="20" placeholder="В свободной форме"></textarea>
       </div>
       <div class="feedback-send">
-        <button class="red-button" type="submit">Отправить</button>
+        <button class="red-button" type="submit">
+          Отправить
+        </button>
       </div>
     </form>
   </div>
-  <div class="popup-map">
+  <div class="popup-map">t
     <button class="popup-close" type="button" name="cross">
       Закрыть
     </button>
