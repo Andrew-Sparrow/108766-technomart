@@ -862,19 +862,54 @@ fieldset {
 }
 
 .list-pagination {
-  margin-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
-.list-pagination li {
-  width: 36px;
-  align-items: flex-start;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  border: 1px solid #cccccc;
+.pagination-item {
   margin-right: 10px;
 }
+
+.pagination-item a,
+.next-pagination-item a {
+  display: block;
+  min-width: 36px;
+  padding: 9px 0;
+  border: 1px solid #cccccc;
+  border-radius: 2px;
+  color: inherit;
+}
+
+.next-pagination-item {
+  width: 138px;
+}
+
+.next-pagination-item a:hover,
+.pagination-item a:hover {
+  border-color: #bdc6ca;
+}
+
+.next-pagination-item a:active,
+.pagination-item a:active {
+  border-color: #ee3643;
+  outline: none;
+}
+
+.next-pagination-item a:focus,
+.pagination-item a:focus {
+  outline: none;
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover {
+  color: #ffffff;
+  background-color: #ee3643;
+  border-color: #ee3643;
+}
+
 
 .services-item {
   width: 100%;
