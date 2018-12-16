@@ -563,12 +563,25 @@ a {
   background-color: #293449;
 }
 
-.footer-social li {
-  background-color: #212a3a;
+.footer-social  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 141px;
 }
 
-.footer-social li:hover,
-.footer-social li:active {
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.social-button:hover,
+.social-button:active {
   background-color: #ee3643;
 }
 
@@ -760,12 +773,6 @@ fieldset {
 .footer-bottom .container {
   padding-top: 36px;
   padding-bottom: 36px;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: space-between;
-  width: 110px;
 }
 
 .name-filter,
