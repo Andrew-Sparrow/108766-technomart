@@ -76,7 +76,7 @@ a {
   font-weight: normal;
   line-height: 18px;
   color: #fff;
-  margin: 0px;
+  margin: 0;
 }
 
 .header-top a {
@@ -112,6 +112,7 @@ a {
 .logo {
   width: 220px;
   height: 42px;
+  box-shadow: 0 5px #b52933;
 }
 
 .header-middle-wrapper {
@@ -339,11 +340,12 @@ a {
 }
 
 .catalog-img {
-  position: relative;
-  width: 184px;
+  display: flex;
+  width: 100%;
   height: 164px;
-  margin: 0 auto;
   margin-top: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .catalog-item-name {
@@ -383,7 +385,7 @@ a {
 .price-new:after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 0;
   right: -35px;
   width: 0;
   height: 0;
@@ -413,7 +415,9 @@ a {
 .catalog-item .actions {
   display: none;
   position: absolute;
-  min-height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
   padding: 40px 0;
   background-color: #ffffff;
   z-index: 10;
@@ -481,12 +485,13 @@ a {
 
 .header-services,
 .header-about,
-.header-popular-items {
+.header-popular-items h2 {
   font-size: 30px;
   line-height: 30px;
   font-weight: normal;
   text-align: left;
   text-transform: uppercase;
+  color: #32425c;
 }
 
 .list-popular-produceres li:hover {
@@ -688,36 +693,46 @@ a {
   justify-content: space-between;
 }
 
-.name-group {
-  font-size: 30px;
-  line-height: 30px;
-  padding: 30px 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+.name-group h2{
   text-align: left;
-  text-transform: uppercase;
-  color: #32425c;
   background-color: #f2f6f8;
   margin-bottom: 20px;
 }
 
+.name-group h2 {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 30px 30px;
+  text-transform: uppercase;
+  color: #32425c;
+}
+
+
 .filter,
+.filter legend,
 .name-sort,
-.list-pagination {
+.list-pagination,
+.filter h2,
+.name-sort h2,
+.list-name-sort {
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   color: #000;
   text-align: left;
+  font-weight: normal;
 }
 
 .name-filter,
 .name-sort,
 .list-pagination {
+  background-color: #f7f3ec;
+}
+
+.filter h2,
+.name-sort h2,
+.list-name-sort {
   font-size: 13px;
   line-height: 18px;
-  background-color: #f7f3ec;
 }
 
 .name-filter,
@@ -766,6 +781,9 @@ a {
 
 .filter-option {
   margin-bottom: 24px;
+}
+
+.filter label {
   padding-left: 35px;
 }
 
@@ -780,25 +798,25 @@ a {
   display: none;
 }
 
-.filter-input-checkbox+label::after,
-.filter-input-checkbox:checked+label::after,
+.filter-input-checkbox+label::before,
+.filter-input-checkbox:checked+label::before,
 .filter-input-radio+label::before,
 .filter-input-radio:checked+label::after {
   content: "";
   position: absolute;
-  top: 0;
-  left: -35px;
+  top: -2px;
+  left: 0px;
   height: 24px;
   background-repeat: no-repeat;
   background-position: 0 0;
 }
 
-.filter-input-checkbox+label::after {
+.filter-input-checkbox+label::before {
   width: 24px;
   background-image: url("../img/checkbox-off.svg");
 }
 
-.filter-input-checkbox:checked+label::after {
+.filter-input-checkbox:checked+label::before {
   width: 26px;
   background-image: url("../img/checkbox-on.svg");
 }
@@ -822,8 +840,8 @@ a {
 .filter-input-radio:checked+label::after {
   width: 9px;
   height: 9px;
-  top: 8px;
-  left: -28px;
+  top: 5.5px;
+  left: 7.5px;
   background-color: #c5c5c5;
   border-radius: 50%;
 }
@@ -858,21 +876,14 @@ a {
 }
 
 .list-popular-produceres a {
-  display: block;
-  position: relative;
+  display: flex;
   width: 216px;
   height: 145px;
   background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
 }
 
-.list-popular-produceres img,
-.catalog-img img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 
 .services-description {
   display: flex;
@@ -1032,7 +1043,7 @@ a {
   width: 27px;
   height: 4px;
   top: 11px;
-  right: 0px;
+  right: 0;
   background-color: #ff3333;
 }
 
@@ -1106,6 +1117,7 @@ a {
   padding: 11px 16px;
   border: 1px solid #cccccc;
   border-radius: 2px;
+  resize: vertical;
 }
 
 .feedback-textarea {
@@ -1123,7 +1135,7 @@ textarea:focus {
 }
 
 .popup-item-added {
-  display: block;
+  display: none;
   position: fixed;
   width: 620px;
   font-size: 18px;
