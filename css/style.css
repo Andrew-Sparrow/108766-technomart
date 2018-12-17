@@ -693,7 +693,7 @@ a {
   justify-content: space-between;
 }
 
-.name-group h2{
+.name-group h2 {
   text-align: left;
   background-color: #f2f6f8;
   margin-bottom: 20px;
@@ -706,7 +706,6 @@ a {
   text-transform: uppercase;
   color: #32425c;
 }
-
 
 .filter,
 .filter legend,
@@ -883,7 +882,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 
 .services-description {
   display: flex;
