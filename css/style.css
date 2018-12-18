@@ -39,6 +39,8 @@ a {
   list-style: none;
 }
 
+h1,
+.search input,
 .catalog-item-name,
 .price-old,
 .price-new,
@@ -70,21 +72,54 @@ a {
   padding: 0;
 }
 
-.header-top {
+.header-top,
+.search input {
   background-color: #293449;
+}
+
+.header-top,
+.search input,
+.search input::placeholder {
   font-size: 17px;
-  font-weight: normal;
   line-height: 18px;
   color: #fff;
-  margin: 0;
+}
+
+.header-top input:focus {
+  background-color: #ffffff;
+  outline: none;
 }
 
 .header-top a {
   color: #fff;
 }
 
+.header-top form {
+  position: relative;
+  padding: 0;
+}
+
 .search input {
-  display: none;
+  font-family: "Cuprum", "Arial", sans-serif;
+  padding-left: 49px;
+  border: none;
+  margin: 0;
+  color: #000;
+}
+
+.search-label-svg {
+  position: absolute;
+  content: "";
+  top: 12px;
+  left: 17px;
+}
+
+.search:hover path {
+  fill: #fff;
+}
+
+.search-input:focus+svg path {
+  fill: #ee3643;
 }
 
 .container {
@@ -105,8 +140,9 @@ a {
 .bookmarks,
 .cart,
 .button-order,
-.search {
-  padding: 10px;
+.search input {
+  padding-top: 12px;
+  padding-bottom: 13px;
 }
 
 .logo {
@@ -155,6 +191,8 @@ a {
 }
 
 .header-short-description {
+  display: flex;
+  align-items: flex-end;
   font-size: 16px;
   font-style: italic;
   line-height: 23px;
@@ -585,6 +623,21 @@ a {
 .delivery-company li {
   font-size: 18px;
   line-height: 20px;
+}
+
+.list-delivery-company li {
+  position: relative;
+  padding-left: 36px;
+}
+
+.list-delivery-company li:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 2px;
+  top: 12px;
+  left: 0;
+  background-color: #ee3643;
 }
 
 .footer-top {
