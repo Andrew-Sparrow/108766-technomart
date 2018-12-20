@@ -40,6 +40,7 @@ a {
 }
 
 h1,
+.header-buttons p,
 .search input,
 .catalog-item-name,
 .price-old,
@@ -146,15 +147,13 @@ h1,
 .cart,
 .button-order {
   display: flex;
-  box-sizing: border-box;
   color: #fff;
   width: 150px;
-  justify-content: flex-start;
   align-items: center;
 }
 
 .cart-product-added,
-.bookmarked {
+.bookmark-added {
   background-color: #ee3643;
 }
 
@@ -189,18 +188,86 @@ h1,
 }
 
 .cart-product-added:active,
-.bookmarked:active {
+.bookmark-added:active {
   background-color: #ab2a33;
+}
+
+.button-order {
+  background-color: #63a63e;
+  justify-content: center;
+}
+
+.header-phone-wrapper {
+  display: flex;
+  width: 264px;
+  font-size: 21px;
+  line-height: 21px;
+  text-align: center;
+  color: #ee3643;
+  border: 3px solid #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  background-image: url(../img/icon-phone.svg);
+  background-repeat: no-repeat;
+  background-position: 13px 10px;
+}
+
+.header-adress {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #32425c;
+}
+
+.header-button {
+  padding: 0;
+  font-size: 21px;
+  line-height: 21px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  text-decoration: none;
+  border: none;
+  background-color: #fff;
+  outline: none;
+}
+
+.enter,
+.user {
+  display: flex;
+}
+
+.enter {
+  width: 123px;
+  margin-right: 10px;
+}
+
+.registration {
+  width: 150px;
+}
+
+.header-button-svg {
+  margin-left: 15px;
+  margin-right: 14px;
+}
+
+.header-button:hover path {
+  fill: #32425c;
+}
+
+.header-button:hover {
+  color: #ee3643;
 }
 
 .header-middle-wrapper {
   display: flex;
+  align-items: flex-start;
   padding-top: 46px;
   padding-bottom: 44px;
 }
 
 .header-phone-adress {
-  margin-left: 20px;
+  margin-right: auto;
 }
 
 .header-phone-wrapper p {
@@ -208,8 +275,41 @@ h1,
   text-align: center;
 }
 
-.header-buttons {
-  margin-left: auto;
+.user {
+  box-sizing: border-box;
+  width: 300px;
+  margin-bottom: 8px;
+  padding-left: 13px;
+  padding-right: 11px;
+}
+
+.user-icon {
+  margin-right: 12px;
+}
+
+.user p {
+  margin-right: auto;
+}
+
+.user:hover {
+  color: inherit;
+}
+
+.header-button:active {
+  color: #cacaca;
+}
+
+.header-button:active path,
+.user:active path {
+  fill: #cacaca;
+}
+
+.account-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 214px;
+  margin-left: 18px;
 }
 
 .account-links a {
@@ -218,6 +318,17 @@ h1,
   line-height: 18px;
   text-decoration: underline;
   color: #32425c;
+}
+
+.link-order {
+  position: relative;
+}
+
+.point {
+  width: 5px;
+  height: 5px;
+  background-color: #32425c;
+  border-radius: 50%;
 }
 
 .account-links a:hover {
@@ -233,65 +344,15 @@ h1,
 }
 
 .header-short-description {
-  display: flex;
-  align-items: flex-end;
+  width: 204px;
   font-size: 16px;
   font-style: italic;
   line-height: 23px;
   text-align: left;
   color: #ee3643;
-  width: 197px;
-  padding-left: 53px;
-  padding-right: 50px;
-}
-
-.header-phone-wrapper {
-  display: flex;
-  width: 264px;
-  font-size: 21px;
-  line-height: 21px;
-  text-align: left;
-  color: #ee3643;
-  border: 3px solid #fff;
-  padding: 8px;
-  margin-bottom: 9px;
-}
-
-.button-order {
-  background-color: #63a63e;
-  justify-content: center;
-}
-
-.header-adress {
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  color: #32425c;
-}
-
-.header-button {
-  font-size: 21px;
-  line-height: 21px;
-  display: inline-block;
-  vertical-align: middle;
-  padding: 10px 30px;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  background-color: #fff;
-  outline: none;
-}
-
-.header-middle-wrapper .header-button {
-  margin-bottom: 9px;
-}
-
-.header-button:hover {
-  color: #ee3643;
-}
-
-.header-button:active {
-  color: rgba(0, 0, 0, 0.3);
+  margin-left: 53px;
+  margin-right: 70px;
+  padding-top: 6px;
 }
 
 .main-navigation {
@@ -1222,12 +1283,12 @@ h1,
   display: block;
 }
 
+/*
 button:focus,
 input:focus,
 textarea:focus {
   outline: 2px solid #ff6666;
-}
-
+} */
 .popup-item-added {
   display: none;
   position: fixed;
