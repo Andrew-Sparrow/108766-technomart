@@ -72,6 +72,18 @@ h1,
   padding: 0;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.logo {
+  width: 220px;
+  height: 42px;
+  box-shadow: 0 5px #b52933;
+}
+
 .header-top,
 .search input {
   background-color: #293449;
@@ -90,13 +102,10 @@ h1,
   outline: none;
 }
 
-.header-top a {
-  color: #fff;
-}
-
 .header-top form {
   position: relative;
   padding: 0;
+  flex-grow: 1;
 }
 
 .search input {
@@ -105,6 +114,7 @@ h1,
   border: none;
   margin: 0;
   color: #000;
+  width: 100%;
 }
 
 .search-label-svg {
@@ -122,33 +132,65 @@ h1,
   fill: #ee3643;
 }
 
-.container {
-  width: 940px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
 .header-top .container {
   display: flex;
   align-items: stretch;
 }
 
-.search {
-  margin-right: auto;
-}
-
-.bookmarks,
-.cart,
-.button-order,
 .search input {
   padding-top: 12px;
   padding-bottom: 13px;
 }
 
-.logo {
-  width: 220px;
-  height: 42px;
-  box-shadow: 0 5px #b52933;
+.bookmarks,
+.cart,
+.button-order {
+  display: flex;
+  box-sizing: border-box;
+  color: #fff;
+  width: 150px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.cart-product-added,
+.bookmarked {
+  background-color: #ee3643;
+}
+
+.cart-icon {
+  margin-left: 17px;
+  margin-right: 13px;
+  margin-bottom: 4px;
+}
+
+.bookmark-icon {
+  margin-left: 17px;
+  margin-right: 14px;
+  margin-bottom: 1px;
+}
+
+.cart:active,
+.bookmarks:active {
+  opacity: 0.5;
+  background-color: #161d29;
+}
+
+.cart:hover path,
+.cart:hover circle,
+.bookmarks:hover path {
+  opacity: 1;
+}
+
+.cart-icon path,
+.cart-icon circle,
+.bookmark-icon path {
+  opacity: 0.4;
+}
+
+.cart-product-added:active,
+.bookmarked:active {
+  background-color: #ab2a33;
 }
 
 .header-middle-wrapper {
@@ -217,6 +259,7 @@ h1,
 
 .button-order {
   background-color: #63a63e;
+  justify-content: center;
 }
 
 .header-adress {
