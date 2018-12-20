@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "cuprum";
+  src: url(../fonts/cuprum.woff2);
+}
+
+@font-face {
+  font-family: "cuprumbold";
+  src: url(../fonts/cuprumbold.woff2);
+}
+
+@font-face {
+  font-family: "cuprumbolditalic";
+  src: url(../fonts/cuprumbolditalic.woff2);
+}
+
+@font-face {
+  font-family: "cuprumitalic";
+  src: url(../fonts/cuprumitalic.woff2);
+}
+
+@font-face {
+  font-family: "ptsans";
+  src: url(../fonts/ptsans.woff2);
+}
+
+@font-face {
+  font-family: "ptsansbold";
+  src: url(../fonts/ptsansbold.woff2);
+}
+
 body {
   font-family: "Cuprum", "Arial", sans-serif;
   margin: 0;
