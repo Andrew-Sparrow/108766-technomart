@@ -25,7 +25,7 @@
         </form>
         <a class="bookmarks" href="#">
           <svg class="bookmark-icon" xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16">
-            <path fill="#ffffff" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
+            <path fill="#ffffff" d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z" />
           </svg>
           Закладки: 0
         </a>
@@ -53,9 +53,9 @@
             <p class="header-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
           <button class="header-button enter" type="button" name="enter">
-            <svg class="header-button-svg"xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
-              <path fill="#c5c5c5" d="M14.875 8.5L6 0v6H0v5h6v6z"/>
-              <path fill="#c5c5c5" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/>
+            <svg class="header-button-svg" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
+              <path fill="#c5c5c5" d="M14.875 8.5L6 0v6H0v5h6v6z" />
+              <path fill="#c5c5c5" d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z" />
             </svg>
             Войти
           </button>
@@ -248,14 +248,14 @@
                 чтобы кнопки были на одном уровне,
                 при добавл./удален. трансп. комп. -->
           </div>
-          <a class="red-button" href="#">Заблудились? Напишите нам!</a>
+          <a class="red-button write-us" href="#">Заблудились? Напишите нам!</a>
         </div>
         <div class="about-right">
           <h2 class="header-about">Контакты</h2>
           <p class="about-text">
             Вы можете забрать товар сами, заехав в наш офис:
           </p>
-          <a href="#">
+          <a class="map-button" href="#">
             <img src="img/map.jpg" width="300" height="158" alt="Карта">
           </a>
           <div class="spacer">
@@ -337,7 +337,7 @@
     </div>
   </footer>
   <div class="popup-feedback">
-    <button class="popup-close" type="button" name="cross">
+    <button class="popup-close popup-close-feedback" type="button" name="cross">
       Закрыть
     </button>
     <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
@@ -369,11 +369,19 @@
     </form>
   </div>
   <div class="popup-map">
-    <button class="popup-close" type="button" name="cross">
+    <button class="popup-close popup-map-close" type="button" name="cross">
       Закрыть
     </button>
-    <img src="img/big-map.jpg" width="940" height="446" alt="Карта">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651568!2d30.320894616332307!3d59.93879418187628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+Street%2C+19%2C+Sankt-Peterburg%2C+191186!5e0!3m2!1sen!2sru!4v1545329432419"
+      width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+    </iframe>
+    <p>
+      <img src="img/big-map.jpg" width="940" height="446" alt="Карта">
+    </p>
   </div>
 </body>
+
+<script src="scripts/script.js">
+</script>
 
 </html>
