@@ -1,31 +1,37 @@
 @font-face {
   font-family: "cuprum";
   src: url(../fonts/cuprum.woff2);
+  src: url(../fonts/cuprum.woff);
 }
 
 @font-face {
   font-family: "cuprumbold";
   src: url(../fonts/cuprumbold.woff2);
+  src: url(../fonts/cuprumbold.woff);
 }
 
 @font-face {
   font-family: "cuprumbolditalic";
   src: url(../fonts/cuprumbolditalic.woff2);
+  src: url(../fonts/cuprumbolditalic.woff);
 }
 
 @font-face {
   font-family: "cuprumitalic";
   src: url(../fonts/cuprumitalic.woff2);
+  src: url(../fonts/cuprumitalic.woff);
 }
 
 @font-face {
   font-family: "ptsans";
   src: url(../fonts/ptsans.woff2);
+  src: url(../fonts/ptsans.woff);
 }
 
 @font-face {
   font-family: "ptsansbold";
   src: url(../fonts/ptsansbold.woff2);
+  src: url(../fonts/ptsansbold.woff);
 }
 
 body {
@@ -70,7 +76,8 @@ a {
 }
 
 h1,
-.header-buttons p,
+.account p,
+.account a,
 .search input,
 .catalog-item-name,
 .price-old,
@@ -250,6 +257,7 @@ h1,
   color: #32425c;
 }
 
+.account,
 .header-button {
   padding: 0;
   font-size: 21px;
@@ -281,6 +289,7 @@ h1,
   margin-right: 14px;
 }
 
+.logout-icon:hover path,
 .header-button:hover path {
   fill: #32425c;
 }
@@ -305,16 +314,21 @@ h1,
   text-align: center;
 }
 
-.user {
-  box-sizing: border-box;
+.account {
+  display: flex;
+  justify-content: space-between;
   width: 300px;
-  margin-bottom: 8px;
-  padding-left: 13px;
-  padding-right: 11px;
+  box-sizing: border-box;
+  margin-bottom: 9px;
 }
 
 .user-icon {
   margin-right: 12px;
+  margin-left: 14px;
+}
+
+.logout-icon {
+  margin-right: 10px;
 }
 
 .user p {
@@ -329,6 +343,7 @@ h1,
   color: #cacaca;
 }
 
+.logout-icon:active path,
 .header-button:active path,
 .user:active path {
   fill: #cacaca;
@@ -475,6 +490,7 @@ h1,
 }
 
 .catalog {
+  width: 700px;
   margin-left: 20px;
   margin-bottom: 60px;
 }
@@ -490,7 +506,7 @@ h1,
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 216px;
+  width: 218px;
   min-height: 293px;
   border: 1px solid #eaeaea;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -826,12 +842,21 @@ h1,
   color: rgba(255, 209, 128, 0.5);
 }
 
+.high-row a:hover,
+.low-row a:hover {
+  text-decoration: underline;
+}
+
 .developer-info-contact a {
   color: #ffd180;
 }
 
 .developer-info-contact a:active {
   color: #ee3643;
+}
+
+.developer-info-contact a:hover {
+  text-decoration: underline;
 }
 
 .red-button,
@@ -867,9 +892,10 @@ h1,
 
 .container-filter-catalog {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
+.arrow-wrapper,
 .name-sort,
 .list-name-sort,
 .list-pagination {
@@ -877,7 +903,55 @@ h1,
 }
 
 .name-sort {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.name-sort .header-sort {
+  margin-right: 140px;
+}
+
+.arrow-wrapper {
+  width: 44px;
   justify-content: space-between;
+}
+
+.arrow-down,
+.arrow-up {
+  font-size: 0;
+  display: inline-block;
+  border: 10px solid #cacaca;
+  border-right-width: 5px;
+  border-right-color: transparent;
+  border-left-width: 5px;
+  border-left-color: transparent;
+  content: "";
+}
+
+.arrow-up {
+  border-top-width: 0;
+}
+
+.arrow-down {
+  border-bottom-width: 0;
+}
+
+.list-name-sort {
+  justify-content: space-between;
+  width: 356px;
+  margin-right: 45px;
+}
+
+.list-name-sort a {
+  color: #cacaca;
+  text-decoration: underline;
+  text-decoration-color: #ee3643;
+  text-decoration-style: dotted;
+}
+
+.list-name-sort .active {
+  color: #ee3643;
+  text-decoration: none;
 }
 
 .name-group h2 {
@@ -1209,12 +1283,12 @@ h1,
   width: 27px;
   height: 27px;
   font-size: 0;
-  position: absolute;
-  top: 9px;
-  right: 9px;
+  top: 12px;
+  right: 42px;
   background-color: transparent;
   border: 0;
   cursor: pointer;
+  z-index: 10;
 }
 
 .popup-close:focus {
@@ -1406,7 +1480,7 @@ textarea:focus {
   display: block;
 }
 
-@@keyframes bounce {
+@keyframes bounce {
   0% {
     transform: translateY(-2000px);
   }
