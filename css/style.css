@@ -334,6 +334,8 @@ h1,
 
 .user p {
   margin-right: auto;
+  width: 200px;
+  word-break: break-all;
 }
 
 .user:hover {
