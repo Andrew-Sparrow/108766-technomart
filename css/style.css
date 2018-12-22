@@ -77,6 +77,7 @@ a {
 
 h1,
 .account p,
+.price-controls p,
 .account a,
 .search input,
 .catalog-item-name,
@@ -1028,27 +1029,12 @@ h1,
   line-height: 20px;
 }
 
-/*-----------------*/
-.price-range {
-  margin: 0;
-  padding: 0;
-  
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #000000;
-}
-
 .filter-item {
   margin: 0;
   padding: 0;
-  
   border: none;
-  
-  /* Для демонстрации */
   width: 260px;
-  margin: 50px auto; 
+  margin: 50px auto;
 }
 
 .filter-item legend {
@@ -1061,26 +1047,22 @@ h1,
 .range-controls {
   position: relative;
   height: 41px;
-  margin-bottom: 15px;
+  margin-bottom: 9px;
   padding-top: 39px;
   padding-right: 20px;
   padding-left: 20px;
-  
-  background-color: #f1f1f1;
-  
-  border-radius: 5px;
+  background-color: #f7f3ec;
+  border-radius: 2px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: #d7dcde;
 }
 
 .range-controls .bar {
   width: 70%;
   height: 2px;
-
   background: #00ca74;
 }
 
@@ -1091,7 +1073,6 @@ h1,
   width: 4px;
   height: 4px;
   padding: 0;
-
   border: 8px solid #ffffff;
   background-color: #ababab;
   box-shadow: 0 2px 1px 0 #cfcfcf;
@@ -1107,46 +1088,28 @@ h1,
   left: 160px;
 }
 
-.range-controls .toggle-min {
-  left: 50px;
-}
-
-.range-controls .toggle-max {
-  left: 110px;
-}
-
 .price-controls {
-  font-size: 0;
-}
-
-.price-controls label {  
-  width: 50%;
-  font-size: 16px;
-  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 .price-controls input {
-  width: 60px;
-  padding: 8px 10px;
-  margin-left: 10px;
-  font-family: Roboto, Arial, sans-serif;
-  font-size: 16px;
+  width: 95px;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  font-size: 17px;
+  line-height: 18px;
   text-align: center;
-  color: #283136;
   border: none;
-  border-radius: 5px;
-  background: #f1f1f1;
+  background: #f7f3ec;
+  border-radius: 2px;
+  margin-bottom: 25px;
 }
-
-.max-price {
-  text-align: right;
-}
-
-/*---------------------------*/
 
 .filter fieldset:nth-of-type(1) {
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 23px;
+  margin-bottom: 21px;
 }
 
 .filter fieldset:nth-of-type(2) {
@@ -1162,7 +1125,8 @@ h1,
   margin-bottom: 24px;
 }
 
-.filter label {
+.list-filter-power label,
+.list-filter-produceres label {
   padding-left: 35px;
 }
 

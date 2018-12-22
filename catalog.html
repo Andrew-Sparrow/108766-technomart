@@ -124,24 +124,22 @@
             <h2 class="header-filter">Фильтр:</h2>
           </div>
           <form action="https://echo.htmlacademy.ru" method="post" oninput="output.value=price.value">
-            <fieldset class="full-width price-range">              
+            <fieldset class="price-range">
               <legend>Цена:</legend>
-			        <div class="range-filter">
+              <div class="range-filter">
                 <div class="range-controls">
-				          <div class="scale">
-                    <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                  <div class="scale">
+                    <div class="bar" style="margin-left: 0; width: 80%">
+                    </div>
                   </div>
-				          <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-min"></div>
                   <div class="toggle toggle-max"></div>
                 </div>
-                <div class="price-controls">				  
-				           <label class="min-price">
-				             <input name="min-price" type="text" value="0">
-				           </label>
-                   <label class="max-price">
-				             <input name="max-price" type="text" value="15000">
-				           </label>
-                </div>            
+                <div class="price-controls">
+                  <input class="min-price" name="min-price" type="text" value="0">
+                  <p>—</p>
+                  <input class="max-price" name="max-price" type="text" value="30000">
+                </div>
               </div>
             </fieldset>
             <fieldset class="produceres-power">
