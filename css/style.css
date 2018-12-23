@@ -76,7 +76,9 @@ a {
 }
 
 h1,
+article,
 .account p,
+.about-catalog-group h3,
 .price-controls p,
 .account a,
 .search input,
@@ -488,8 +490,8 @@ h1,
 }
 
 .product-and-services {
-  min-height: 468px;
-  background-color: #ffcc33;
+  min-height: 409px;
+  background-color: #f9f5f0;
   margin-bottom: 46px;
 }
 
@@ -668,7 +670,8 @@ h1,
   background-color: #f5f8fa;
 }
 
-.services p {
+.services p,
+.description-catalog-group {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
   line-height: 24px;
@@ -757,7 +760,7 @@ h1,
 }
 
 .about-right p {
-  width: 178px;
+  width: 180px;
 }
 
 .about .container {
@@ -964,11 +967,15 @@ h1,
   margin-bottom: 20px;
 }
 
-.name-group h2 {
+.name-group h2,
+.about-catalog-group h3 {
   font-size: 30px;
   line-height: 30px;
-  padding: 30px 30px;
   text-transform: uppercase;
+}
+
+.name-group h2 {
+  padding: 30px 30px;
   color: #32425c;
 }
 
@@ -1244,6 +1251,19 @@ h1,
   flex-shrink: 0;
   width: 275px;
   padding-right: 25px;
+}
+
+.about-catalog-group .container {
+  padding-top: 63px;
+  padding-bottom: 73px;
+}
+
+.about-catalog-group {
+  background-color: #f2f6f8;
+}
+
+.about-catalog-group h3 {
+  margin-bottom: 30px;
 }
 
 .footer-top-high,
