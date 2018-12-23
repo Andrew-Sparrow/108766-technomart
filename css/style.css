@@ -78,6 +78,8 @@ a {
 h1,
 article,
 .account p,
+.product-and-services a,
+.product-and-services p,
 .about-catalog-group h3,
 .price-controls p,
 .account a,
@@ -444,6 +446,178 @@ article,
   padding-left: 22px;
 }
 
+.materials,
+.tools,
+.techique,
+.discounts,
+.delivery {
+  position: relative;
+  width: 300px;
+  min-height: 123px;
+  padding: 22px 23px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.right-column {
+  flex-direction: column;
+}
+
+.materials,
+.tools {
+  margin-right: 20px;
+}
+
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-row {
+  margin-bottom: 20px;
+}
+
+div.top-row:last-child {
+  margin-right: 0;
+}
+
+.product-and-services {
+  min-height: 409px;
+  margin-bottom: 46px;
+}
+
+.product-and-services a {
+  display: block;
+  width: 135px;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.1));
+}
+
+.product-and-services a:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2));
+}
+
+.product-and-services a:active {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.4));
+}
+
+.product-and-services p {
+  margin-bottom: 14px;
+}
+
+.slider {
+  width: 620px;
+  background-color: #8b7b6e;
+  position: relative;
+}
+
+.slider-controls i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+
+  /* Временно для демонстрации */
+  background-color: red;
+}
+
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.slider-item h3 {
+  max-width: 600px;
+  margin: 0;
+  margin-bottom: 27px;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+}
+
+.slider-item p {
+  max-width: 430px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.container-slider {
+  width: 620px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.slider-item {
+  display: none;
+}
+
+.slider-item:nth-child(1) {
+  display: block;
+}
+
+.slider-item .red-button {
+  width: 195px;
+  background-color: #ee3643;
+}
+
+
+
+.materials {
+  background-color: #ffbf47;
+  background-image: url(../img/icon-1.svg);
+  background-position: 213px 30px;
+  background-repeat: no-repeat;
+}
+
+.tools {
+  background-color: #3bbce3;
+  background-image: url(../img/icon-2.svg);
+  background-position: 197px 33px;
+  background-repeat: no-repeat;
+}
+
+.techique {
+  background-color: #dc91d8;
+  background-image: url(../img/icon-3.svg);
+  background-position: 190px 30px;
+  background-repeat: no-repeat;
+}
+
+.discounts {
+  background-color: #8ed78f;
+  margin-bottom: 20px;
+  background-image: url(../img/icon-4.svg);
+  background-position: 194px 24px;
+  background-repeat: no-repeat;
+}
+
+.delivery {
+  background-color: #ffc047;
+  background-image: url(../img/icon-5.svg);
+  background-position: 191px 25px;
+  background-repeat: no-repeat;
+}
+
 .header-popular-items {
   display: flex;
   justify-content: space-between;
@@ -487,12 +661,6 @@ article,
 
 .last-breadcrumbs::after {
   display: none;
-}
-
-.product-and-services {
-  min-height: 409px;
-  background-color: #f9f5f0;
-  margin-bottom: 46px;
 }
 
 .catalog {
@@ -587,19 +755,16 @@ article,
   border-left-color: #ee3643;
 }
 
-.catalog-item .flag {
+ .flag-new {
   position: absolute;
-  top: -1px;
-  right: -1px;
-  width: 60px;
-  height: 60px;
-  text-indent: -1000px;
+  top:-1px;
+  right: 0;
   overflow: hidden;
   z-index: 2000;
-}
-
-.catalog-item .flag-new {
   background: url("../img/new-flag.png") no-repeat 0 0;
+  width: 60px;
+  height: 60px;
+  font-size: 0;
 }
 
 .catalog-item:hover .actions {
