@@ -77,6 +77,10 @@ a {
 
 h1,
 article,
+.header-services,
+.header-services-item,
+.services-item-definition,
+.services-declaration,
 .account p,
 .transparent-button,
 .product-and-services p,
@@ -396,6 +400,10 @@ article,
   background: #f4f7f9;
 }
 
+.header-middle .container {
+  padding-bottom: 60px;
+}
+
 .header-short-description {
   width: 204px;
   font-size: 16px;
@@ -431,7 +439,6 @@ article,
   flex-wrap: wrap;
   justify-content: space-around;
   border-bottom: 5px solid #293449;
-  margin-bottom: 60px;
 }
 
 .list-site-navigation a {
@@ -490,6 +497,7 @@ div.top-row:last-child {
 .product-and-services {
   min-height: 409px;
   margin-bottom: 46px;
+  margin-top: 59px;
 }
 
 .transparent-button {
@@ -927,6 +935,8 @@ div.top-row:last-child {
 .services {
   padding-top: 62px;
   background-color: #f5f8fa;
+  min-height: 520px;
+
 }
 
 .services p,
@@ -946,6 +956,11 @@ div.top-row:last-child {
   text-align: left;
   text-transform: uppercase;
   color: #32425c;
+}
+
+.header-services {
+  color: inherit;
+  margin-bottom: 32px;
 }
 
 .list-popular-produceres li:hover {
@@ -979,6 +994,7 @@ div.top-row:last-child {
 
 .about {
   background-color: #fff;
+  min-height: 536px;
 }
 
 .header-about {
@@ -1501,11 +1517,26 @@ div.top-row:last-child {
 
 .services-declaration {
   width: 400px;
+  margin-bottom: 73px;
 }
 
 .services-list {
   margin-right: 80px;
   margin-bottom: 102px;
+}
+
+.services-list-item {
+  width: 240px;
+  box-sizing: border-box;
+  padding: 22px;
+  padding-top: 18px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #32425c;
+  text-align: left;
+  border-top: 1px solid #4d637b;
 }
 
 .services-item-definition {
