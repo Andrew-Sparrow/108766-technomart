@@ -78,7 +78,7 @@ a {
 h1,
 article,
 .account p,
-.product-and-services a,
+.transparent-button,
 .product-and-services p,
 .about-catalog-group h3,
 .price-controls p,
@@ -454,7 +454,9 @@ article,
   position: relative;
   width: 300px;
   min-height: 123px;
-  padding: 22px 23px;
+  padding: 23px;
+  padding-top: 19px;
+  padding-bottom: 20px;
   box-sizing: border-box;
   color: #ffffff;
   font-size: 24px;
@@ -490,14 +492,14 @@ div.top-row:last-child {
   margin-bottom: 46px;
 }
 
-.product-and-services a {
+.transparent-button {
   display: block;
   width: 135px;
   box-sizing: border-box;
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
-  padding: 12px;
+  padding: 11px;
   text-align: center;
   text-transform: uppercase;
   border-radius: 3px;
@@ -522,65 +524,157 @@ div.top-row:last-child {
   margin-bottom: 14px;
 }
 
+/* slider */
+
 .slider {
-  width: 620px;
-  background-color: #8b7b6e;
   position: relative;
+  background-color: #eeeeee;
+  width: 620px;
+  box-sizing: border-box;
+  min-height: 266px;
 }
 
-.slider-controls i {
-  display: inline-block;
-  width: 18px;
-  height: 18px;
-
-  /* Временно для демонстрации */
-  background-color: red;
-}
-
-
-.slider-list {
+.slider-headline,
+.slider-description {
   margin: 0;
   padding: 0;
+  color: #fff;
+}
 
-  list-style: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
 }
 
 .slider-item h3 {
   max-width: 600px;
   margin: 0;
-  margin-bottom: 27px;
-  font-size: 55px;
-  line-height: 55px;
-  font-weight: 500;
+  margin-bottom: 2px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .slider-item p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
   max-width: 430px;
   margin: 0;
-  margin-bottom: 38px;
+  margin-bottom: 124px;
+  color: #fff;
 }
 
-.container-slider {
-  width: 620px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
+.slider .red-button {
+  width: 195px;
+}
+
+
+
+.button-slider-left,
+.button-slider-right {
+  position: absolute;
+  background-color: transparent;
+  top: 50%;
+  border: none;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.button-slider-left {
+  left: 23px;
+}
+
+.button-slider-right {
+  right: 23px;
+}
+
+.slider-controls {
+  position: absolute;
+  left: 51%;
+  bottom: 33px;
+  z-index: 100;
+  width: 40px;
+  height: 12px;
+  text-align: center;
+  font-size: 0;
+  transform: translateX(-50%);
+}
+
+.slider-controls label {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-controls label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .slider-item {
   display: none;
+  padding: 20px 24px;
 }
 
 .slider-item:nth-child(1) {
+  background-image: url("../img/slide-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.slider-item:nth-child(2) {
+  background-image: url("../img/slide-2.jpg");
+  background-repeat: no-repeat;
+}
+
+#product-1:checked ~ .slider-list .slider-item:nth-child(1) {
   display: block;
 }
 
-.slider-item .red-button {
-  width: 195px;
+#product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+#product-3:checked ~ .slider-list .slider-item:nth-child(3) {
+  display: block;
+}
+
+#product-1:checked ~ .slider-controls .slider-controls-item--1::before,
+#product-2:checked ~ .slider-controls .slider-controls-item--2::before,
+#product-3:checked ~ .slider-controls .slider-controls-item--3::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  z-index: 2;
+  width: 6px;
+  height: 6px;
+  margin: -5px;
   background-color: #ee3643;
+  border-radius: 50%;
 }
 
 
+/* end of slider  */
 
 .materials {
   background-color: #ffbf47;
@@ -1046,10 +1140,12 @@ div.top-row:last-child {
   border-radius: 3px;
 }
 
+.slider .red-button:hover,
 .red-button:hover {
   background-color: #ca2c37;
 }
 
+.slider .red-button:active,
 .red-button:active {
   background-color: #ba2732;
 }

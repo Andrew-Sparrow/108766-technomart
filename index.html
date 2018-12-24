@@ -84,49 +84,58 @@
               Новинка
             </div>
             <p>Материалы</p>
-            <a href="#">на любой вкус</a>
+            <a class="transparent-button" href="#">на любой вкус</a>
           </div>
           <div class="tools">
             <p>Инструмент</p>
-            <a href="#">На все случаи</a>
+            <a class="transparent-button" href="#">На все случаи</a>
           </div>
           <div class="techique">
             <p>Техника</p>
-            <a href="#">Для стройки</a>
+            <a class="transparent-button" href="#">Для стройки</a>
           </div>
         </div>
         <div class="bottom-row">
           <div class="slider">
-            <div class="container-slider">
-              <div class="slider-controls">
-                <i class="active-slide"></i>
-                <i></i>
-                <i></i>
-              </div>
-              <ul class="slider-list">
-                <li class="slider-item">
-                  <h3>Долго, дорого,<br> скрупулезно.</h3>
-                  <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
-                  <a class="red-button" href="#">
-                    Узнать больше
-                  </a>
-                </li>
-                <li class="slider-item">
-                  <h3>Любим математику как никто другой</h3>
-                  <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-                  <a class="slider-item-button button" href="#">Узнать больше</a>
-                </li>
-              </ul>
+            <button class="button-slider-left" type="button"
+                    name="button-slider-left">
+              <img src="img/icon-left.svg" alt="стрелка">
+            </button>
+            <button class="button-slider-right" type="button"
+                    name="button-slider-right">
+              <img src="img/icon-right.svg" alt="стрелка">
+            </button>
+            <input class="visually-hidden" type="radio"
+                   id="product-1" name="toggle" checked>
+            <input class="visually-hidden" type="radio"
+                   id="product-2" name="toggle">
+            <div class="slider-controls">
+              <label class="slider-controls-item slider-controls-item--1"
+                     for="product-1">Первый</label>
+              <label class="slider-controls-item slider-controls-item--2"
+                     for="product-2">Второй</label>
             </div>
+            <ul class="slider-list">
+              <li class="slider-item">
+                <h3>Дрели</h3>
+                <p>Соседям на радость!</p>
+                <a class="red-button" href="catalog.html">Открыть каталог</a>
+              </li>
+              <li class="slider-item">
+                <h3>Перфораторы</h3>
+                <p>Настоящие мужские игрушки</p>
+                <a class="red-button" href="#">Открыть каталог</a>
+              </li>
+            </ul>
           </div>
           <div class="right-column">
             <div class="discounts">
               <p>Скидки 50%</p>
-              <a href="#">На 350 товаров</a>
+              <a class="transparent-button" href="#">На 350 товаров</a>
             </div>
             <div class="delivery">
               <p>Доставка</p>
-              <a href="#">Бесплатно</a>
+              <a class="transparent-button" href="#">Бесплатно</a>
             </div>
           </div>
         </div>
