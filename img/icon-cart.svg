@@ -1,1 +1,184 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle fill="#ffffff" cx="4.5" cy="13.5" r="1.5"/><circle fill="#ffffff" cx="12.5" cy="13.5" r="1.5"/><path fill="#ffffff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/></svg>
+<button class="button-slider-left" name="button-slider-left">
+                <img src="img/icon-left.svg" alt="стрелка">
+              </button>
+              <button class="button-slider-right" name="button-slider-right">
+                <img src="img/icon-right.svg" alt="стрелка">
+              </button>
+			  
+			  
+#product-1:checked ~ .slider-list .slider-item:nth-child(1) {
+  display: block;
+}
+
+#product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+#product-1:checked ~ .slider-controls .slider-controls-item--1::before,
+#product-2:checked ~ .slider-controls .slider-controls-item--2::before {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 7px;
+  z-index: 2;
+  width: 6px;
+  height: 6px;
+  margin: -5px;
+  background-color: #ee3643;
+  border-radius: 50%;
+}
+
+
+/* slider */
+
+.slider-container {
+  width: 620px;
+  box-sizing: border-box;
+  min-height: 266px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+.slider {
+  position: relative;
+  background-color: #eeeeee;
+}
+
+.slider-controls {
+  position: absolute;
+  left: 51%;
+  bottom: 33px;
+  z-index: 100;
+  width: 40px;
+  height: 12px;
+  text-align: center;
+  font-size: 0;
+  transform: translateX(-50%);
+}
+
+.slider-controls label {
+  position: relative;
+  display: inline-block;
+   width: 11px;
+  height: 11px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-controls label::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.slider-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slider-item {
+  display: none;
+  padding: 20px 24px;
+}
+
+.slider-item:nth-child(1) {
+  background-image: url("../img/slide-1.jpg");
+  background-repeat: no-repeat;
+}
+
+.slider-item:nth-child(2) {
+  background-image: url("../img/slide-2.jpg");
+  background-repeat: no-repeat;
+}
+
+#product-1:checked ~ .slider-list .slider-item:nth-child(1) {
+  display: block;
+}
+
+#product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+  display: block;
+}
+
+#product-3:checked ~ .slider-list .slider-item:nth-child(3) {
+  display: block;
+}
+
+#product-1:checked ~ .slider-controls .slider-controls-item--1::before,
+#product-2:checked ~ .slider-controls .slider-controls-item--2::before,
+#product-3:checked ~ .slider-controls .slider-controls-item--3::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  width: 4px;
+  height: 4px;
+  margin: -4px;
+  background-color: inherit;
+  border: 2px solid #c1c1c1;
+  border-radius: 50%;
+}
+
+.slider-headline,
+.slider-description {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.slider-item h3 {
+  max-width: 500px;
+  margin: 0;
+  margin-bottom: 2px;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.slider-item p {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 430px;
+  margin: 0;
+  margin-bottom: 124px;
+  color: #fff;
+}
+
+.slider .red-button {
+  width: 195px;
+}
+
+.button-slider-left,
+.button-slider-right {
+  position: absolute;
+  background-color: transparent;
+  top: 50%;
+  border: none;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.button-slider-left {
+  left: 23px;
+}
+
+.button-slider-right {
+  right: 23px;
+}
+/* end of slider  */
