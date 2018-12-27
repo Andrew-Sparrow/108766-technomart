@@ -928,7 +928,7 @@ div.top-row:last-child {
 .services {
   padding-top: 62px;
   background-color: #f5f8fa;
-  min-height: 520px;
+  min-height: 522px;
 }
 
 .services p,
@@ -965,6 +965,7 @@ div.top-row:last-child {
   text-align: left;
   text-transform: uppercase;
   color: #32425c;
+  margin-bottom: 29px;
 }
 
 .list-services li {
@@ -1638,11 +1639,39 @@ div.top-row:last-child {
   border-color: #ee3643;
 }
 
-.services-item {
+.services-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   width: 100%;
+}
+
+.services-items li {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.services-items li:nth-child(1) {
+  width: 100%;
+  display: none;
   background-image: url("../img/truck.png");
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: 144px 44px;
+}
+
+.services-items li:nth-child(2) {
+  display: none;
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+  background-position: 230px 44px;
+}
+
+.services-items li:nth-child(3) {
+  display: block;
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+  background-position: 151px 44px;
 }
 
 .list-delivery-company {
