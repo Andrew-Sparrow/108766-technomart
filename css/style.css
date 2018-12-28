@@ -604,10 +604,7 @@ div.top-row:last-child {
   background-repeat: no-repeat;
 }
 
-.product-input-1:checked ~ .slider-list .slider-item:nth-child(1) {
-  display: block;
-}
-
+.product-input-1:checked ~ .slider-list .slider-item:nth-child(1),
 .product-input-2:checked ~ .slider-list .slider-item:nth-child(2) {
   display: block;
 }
@@ -1587,7 +1584,6 @@ div.top-row:last-child {
   border-color: #ee3643;
 }
 
-
 .services-description {
   display: flex;
 }
@@ -1614,8 +1610,12 @@ div.top-row:last-child {
   color: #fff;
   background-color: #32425c;
   text-align: left;
-  border-top: 1px solid #4d637b;
+  border-bottom: 1px solid #4d637b;
   cursor: pointer;
+}
+
+.services-controls label:last-child {
+  border-bottom: none;
 }
 
 .services-item-definition {
@@ -1639,7 +1639,6 @@ div.top-row:last-child {
 }
 
 .services-items li:nth-child(1) {
-  /* width: 100%; */
   background-image: url("../img/truck.png");
   background-repeat: no-repeat;
   background-position: 144px 44px;
@@ -1657,16 +1656,22 @@ div.top-row:last-child {
   background-position: 151px 44px;
 }
 
-.service-input-1:checked ~ .services-items li:nth-child(1) {
-  display: block;
-}
-
-.service-input-2:checked ~ .services-items li:nth-child(2) {
-  display: block;
-}
-
+.service-input-1:checked ~ .services-items li:nth-child(1),
+.service-input-2:checked ~ .services-items li:nth-child(2),
 .service-input-3:checked ~ .services-items li:nth-child(3) {
   display: block;
+}
+
+.services-controls label:hover {
+  background-color: #293449;
+  color: #fff;
+}
+
+.service-input-1:checked ~ .services-controls label:nth-child(1),
+.service-input-2:checked ~ .services-controls label:nth-child(2),
+.service-input-3:checked ~ .services-controls label:nth-child(3) {
+  background-color: #fff;
+  color: #32425c;
 }
 
 .list-delivery-company {
