@@ -104,11 +104,11 @@
               <button class="button-slider-right" name="button-slider-right">
                 <img src="img/icon-right.svg" alt="стрелка">
               </button>
-              <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
-              <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+              <input class="product-input-1 visually-hidden" type="radio" id="product-1" name="toggle-product" checked>
+              <input class="product-input-2 visually-hidden" type="radio" id="product-2" name="toggle-product">
               <div class="slider-controls">
-                <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
-                <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+                <label class="slider-item-1" for="product-1">Первый</label>
+                <label class="slider-item-2" for="product-2">Второй</label>
               </div>
               <ul class="slider-list">
                 <li class="slider-item">
@@ -261,24 +261,35 @@
         </section>
       </div>
     </div>
-    <section class="services">
+     <section class="services">
       <div class="container">
         <h2 class="header-services">Сервисы</h2>
         <p class="services-declaration">
           Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
         <div class="services-description">
-          <ul class="services-list">
-            <li class="services-list-item">Доставка</li>
-            <li class="services-list-item">Гарантия</li>
-            <li class="services-list-item">Кредит</li>
-            <li></li>
+          <input class="service-input-1 visually-hidden" type="radio" id="service-1" name="toggle-service" checked>
+          <input class="service-input-2 visually-hidden" type="radio" id="service-2" name="toggle-service">
+          <input class="service-input-3 visually-hidden" type="radio" id="service-3" name="toggle-service">
+          <ul class="services-controls">
+            <li class="services-controls-item">
+              Доставка
+              <label class="label-1" for="service-1"></label>
+            </li>
+            <li class="services-controls-item">
+              Гарантия
+              <label class="label-2" for="service-2"></label>
+            </li>
+            <li class="services-controls-item">
+              Кредит
+              <label class="label-3" for="service-3"></label>
+            </li>
           </ul>
           <ul class="services-items">
             <li>
               <h3 class="header-services-item">Доставка</h3>
               <p class="services-item-definition">
-                Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!
+                Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!
               </p>
             </li>
             <li>

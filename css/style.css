@@ -58,13 +58,12 @@ a {
 .breadcrumbs,
 .list-site-navigation,
 .list-popular-produceres,
-.list-services,
 .footer-nav,
 .list-footer-social,
 .list-filter-produceres,
 .list-filter-power,
 .list-name-sort,
-.services-list,
+.services-controls,
 .list-catalog,
 .list-catalog-popular,
 .list-pagination,
@@ -606,16 +605,16 @@ div.top-row:last-child {
   background-repeat: no-repeat;
 }
 
-#product-1:checked~.slider-list .slider-item:nth-child(1) {
+.product-input-1:checked ~ .slider-list .slider-item:nth-child(1) {
   display: block;
 }
 
-#product-2:checked~.slider-list .slider-item:nth-child(2) {
+.product-input-2:checked ~ .slider-list .slider-item:nth-child(2) {
   display: block;
 }
 
-#product-1:checked~.slider-controls .slider-controls-item--1::before,
-#product-2:checked~.slider-controls .slider-controls-item--2::before {
+.product-input-1:checked ~ .slider-controls .slider-item-1::before,
+.product-input-2:checked ~ .slider-controls .slider-item-2::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -968,22 +967,6 @@ div.top-row:last-child {
   margin-bottom: 29px;
 }
 
-.list-services li {
-  font-size: 21px;
-  font-weight: 700;
-  line-height: 30px;
-  width: 200px;
-  padding: 10px;
-  text-align: left;
-  color: #fff;
-  border-bottom: 1px solid #4d627b;
-  background-color: #32425c;
-}
-
-.list-services li:first-child {
-  color: #32425c;
-  background-color: #fff;
-}
 
 .about {
   background-color: #fff;
@@ -1504,40 +1487,6 @@ div.top-row:last-child {
   align-items: center;
 }
 
-.services-description {
-  display: flex;
-}
-
-.services-declaration {
-  width: 400px;
-  margin-bottom: 73px;
-}
-
-.services-list {
-  margin-right: 80px;
-  margin-bottom: 102px;
-}
-
-.services-list-item {
-  width: 240px;
-  box-sizing: border-box;
-  padding: 22px;
-  padding-top: 18px;
-  font-size: 21px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #32425c;
-  text-align: left;
-  border-top: 1px solid #4d637b;
-}
-
-.services-item-definition {
-  flex-shrink: 0;
-  width: 275px;
-  padding-right: 25px;
-}
-
 .about-catalog-group .container {
   padding-top: 63px;
   padding-bottom: 73px;
@@ -1637,6 +1586,41 @@ div.top-row:last-child {
   color: #ffffff;
   background-color: #ee3643;
   border-color: #ee3643;
+}
+
+
+.services-description {
+  display: flex;
+}
+
+.services-declaration {
+  width: 400px;
+  margin-bottom: 73px;
+}
+
+.services-controls {
+  margin-right: 80px;
+  margin-bottom: 102px;
+}
+
+.services-controls-item {
+  width: 240px;
+  box-sizing: border-box;
+  padding: 22px;
+  padding-top: 18px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #32425c;
+  text-align: left;
+  border-top: 1px solid #4d637b;
+}
+
+.services-item-definition {
+  flex-shrink: 0;
+  width: 275px;
+  padding-right: 25px;
 }
 
 .services-items {
