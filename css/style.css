@@ -63,7 +63,6 @@ a {
 .list-filter-produceres,
 .list-filter-power,
 .list-name-sort,
-.services-controls,
 .list-catalog,
 .list-catalog-popular,
 .list-pagination,
@@ -1603,7 +1602,8 @@ div.top-row:last-child {
   margin-bottom: 102px;
 }
 
-.services-controls-item {
+.services-controls label {
+  display: block;
   width: 240px;
   box-sizing: border-box;
   padding: 22px;
@@ -1615,6 +1615,7 @@ div.top-row:last-child {
   background-color: #32425c;
   text-align: left;
   border-top: 1px solid #4d637b;
+  cursor: pointer;
 }
 
 .services-item-definition {
@@ -1631,31 +1632,41 @@ div.top-row:last-child {
 }
 
 .services-items li {
+  display: none;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 .services-items li:nth-child(1) {
-  width: 100%;
-  display: none;
+  /* width: 100%; */
   background-image: url("../img/truck.png");
   background-repeat: no-repeat;
   background-position: 144px 44px;
 }
 
 .services-items li:nth-child(2) {
-  display: none;
   background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
   background-position: 230px 44px;
 }
 
 .services-items li:nth-child(3) {
-  display: block;
   background-image: url("../img/credit.png");
   background-repeat: no-repeat;
   background-position: 151px 44px;
+}
+
+.service-input-1:checked ~ .services-items li:nth-child(1) {
+  display: block;
+}
+
+.service-input-2:checked ~ .services-items li:nth-child(2) {
+  display: block;
+}
+
+.service-input-3:checked ~ .services-items li:nth-child(3) {
+  display: block;
 }
 
 .list-delivery-company {
