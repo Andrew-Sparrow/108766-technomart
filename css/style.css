@@ -442,7 +442,7 @@ article,
   width: 300px;
   min-height: 123px;
   padding: 23px;
-  padding-top: 19px;
+  padding-top: 21px;
   padding-bottom: 20px;
   box-sizing: border-box;
   color: #ffffff;
@@ -494,6 +494,8 @@ div.top-row:last-child {
   background:
     linear-gradient(rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.1));
+  padding-bottom: 9px;
+  margin-left: 2px;
 }
 
 .product-and-services a:hover {
@@ -509,7 +511,7 @@ div.top-row:last-child {
 }
 
 .product-and-services p {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 /* slider */
@@ -529,7 +531,7 @@ div.top-row:last-child {
 
 .slider {
   position: relative;
-  background-color: #eeeeee;
+  background-color: #685c53;
 }
 
 .slider-controls {
@@ -573,7 +575,10 @@ div.top-row:last-child {
 
 .slider-item {
   display: none;
-  padding: 20px 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 .slider-item:nth-child(1) {
@@ -627,12 +632,13 @@ div.top-row:last-child {
   line-height: 24px;
   max-width: 430px;
   margin: 0;
-  margin-bottom: 124px;
+  margin-bottom: 122px;
   color: #fff;
 }
 
 .slider .red-button {
-  width: 195px;
+  width: 176px;
+  padding: 10px 10px;
 }
 
 .button-slider-left,
@@ -646,18 +652,18 @@ div.top-row:last-child {
 }
 
 .button-slider-left {
-  left: 23px;
+  left: 20px;
 }
 
 .button-slider-right {
-  right: 23px;
+  right: 14px;
 }
 
 /* end of slider  */
 .materials {
   background-color: #ffbf47;
   background-image: url(../img/icon-1.svg);
-  background-position: 213px 30px;
+  background-position: 213px 31px;
   background-repeat: no-repeat;
 }
 
@@ -671,7 +677,7 @@ div.top-row:last-child {
 .techique {
   background-color: #dc91d8;
   background-image: url(../img/icon-3.svg);
-  background-position: 190px 30px;
+  background-position: 191px 31px;
   background-repeat: no-repeat;
 }
 
@@ -679,14 +685,14 @@ div.top-row:last-child {
   background-color: #8ed78f;
   margin-bottom: 20px;
   background-image: url(../img/icon-4.svg);
-  background-position: 194px 24px;
+  background-position: 196px 26px;
   background-repeat: no-repeat;
 }
 
 .delivery {
   background-color: #ffc047;
   background-image: url(../img/icon-5.svg);
-  background-position: 191px 25px;
+  background-position: 191px 32px;
   background-repeat: no-repeat;
 }
 
@@ -829,13 +835,13 @@ div.top-row:last-child {
 
 .flag-new {
   position: absolute;
-  top: -1px;
+  top: 0;
   right: 0;
   overflow: hidden;
   z-index: 2000;
   background: url("../img/new-flag.png") no-repeat 0 0;
   width: 60px;
-  height: 60px;
+  min-height: 60px;
   font-size: 0;
 }
 
