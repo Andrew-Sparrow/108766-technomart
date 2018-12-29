@@ -1,38 +1,4 @@
-@font-face {
-  font-family: "cuprum";
-  src: url(../fonts/cuprum.woff2);
-  src: url(../fonts/cuprum.woff);
-}
-
-@font-face {
-  font-family: "cuprumbold";
-  src: url(../fonts/cuprumbold.woff2);
-  src: url(../fonts/cuprumbold.woff);
-}
-
-@font-face {
-  font-family: "cuprumbolditalic";
-  src: url(../fonts/cuprumbolditalic.woff2);
-  src: url(../fonts/cuprumbolditalic.woff);
-}
-
-@font-face {
-  font-family: "cuprumitalic";
-  src: url(../fonts/cuprumitalic.woff2);
-  src: url(../fonts/cuprumitalic.woff);
-}
-
-@font-face {
-  font-family: "ptsans";
-  src: url(../fonts/ptsans.woff2);
-  src: url(../fonts/ptsans.woff);
-}
-
-@font-face {
-  font-family: "ptsansbold";
-  src: url(../fonts/ptsansbold.woff2);
-  src: url(../fonts/ptsansbold.woff);
-}
+@import url('https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i|PT+Sans:400,400i,700,700i');
 
 body {
   font-family: "Cuprum", "Arial", sans-serif;
@@ -183,8 +149,8 @@ article,
 }
 
 .search input {
-  padding-top: 11px;
-  padding-bottom: 11px;
+  padding-top: 12px;
+  padding-bottom: 10px;
 }
 
 .bookmarks,
@@ -210,7 +176,7 @@ article,
 .bookmark-icon {
   margin-left: 17px;
   margin-right: 14px;
-  margin-bottom: 1px;
+  margin-bottom: 2px;
 }
 
 .cart:active,
@@ -249,12 +215,12 @@ article,
   text-align: center;
   color: #ee3643;
   border: 3px solid #fff;
-  padding-top: 9px;
+  padding-top: 10px;
   padding-bottom: 8px;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   background-image: url(../img/icon-phone.svg);
   background-repeat: no-repeat;
-  background-position: 13px 10px;
+  background-position: 12px 10px;
 }
 
 .header-adress {
@@ -405,18 +371,18 @@ article,
 }
 
 .header-short-description {
-  width: 177px;
+  width: 216px;
   font-size: 16px;
   font-style: italic;
   line-height: 23px;
   text-align: left;
   color: #ee3643;
   margin-left: 53px;
-  margin-right: 90px;
+  margin-right: 51px;
   padding-top: 3px;
 }
 
-.header-short-description span:nth-child(1) {
+.header-short-description span {
   letter-spacing: 1px;
 }
 
@@ -451,7 +417,7 @@ article,
 
 .list-site-navigation a {
   display: block;
-  padding-top: 21px;
+  padding-top: 20px;
   padding-bottom: 18px;
   vertical-align: middle;
   text-align: center;
