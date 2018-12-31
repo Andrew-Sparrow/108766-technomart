@@ -920,7 +920,7 @@ div.top-row:last-child {
 .services {
   padding-top: 62px;
   background-color: #f5f8fa;
-  min-height: 522px;
+  min-height: 461px;
 }
 
 .services p,
@@ -945,7 +945,7 @@ div.top-row:last-child {
 
 .header-services {
   color: inherit;
-  margin-bottom: 32px;
+  margin-bottom: 27px;
 }
 
 .list-popular-produceres li:hover {
@@ -958,7 +958,7 @@ div.top-row:last-child {
   text-align: left;
   text-transform: uppercase;
   color: #32425c;
-  margin-bottom: 29px;
+  margin-bottom: 24px;
 }
 
 
@@ -968,7 +968,7 @@ div.top-row:last-child {
 }
 
 .header-about {
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .about p {
@@ -995,9 +995,12 @@ div.top-row:last-child {
   padding: 12px 0;
 }
 
-.about-left p:nth-of-type(1),
+.about-left p:nth-of-type(1) {
+  margin-bottom: 24px;
+}
+
 .about-right p {
-  margin-bottom: 37px;
+  margin-bottom: 31px;
 }
 
 .about-left p:nth-of-type(2) {
@@ -1620,7 +1623,7 @@ div.top-row:last-child {
 
 .services-declaration {
   width: 400px;
-  margin-bottom: 73px;
+  margin-bottom: 68px;
 }
 
 .services-controls {
@@ -1633,7 +1636,8 @@ div.top-row:last-child {
   width: 240px;
   box-sizing: border-box;
   padding: 22px;
-  padding-top: 18px;
+  padding-top: 13px;
+  padding-bottom: 17px;
   font-size: 21px;
   line-height: 30px;
   font-weight: 700;
@@ -1671,7 +1675,7 @@ div.top-row:last-child {
 .services-items li:nth-child(1) {
   background-image: url("../img/truck.png");
   background-repeat: no-repeat;
-  background-position: 144px 44px;
+  background-position: 151px 24px;
 }
 
 .services-items li:nth-child(2) {
