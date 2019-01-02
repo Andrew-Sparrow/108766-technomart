@@ -244,6 +244,10 @@ article,
   color: inherit;
 }
 
+.account {
+  padding-left: 2px;
+}
+
 .enter,
 .user {
   display: flex;
@@ -293,9 +297,10 @@ article,
 .account {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   width: 300px;
   box-sizing: border-box;
-  margin-bottom: 9px;
+  margin-bottom: 7px;
 }
 
 .user-icon {
@@ -331,8 +336,8 @@ article,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 214px;
-  margin-left: 18px;
+  width: 209px;
+  margin-left: 20px;
 }
 
 .account-links a {
@@ -591,13 +596,13 @@ div.top-row:last-child {
   background-repeat: no-repeat;
 }
 
-.product-input-1:checked ~ .slider-list .slider-item:nth-child(1),
-.product-input-2:checked ~ .slider-list .slider-item:nth-child(2) {
+.product-input-1:checked~.slider-list .slider-item:nth-child(1),
+.product-input-2:checked~.slider-list .slider-item:nth-child(2) {
   display: block;
 }
 
-.product-input-1:checked ~ .slider-controls .slider-item-1::before,
-.product-input-2:checked ~ .slider-controls .slider-item-2::before {
+.product-input-1:checked~.slider-controls .slider-item-1::before,
+.product-input-2:checked~.slider-controls .slider-item-2::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -714,7 +719,7 @@ div.top-row:last-child {
 
 .breadcrumbs {
   display: flex;
-  padding: 22px 0;
+  padding: 20px 0;
 }
 
 .breadcrumbs a {
@@ -725,7 +730,7 @@ div.top-row:last-child {
   line-height: 18px;
   color: inherit;
   text-transform: uppercase;
-  margin-right: 40px;
+  margin-right: 41px;
 }
 
 .breadcrumbs a::after {
@@ -733,8 +738,8 @@ div.top-row:last-child {
   position: absolute;
   width: 8px;
   height: 8px;
-  top: 4px;
-  right: -22px;
+  top: 2px;
+  right: -23px;
   background-color: transparent;
   border-right: 2px solid #c1c6ce;
   border-bottom: 2px solid #c1c6ce;
@@ -755,6 +760,7 @@ div.top-row:last-child {
 .list-catalog-popular {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .catalog-item {
@@ -861,7 +867,7 @@ div.top-row:last-child {
 .catalog-item .actions {
   display: none;
   position: absolute;
-  top: 0;
+  top: 2px;
   left: 0;
   right: 0;
   padding: 40px 0;
@@ -931,6 +937,10 @@ div.top-row:last-child {
   text-align: left;
 }
 
+.description-catalog-group {
+  width: 955px;
+}
+
 .header-services,
 .header-about,
 .header-popular-items h2 {
@@ -984,6 +994,7 @@ div.top-row:last-child {
 .about-right {
   width: 300px;
 }
+
 .about .red-button {
   margin-top: 32px;
   padding: 10px 0;
@@ -1050,11 +1061,12 @@ div.top-row:last-child {
   left: 0;
   background-color: #ee3643;
 }
-.list-delivery-company li:nth-child(1){
+
+.list-delivery-company li:nth-child(1) {
   margin-bottom: 9px;
 }
 
-.list-delivery-company li:nth-child(2){
+.list-delivery-company li:nth-child(2) {
   margin-bottom: 8px;
 }
 
@@ -1116,7 +1128,7 @@ div.top-row:last-child {
   text-decoration: underline;
 }
 
-.footer-bottom  .developer-info-feedback {
+.footer-bottom .developer-info-feedback {
   width: 111px;
   margin-right: 40px;
 }
@@ -1125,7 +1137,7 @@ div.top-row:last-child {
   width: 111px;
 }
 
-.developer-info p:nth-child(2){
+.developer-info p:nth-child(2) {
   width: 300px;
 }
 
@@ -1195,11 +1207,11 @@ div.top-row:last-child {
 }
 
 .name-sort .header-sort {
-  margin-right: 140px;
+  margin-right: auto;
 }
 
 .arrow-wrapper {
-  width: 44px;
+  width: 40px;
   justify-content: space-between;
 }
 
@@ -1225,8 +1237,8 @@ div.top-row:last-child {
 
 .list-name-sort {
   justify-content: space-between;
-  width: 356px;
-  margin-right: 45px;
+  width: 355px;
+  margin-right: 47px;
 }
 
 .list-name-sort a {
@@ -1234,6 +1246,7 @@ div.top-row:last-child {
   text-decoration: underline;
   text-decoration-color: #ee3643;
   text-decoration-style: dotted;
+  vertical-align: middle;
 }
 
 .list-name-sort .active {
@@ -1257,6 +1270,7 @@ div.top-row:last-child {
 .name-group h2 {
   padding: 30px 30px;
   color: #32425c;
+  letter-spacing: -0.95px;
 }
 
 .filter,
@@ -1288,10 +1302,14 @@ div.top-row:last-child {
 
 .name-filter,
 .name-sort {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 10px;
+  padding-bottom: 9px;
   padding-left: 19px;
-  padding-right: 19px;
+  padding-right: 17px;
+  margin-bottom: 12px;
+}
+
+.name-sort {
   margin-bottom: 20px;
 }
 
@@ -1308,7 +1326,7 @@ div.top-row:last-child {
   font-size: 17px;
   line-height: 30px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 
 .filter label {
@@ -1337,7 +1355,7 @@ div.top-row:last-child {
   margin-bottom: 9px;
   padding-top: 39px;
   padding-right: 20px;
-  padding-left: 20px;
+  padding-left: 22px;
   background-color: #f7f3ec;
   border-radius: 2px;
 }
@@ -1368,7 +1386,7 @@ div.top-row:last-child {
 }
 
 .range-controls .toggle-min {
-  left: 18px;
+  left: 21px;
 }
 
 .range-controls .toggle-max {
@@ -1385,6 +1403,8 @@ div.top-row:last-child {
   width: 95px;
   box-sizing: border-box;
   padding: 10px 10px;
+  padding-bottom: 11px;
+  padding-left: 16px;
   font-size: 17px;
   line-height: 18px;
   text-align: center;
@@ -1396,20 +1416,20 @@ div.top-row:last-child {
 
 .filter fieldset:nth-of-type(1) {
   border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 21px;
+  margin-bottom: 15px;
 }
 
 .filter fieldset:nth-of-type(2) {
-  margin-bottom: 23px;
+  margin-bottom: 19px;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .filter fieldset:nth-of-type(3) {
-  margin-bottom: 78px;
+  margin-bottom: 58px;
 }
 
 .filter-option {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .list-filter-power label,
@@ -1479,11 +1499,12 @@ div.top-row:last-child {
 .filter-button {
   font-size: 13px;
   line-height: 18px;
-  padding: 5px 30px;
+  padding: 9px 39px;
   text-align: center;
   text-transform: uppercase;
   border: 1px solid #e5e5e5;
   background-color: transparent;
+  border-radius: 3px;
 }
 
 .feedback-item input,
@@ -1548,7 +1569,7 @@ div.top-row:last-child {
 
 .about-catalog-group .container {
   padding-top: 63px;
-  padding-bottom: 73px;
+  padding-bottom: 68px;
 }
 
 .about-catalog-group {
@@ -1556,7 +1577,8 @@ div.top-row:last-child {
 }
 
 .about-catalog-group h3 {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
+  letter-spacing: -0.4px;
 }
 
 .footer-top-high,
@@ -1608,13 +1630,13 @@ div.top-row:last-child {
 .list-pagination {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 32px;
+  margin-top: 29px;
   text-align: center;
   background-color: transparent;
 }
 
 .pagination-item {
-  margin-right: 10px;
+  margin-right: 11px;
 }
 
 .pagination-item a,
@@ -1622,6 +1644,7 @@ div.top-row:last-child {
   display: block;
   min-width: 36px;
   padding: 9px 0;
+  padding-bottom: 10px;
   border: 1px solid #cccccc;
   border-radius: 2px;
   color: inherit;
@@ -1727,9 +1750,9 @@ div.top-row:last-child {
   background-position: 151px 44px;
 }
 
-.service-input-1:checked ~ .services-items li:nth-child(1),
-.service-input-2:checked ~ .services-items li:nth-child(2),
-.service-input-3:checked ~ .services-items li:nth-child(3) {
+.service-input-1:checked~.services-items li:nth-child(1),
+.service-input-2:checked~.services-items li:nth-child(2),
+.service-input-3:checked~.services-items li:nth-child(3) {
   display: block;
 }
 
@@ -1738,9 +1761,9 @@ div.top-row:last-child {
   color: #fff;
 }
 
-.service-input-1:checked ~ .services-controls label:nth-child(1),
-.service-input-2:checked ~ .services-controls label:nth-child(2),
-.service-input-3:checked ~ .services-controls label:nth-child(3) {
+.service-input-1:checked~.services-controls label:nth-child(1),
+.service-input-2:checked~.services-controls label:nth-child(2),
+.service-input-3:checked~.services-controls label:nth-child(3) {
   background-color: #fff;
   color: #32425c;
 }
