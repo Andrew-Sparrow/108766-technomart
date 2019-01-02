@@ -961,10 +961,9 @@ div.top-row:last-child {
   margin-bottom: 24px;
 }
 
-
 .about {
   background-color: #fff;
-  min-height: 536px;
+  min-height: 535px;
 }
 
 .header-about {
@@ -985,14 +984,20 @@ div.top-row:last-child {
 .about-right {
   width: 300px;
 }
+.about .red-button {
+  margin-top: 32px;
+  padding: 10px 0;
+}
 
 .about-right .red-button {
   width: 100%;
+  box-sizing: border-box;
+  padding-left: 6px;
 }
 
-.about .red-button {
-  margin-top: 40px;
-  padding: 12px 0;
+.about-left .red-button {
+  width: 220px;
+  padding-left: 1px;
 }
 
 .about-left p:nth-of-type(1) {
@@ -1004,7 +1009,8 @@ div.top-row:last-child {
 }
 
 .about-left p:nth-of-type(2) {
-  margin-bottom: 25px;
+  width: 400px;
+  margin-bottom: 15px;
 }
 
 .about-right p {
@@ -1040,9 +1046,16 @@ div.top-row:last-child {
   content: "";
   width: 25px;
   height: 2px;
-  top: 12px;
+  top: 15px;
   left: 0;
   background-color: #ee3643;
+}
+.list-delivery-company li:nth-child(1){
+  margin-bottom: 9px;
+}
+
+.list-delivery-company li:nth-child(2){
+  margin-bottom: 8px;
 }
 
 .footer-top {
@@ -1072,6 +1085,7 @@ div.top-row:last-child {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 131px;
+  margin-right: 83px;
 }
 
 .social-button {
@@ -1102,15 +1116,31 @@ div.top-row:last-child {
   text-decoration: underline;
 }
 
-.developer-info-contact a {
+.footer-bottom  .developer-info-feedback {
+  width: 111px;
+  margin-right: 40px;
+}
+
+.footer-bottom .developer-info-developed {
+  width: 111px;
+}
+
+.developer-info p:nth-child(2){
+  width: 300px;
+}
+
+.developer-info-developed a,
+.developer-info-feedback a {
   color: #ffd180;
 }
 
-.developer-info-contact a:active {
+.developer-info-developed a:active,
+.developer-info-feedback a:active {
   color: #ee3643;
 }
 
-.developer-info-contact a:hover {
+.developer-info-developed a:hover,
+.developer-info-feedback a:hover {
   text-decoration: underline;
 }
 
@@ -1541,12 +1571,12 @@ div.top-row:last-child {
 .footer-nav {
   display: flex;
   justify-content: space-between;
-  width: 550px;
-  padding-top: 30px;
+  width: 547px;
+  padding-top: 37px;
 }
 
 .footer-top-high {
-  margin-bottom: 30px;
+  margin-bottom: 21px;
 }
 
 .footer-top-low {
@@ -1561,11 +1591,18 @@ div.top-row:last-child {
 
 .footer-bottom .container {
   padding-top: 36px;
-  padding-bottom: 36px;
+  padding-bottom: 30px;
 }
 
-.footer-adress {
+.footer-top-low .footer-adress {
   width: 332px;
+  padding-left: 3px;
+}
+
+.footer-bottom .copyright {
+  padding-left: 1px;
+  width: 233px;
+  margin-right: 120px;
 }
 
 .list-pagination {
