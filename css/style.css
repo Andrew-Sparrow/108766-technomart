@@ -43,7 +43,9 @@ h1,
 article,
 .header-services,
 .header-services-item,
-.services-item-definition,
+.services-item-delivery,
+.services-item-guarantee,
+.services-item-credit,
 .services-declaration,
 .account p,
 .transparent-button,
@@ -1227,6 +1229,11 @@ div.top-row:last-child {
   content: "";
 }
 
+.arrow-active {
+  border-top-color: #ee3643;
+  border-bottom-color: #ee3643;
+}
+
 .arrow-up {
   border-top-width: 0;
 }
@@ -1712,9 +1719,10 @@ div.top-row:last-child {
   border-bottom: none;
 }
 
-.services-item-definition {
+.services-item-delivery,
+.services-item-guarantee,
+.services-item-credit {
   flex-shrink: 0;
-  width: 275px;
   padding-right: 25px;
 }
 
@@ -1741,13 +1749,30 @@ div.top-row:last-child {
 .services-items li:nth-child(2) {
   background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
-  background-position: 230px 44px;
+  background-position: 239px 2px;
 }
 
 .services-items li:nth-child(3) {
   background-image: url("../img/credit.png");
   background-repeat: no-repeat;
-  background-position: 151px 44px;
+  background-position: 165px 0;
+}
+
+.services-item-delivery {
+  width: 282px;
+}
+
+.services-item-guarantee {
+  width: 400px;
+}
+
+.services-item-credit {
+  width: 350px;
+  margin-bottom: 26px;
+}
+
+.send-application {
+  width: 175px;
 }
 
 .service-input-1:checked~.services-items li:nth-child(1),
