@@ -1694,8 +1694,22 @@ div.top-row:last-child {
 }
 
 .services-controls {
+  position: relative;
   margin-right: 80px;
   margin-bottom: 102px;
+}
+
+.services-controls::after {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 279px;
+  top: -35px;
+  right: 0;
+  position: absolute;
+  background-image: url(../img/line.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
 }
 
 .services-controls label {
@@ -1824,6 +1838,10 @@ div.top-row:last-child {
   border: 0;
   cursor: pointer;
   z-index: 10;
+}
+
+.popup-close-feedback {
+  right: 15px;
 }
 
 .popup-close:focus {
