@@ -20,12 +20,11 @@ var storage = "";
 
 try {
   storage = localStorage.getItem("your_name");
-}
-catch (err) {
+} catch (err) {
   isStorageSupport = false;
 }
 
-button_buy.addEventListener("click", function(evt){
+button_buy.addEventListener("click", function(evt) {
   popup_item_added.classList.add("item-added-show");
 });
 
@@ -41,8 +40,7 @@ button_about.addEventListener("click", function(evt) {
   if (storage) {
     your_name.value = storage;
     email.focus();
-  }
-  else {
+  } else {
     your_name.focus();
   }
 
@@ -62,8 +60,7 @@ form_feedback.addEventListener("submit", function(evt) {
     popup_feedback.classList.remove("popup-feedback-error");
     popup_feedback.offsetWidth = popup_feedback.offsetWidth;
     popup_feedback.classList.add("popup-feedback-error");
-  }
-  else {
+  } else {
     if (isStorageSupport) {
       localStorage.setItem("your_name", your_name.value);
     }
