@@ -122,7 +122,7 @@ article,
 }
 
 /* !important нужен чтобы применить стили к placeholder в IE11 */
-.search input:-ms-inputut-placeholder {
+.search input:-ms-input-placeholder {
   color: #fff !important;
 }
 
