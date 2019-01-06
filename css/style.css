@@ -1900,6 +1900,7 @@ div.top-row:last-child {
 
 .feedback-input {
   width: 220px;
+  color: inherit;
 }
 
 .feedback-send,
