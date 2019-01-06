@@ -33,6 +33,15 @@ close_buy.addEventListener("click", function(evt) {
   popup_item_added.classList.remove("item-added-show");
 });
 
+window.addEventListener("keydown", function(evt) {
+  if (evt.keyCode == escButton) {
+    if (popup_item_added.classList.contains("item-added-show")) {
+      popup_item_added.classList.remove("item-added-show");
+    }
+  }
+});
+
+
 button_about.addEventListener("click", function(evt) {
   evt.preventDefault();
   popup_feedback.classList.add("popup-feedback-show");
