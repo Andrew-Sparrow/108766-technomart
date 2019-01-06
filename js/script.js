@@ -1,9 +1,14 @@
 var button_about = document.querySelector(".write-us");
 var popup_feedback = document.querySelector(".popup-feedback");
 var close_feedback = popup_feedback.querySelector(".popup-close-feedback");
-var your_name = popup_feedback.querySelector("[name=your-name]");
+
+var button_buy = document.querySelector(".buy");
+var popup_item_added = document.querySelector(".popup-item-added");
+var close_buy = popup_item_added.querySelector(".popup-close");
+
+var your_name = popup_feedback.querySelector("input[name=your-name]");
 var form_feedback = popup_feedback.querySelector("form");
-var email = popup_feedback.querySelector("name[email]");
+var email = popup_feedback.querySelector("input[name=email]");
 var isStorageSupport = true;
 var escButton = 27;
 
@@ -19,6 +24,15 @@ try {
 catch (err) {
   isStorageSupport = false;
 }
+
+button_buy.addEventListener("click", function(evt){
+  popup_item_added.classList.add("item-added-show");
+});
+
+close_buy.addEventListener("click", function(evt) {
+  evt.preventDefault();
+  popup_item_added.classList.remove("item-added-show");
+});
 
 button_about.addEventListener("click", function(evt) {
   evt.preventDefault();
@@ -77,8 +91,7 @@ map_close.addEventListener("click", function(evt) {
 });
 
 window.addEventListener("keydown", function(evt) {
-  evt.preventDefault();
-  if (evt.keyCode === escButton) {
+  if (evt.keyCode == escButton) {
     if (map_popup.classList.contains("popup-map-show")) {
       map_popup.classList.remove("popup-map-show");
     }

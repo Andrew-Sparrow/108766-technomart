@@ -94,7 +94,18 @@ article,
 .logo {
   width: 220px;
   height: 42px;
-  box-shadow: 0 5px #b52933;
+  position: relative;
+}
+
+.logo::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 220px;
+  height: 5px;
+  background-color: #b52933;
+  bottom: -5px;
+  left: 0;
 }
 
 .header-top,
@@ -110,9 +121,13 @@ article,
   color: #fff;
 }
 
+/* !important нужен чтобы применить стили к placeholder в IE11 */
+.search input:-ms-inputut-placeholder {
+  color: #fff !important;
+}
+
 .header-top input:focus {
   background-color: #ffffff;
-  outline: none;
 }
 
 .header-top form {
@@ -123,6 +138,8 @@ article,
 
 .search input {
   font-family: "Cuprum", "Arial", sans-serif;
+  padding-top: 12px;
+  padding-bottom: 10px;
   padding-left: 49px;
   border: none;
   margin: 0;
@@ -148,11 +165,6 @@ article,
 .header-top .container {
   display: flex;
   align-items: stretch;
-}
-
-.search input {
-  padding-top: 12px;
-  padding-bottom: 10px;
 }
 
 .bookmarks,
@@ -242,7 +254,6 @@ article,
   text-decoration: none;
   border: none;
   background-color: #fff;
-  outline: none;
   color: inherit;
 }
 
@@ -770,7 +781,7 @@ div.top-row:last-child {
   flex-direction: column;
   align-items: center;
   position: relative;
-  width: 217px;
+  width: 216px;
   min-height: 293px;
   border: 1px solid #eaeaea;
   font-family: "PT Sans", "Arial", sans-serif;
@@ -802,10 +813,10 @@ div.top-row:last-child {
 }
 
 .catalog-item-name {
+  width: 155px;
   min-height: 40px;
   font-size: 18px;
   line-height: 20px;
-  padding: 0 30px;
   margin-top: 10px;
   margin-bottom: 12px;
 }
@@ -855,7 +866,7 @@ div.top-row:last-child {
   top: 0;
   right: 0;
   overflow: hidden;
-  z-index: 2000;
+  z-index: 100;
   background: url("../img/new-flag.png") no-repeat 0 0;
   width: 60px;
   min-height: 60px;
@@ -1081,6 +1092,10 @@ div.top-row:last-child {
   font-size: 18px;
   line-height: 24px;
   color: #f3f7f8;
+}
+
+.footer-top a {
+  cursor: pointer;
 }
 
 .low-row a {
@@ -1530,7 +1545,7 @@ div.top-row:last-child {
   display: block;
   margin-right: 20px;
   margin-bottom: 20px;
-  border: 1px solid #eaeaea;
+  border: 1px solid #e5e5e5;
   box-sizing: border-box;
 }
 
@@ -1567,7 +1582,7 @@ div.top-row:last-child {
 
 .list-popular-produceres a {
   display: flex;
-  width: 218px;
+  width: 217px;
   height: 143px;
   background-color: #ffffff;
   justify-content: center;
@@ -1669,11 +1684,6 @@ div.top-row:last-child {
 .next-pagination-item a:active,
 .pagination-item a:active {
   border-color: #ee3643;
-  outline: none;
-}
-
-.next-pagination-item a:focus,
-.pagination-item a:focus {
   outline: none;
 }
 
@@ -1840,12 +1850,9 @@ div.top-row:last-child {
   z-index: 10;
 }
 
-.popup-close-feedback {
+.popup-close-feedback,
+.item-added-close {
   right: 15px;
-}
-
-.popup-close:focus {
-  outline: none;
 }
 
 .popup-close::before,
@@ -1887,6 +1894,7 @@ div.top-row:last-child {
 }
 
 .popup-feedback label {
+  display: block;
   padding-bottom: 9px;
 }
 
@@ -1936,16 +1944,6 @@ div.top-row:last-child {
   margin-bottom: 37px;
 }
 
-.popup-feedback label {
-  display: block;
-}
-
-/*
-button:focus,
-input:focus,
-textarea:focus {
-  outline: 2px solid #ff6666;
-} */
 .popup-item-added {
   display: none;
   position: fixed;
@@ -2007,6 +2005,11 @@ textarea:focus {
 }
 
 .popup-feedback-show {
+  display: block;
+  animation: bounce 0.6s;
+}
+
+.item-added-show {
   display: block;
   animation: bounce 0.6s;
 }
