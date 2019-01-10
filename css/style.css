@@ -40,6 +40,7 @@ a {
 h1,
 article,
 .header-services,
+.top-row,
 .header-services-item,
 .services-item-delivery,
 .services-item-guarantee,
@@ -470,9 +471,7 @@ article,
   flex-wrap: wrap;
 }
 
-.materials,
-.tools,
-.techique,
+.top-row li,
 .discounts,
 .delivery {
   position: relative;
@@ -488,23 +487,17 @@ article,
   font-weight: 700;
 }
 
-.materials,
-.tools,
-.techique {
-  margin-bottom: 20px;
-}
-
 .right-column {
   flex-direction: column;
   margin-left: auto;
 }
 
-.materials,
-.tools {
+.top-row li {
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
-.top-row div:nth-child(3) {
+.top-row li:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -1273,6 +1266,11 @@ div.top-row:last-child {
 .list-name-sort,
 .list-pagination {
   display: flex;
+}
+
+.list-name-sort,
+.list-pagination {
+  flex-wrap: wrap;
 }
 
 .name-sort {
