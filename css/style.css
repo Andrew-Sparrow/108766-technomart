@@ -463,6 +463,13 @@ article,
   padding-left: 5px;
 }
 
+.top-row,
+.bottom-row {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
 .materials,
 .tools,
 .techique,
@@ -481,8 +488,15 @@ article,
   font-weight: 700;
 }
 
+.materials,
+.tools,
+.techique {
+  margin-bottom: 20px;
+}
+
 .right-column {
   flex-direction: column;
+  margin-left: auto;
 }
 
 .materials,
@@ -490,14 +504,12 @@ article,
   margin-right: 20px;
 }
 
-.top-row,
-.bottom-row {
-  display: flex;
-  justify-content: space-between;
+.top-row div:nth-child(3) {
+  margin-right: 0;
 }
 
 .top-row {
-  margin-bottom: 20px;
+  width: 100%;
 }
 
 div.top-row:last-child {
@@ -579,6 +591,7 @@ div.top-row:last-child {
 .slider-controls label {
   position: relative;
   display: inline-block;
+  vertical-align: middle;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -1280,6 +1293,7 @@ div.top-row:last-child {
 .arrow-up {
   font-size: 0;
   display: inline-block;
+  vertical-align: middle;
   border: 10px solid #cacaca;
   border-right-width: 5px;
   border-right-color: transparent;
