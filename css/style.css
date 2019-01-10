@@ -1019,6 +1019,7 @@ div.top-row:last-child {
 }
 
 .header-services-item {
+  font-weight: 400;
   font-size: 36px;
   line-height: 36px;
   text-align: left;
@@ -1319,12 +1320,6 @@ div.top-row:last-child {
   text-decoration: none;
 }
 
-.name-group h2 {
-  text-align: left;
-  background-color: #f2f6f8;
-  margin-bottom: 20px;
-}
-
 .name-group h2,
 .about-catalog-group h3 {
   font-size: 30px;
@@ -1333,8 +1328,12 @@ div.top-row:last-child {
 }
 
 .name-group h2 {
-  padding: 30px 30px;
+  font-weight: 400;
+  text-align: left;
   color: #32425c;
+  background-color: #f2f6f8;
+  margin-bottom: 20px;
+  padding: 30px 30px;
   letter-spacing: -0.95px;
 }
 
@@ -1701,7 +1700,7 @@ div.top-row:last-child {
 }
 
 .pagination-item {
-  margin-right: 11px;
+  margin-right: 10px;
 }
 
 .pagination-item a,
