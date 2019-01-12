@@ -404,6 +404,7 @@ article,
 .header-short-description {
   width: 216px;
   font-size: 16px;
+  font-weight: 400;
   line-height: 23px;
   font-style: italic;
   text-align: left;
