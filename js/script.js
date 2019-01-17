@@ -8,8 +8,6 @@ var email = document.getElementById("id-email");
 var button_buy = document.querySelectorAll(".buy");
 var popup_item_added = document.querySelector(".popup-item-added");
 var close_buy = document.querySelector(".item-added-close");
-console.log(close_buy);
-
 
 var isStorageSupport = true;
 var escButton = 27;
