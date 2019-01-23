@@ -12,6 +12,7 @@ var close_buy = document.querySelector(".item-added-close");
 var isStorageSupport = true;
 var escButton = 27;
 
+
 var map_link = document.querySelector(".map-button");
 var map_popup = document.querySelector(".popup-map");
 var map_close = document.querySelector(".popup-map-close");
