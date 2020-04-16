@@ -2,11 +2,9 @@
 
 * Student: [Andrew Pecherskih](https://up.htmlacademy.ru/htmlcss/23/user/108766).
 
-
 ---
 
-
-#### he following functions and technologies were used in this project:
+#### The following functions and technologies were used in this project:
 
 - Markup
 - Work with graphics
