@@ -1527,6 +1527,7 @@ div.top-row:last-child {
 
 .filter-input-checkbox+label::before,
 .filter-input-checkbox:checked+label::before,
+
 .filter-input-radio+label::before,
 .filter-input-radio:checked+label::after {
   content: "";
