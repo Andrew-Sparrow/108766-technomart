@@ -6,7 +6,7 @@
 ---
 
 
-#### In this project were developed and applied next features and technologies:
+#### he following functions and technologies were used in this project:
 
 - Markup
 - Work with graphics
