@@ -1,4 +1,4 @@
-# Personal project «Technomarket»
+# personal training project «Technomarket»
 
 * Student: [Andrew Pecherskih](https://up.htmlacademy.ru/htmlcss/23/user/108766).
 
