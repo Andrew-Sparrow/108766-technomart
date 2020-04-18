@@ -15,7 +15,7 @@
 - JavaScript introduction
 - Сross-browser compatibility
 - Progressive Enhancement
-- Slides
+- Sliders
 
 
 ---
